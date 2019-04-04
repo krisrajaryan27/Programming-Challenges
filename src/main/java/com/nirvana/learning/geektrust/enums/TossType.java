@@ -1,12 +1,12 @@
-package com.nirvana.learning.enums;
+package com.nirvana.learning.geektrust.enums;
 
-public enum MatchType {
+public enum TossType {
 
-    DAY("Day"),NIGHT("Night");
+    BOWLS("Bowls"),BATS("Bats");
 
     private String value;
 
-    MatchType(String value) {
+    TossType(String value) {
         this.value = value;
     }
 

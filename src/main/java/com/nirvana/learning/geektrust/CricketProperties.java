@@ -1,4 +1,4 @@
-package com.nirvana.learning;
+package com.nirvana.learning.geektrust;
 
 import java.io.BufferedReader;
 import java.io.FileNotFoundException;

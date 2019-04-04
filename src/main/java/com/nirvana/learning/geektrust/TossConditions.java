@@ -1,9 +1,9 @@
-package com.nirvana.learning;
+package com.nirvana.learning.geektrust;
 
-import com.nirvana.learning.enums.MatchType;
-import com.nirvana.learning.enums.Teams;
-import com.nirvana.learning.enums.TossType;
-import com.nirvana.learning.enums.WeatherType;
+import com.nirvana.learning.geektrust.enums.MatchType;
+import com.nirvana.learning.geektrust.enums.Teams;
+import com.nirvana.learning.geektrust.enums.TossType;
+import com.nirvana.learning.geektrust.enums.WeatherType;
 
 import java.util.AbstractMap;
 import java.util.HashMap;

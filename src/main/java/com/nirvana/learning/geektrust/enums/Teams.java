@@ -1,12 +1,11 @@
-package com.nirvana.learning.enums;
+package com.nirvana.learning.geektrust.enums;
 
-public enum WeatherType {
-
-    CLEAR("Clear"),CLOUDY("Cloudy");
+public enum Teams {
+    LENGABURU("Lengaburu"),ENCHAI("Enchai");
 
     private String value;
 
-    WeatherType(String value) {
+    Teams(String value) {
         this.value = value;
     }
 

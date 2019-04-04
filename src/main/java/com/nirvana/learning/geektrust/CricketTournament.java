@@ -1,4 +1,4 @@
-package com.nirvana.learning;
+package com.nirvana.learning.geektrust;
 
 import javafx.util.Pair;
 
