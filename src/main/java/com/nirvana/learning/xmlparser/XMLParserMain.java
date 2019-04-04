@@ -1,4 +1,4 @@
-package com.nirvana.learning.com.nirvana.learning.random.test;
+package com.nirvana.learning.xmlparser;
 
 import org.w3c.dom.Document;
 import org.w3c.dom.Node;
