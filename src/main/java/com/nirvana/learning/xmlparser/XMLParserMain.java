@@ -18,20 +18,8 @@ import java.util.List;
 public class XMLParserMain {
 
     public static void main(String[] args) throws ParserConfigurationException, SAXException,IOException, JAXBException {
-        String xmlRecords = "<?xml version=\"1.0\"?>\n" +
-                "<COMMAND>\n" +
-                "    <DATA>\n" +
-                "        <TXNID>1234567891</TXNID>\n" +
-                "        <TXNAMT>15.00</TXNAMT>\n" +
-                "        <TXNID>1234567892</TXNID>\n" +
-                "        <TXNAMT>15.00</TXNAMT>\n" +
-                "        <TXNID>1234567893</TXNID>\n" +
-                "        <TXNAMT>15.00</TXNAMT>\n" +
-                "        <TXNID>1234567894</TXNID>\n" +
-                "        <TXNAMT>15.00</TXNAMT>\n" +
-                "    </DATA>\n" +
-                "</COMMAND>";
 
+        String xmlRecords = XMLRecord.getXmlRecords();
         DocumentBuilder documentBuilder = DocumentBuilderFactory.newInstance().newDocumentBuilder();
         InputSource inputSource = new InputSource();
         inputSource.setCharacterStream(new StringReader(xmlRecords));
