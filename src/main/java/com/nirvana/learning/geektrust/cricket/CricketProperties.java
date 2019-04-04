@@ -1,4 +1,4 @@
-package com.nirvana.learning.geektrust;
+package com.nirvana.learning.geektrust.cricket;
 
 import java.io.BufferedReader;
 import java.io.FileNotFoundException;

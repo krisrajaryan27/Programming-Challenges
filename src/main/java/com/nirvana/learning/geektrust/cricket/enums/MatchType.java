@@ -1,4 +1,4 @@
-package com.nirvana.learning.geektrust.enums;
+package com.nirvana.learning.geektrust.cricket.enums;
 
 public enum MatchType {
 

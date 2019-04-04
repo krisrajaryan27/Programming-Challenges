@@ -1,11 +1,12 @@
-package com.nirvana.learning.geektrust.enums;
+package com.nirvana.learning.geektrust.cricket.enums;
 
-public enum Teams {
-    LENGABURU("Lengaburu"),ENCHAI("Enchai");
+public enum TossType {
+
+    BOWLS("Bowls"),BATS("Bats");
 
     private String value;
 
-    Teams(String value) {
+    TossType(String value) {
         this.value = value;
     }
 

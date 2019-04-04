@@ -1,9 +1,9 @@
-package com.nirvana.learning.geektrust;
+package com.nirvana.learning.geektrust.cricket;
 
-import com.nirvana.learning.geektrust.enums.MatchType;
-import com.nirvana.learning.geektrust.enums.Teams;
-import com.nirvana.learning.geektrust.enums.TossType;
-import com.nirvana.learning.geektrust.enums.WeatherType;
+import com.nirvana.learning.geektrust.cricket.enums.MatchType;
+import com.nirvana.learning.geektrust.cricket.enums.Teams;
+import com.nirvana.learning.geektrust.cricket.enums.TossType;
+import com.nirvana.learning.geektrust.cricket.enums.WeatherType;
 
 import java.util.AbstractMap;
 import java.util.HashMap;
@@ -13,7 +13,7 @@ public class TossConditions {
 
     private static TossConditions instance = new TossConditions();
 
-    private static Map<AbstractMap.SimpleEntry<Teams,WeatherType>, TossType> tossWeatherMatix;
+    private static Map<AbstractMap.SimpleEntry<Teams, WeatherType>, TossType> tossWeatherMatix;
     private static Map<AbstractMap.SimpleEntry<Teams, MatchType>,TossType> tossDayMatrix;
 
     private static void buildMap(){

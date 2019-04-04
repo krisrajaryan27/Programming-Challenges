@@ -1,12 +1,12 @@
-package com.nirvana.learning.geektrust.enums;
+package com.nirvana.learning.geektrust.cricket.enums;
 
-public enum TossType {
+public enum WeatherType {
 
-    BOWLS("Bowls"),BATS("Bats");
+    CLEAR("Clear"),CLOUDY("Cloudy");
 
     private String value;
 
-    TossType(String value) {
+    WeatherType(String value) {
         this.value = value;
     }
 
