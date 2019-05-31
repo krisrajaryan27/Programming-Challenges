@@ -1,6 +1,6 @@
-import com.nirvana.learning.CricketTournament;
-import com.nirvana.learning.TossConditions;
-import com.nirvana.learning.enums.Teams;
+import com.nirvana.learning.geektrust.cricket.CricketTournament;
+import com.nirvana.learning.geektrust.cricket.TossConditions;
+import com.nirvana.learning.geektrust.cricket.enums.Teams;
 import org.junit.FixMethodOrder;
 import org.junit.Test;
 import org.junit.runners.MethodSorters;
