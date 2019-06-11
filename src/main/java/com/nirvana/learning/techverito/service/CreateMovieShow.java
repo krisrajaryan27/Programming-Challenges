@@ -15,24 +15,21 @@ public class CreateMovieShow {
         Movie movie1 = new Movie();
         movie1.setShowNum(1);
         List<Seat> seatList1 = new ArrayList<>();
-        for(int i=1; i<9;i++) {
+        for(int i=1; i<=9;i++) {
             Seat seat = new Seat();
             seat.setSeatNum(i);
-            seat.setAvailable(true);
             seat.setSeatType("A");
             seatList1.add(seat);
         }
-        for(int i=1;i<6;i++) {
+        for(int i=1;i<=6;i++) {
             Seat seat = new Seat();
             seat.setSeatNum(i);
-            seat.setAvailable(true);
             seat.setSeatType("B");
             seatList1.add(seat);
         }
-        for(int i=2;i<7;i++) {
+        for(int i=2;i<=7;i++) {
             Seat seat = new Seat();
             seat.setSeatNum(i);
-            seat.setAvailable(true);
             seat.setSeatType("C");
             seatList1.add(seat);
         }
@@ -42,24 +39,21 @@ public class CreateMovieShow {
         Movie movie2 = new Movie();
         movie2.setShowNum(2);
         List<Seat> seatList2 = new ArrayList<>();
-        for(int i=1; i<7;i++) {
+        for(int i=1; i<=7;i++) {
             Seat seat = new Seat();
             seat.setSeatNum(i);
-            seat.setAvailable(true);
             seat.setSeatType("A");
             seatList2.add(seat);
         }
-        for(int i=2;i<6;i++) {
+        for(int i=2;i<=6;i++) {
             Seat seat = new Seat();
             seat.setSeatNum(i);
-            seat.setAvailable(true);
             seat.setSeatType("B");
             seatList2.add(seat);
         }
-        for(int i=1;i<7;i++) {
+        for(int i=1;i<=7;i++) {
             Seat seat = new Seat();
             seat.setSeatNum(i);
-            seat.setAvailable(true);
             seat.setSeatType("C");
             seatList2.add(seat);
         }
@@ -69,24 +63,21 @@ public class CreateMovieShow {
         Movie movie3 = new Movie();
         movie3.setShowNum(2);
         List<Seat> seatList3 = new ArrayList<>();
-        for(int i=1; i<5;i++) {
+        for(int i=1; i<=5;i++) {
             Seat seat = new Seat();
             seat.setSeatNum(i);
-            seat.setAvailable(true);
             seat.setSeatType("A");
             seatList3.add(seat);
         }
-        for(int i=1;i<8;i++) {
+        for(int i=1;i<=8;i++) {
             Seat seat = new Seat();
             seat.setSeatNum(i);
-            seat.setAvailable(true);
             seat.setSeatType("B");
             seatList3.add(seat);
         }
-        for(int i=1;i<9;i++) {
+        for(int i=1;i<=9;i++) {
             Seat seat = new Seat();
             seat.setSeatNum(i);
-            seat.setAvailable(true);
             seat.setSeatType("C");
             seatList3.add(seat);
         }
