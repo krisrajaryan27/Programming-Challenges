@@ -6,15 +6,12 @@ public class Seat {
 
     private int seatNum;
 
-    private boolean isAvailable;
-
     public Seat() {
     }
 
-    public Seat(String seatType, int seatNum, boolean isAvailable) {
+    public Seat(String seatType, int seatNum) {
         this.seatType = seatType;
         this.seatNum = seatNum;
-        this.isAvailable = isAvailable;
     }
 
     public String getSeatType() {
@@ -31,13 +28,5 @@ public class Seat {
 
     public void setSeatNum(int seatNum) {
         this.seatNum = seatNum;
-    }
-
-    public boolean isAvailable() {
-        return isAvailable;
-    }
-
-    public void setAvailable(boolean available) {
-        isAvailable = available;
     }
 }
