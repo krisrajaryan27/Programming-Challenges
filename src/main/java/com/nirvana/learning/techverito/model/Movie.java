@@ -2,19 +2,13 @@ package com.nirvana.learning.techverito.model;
 
 import java.util.List;
 
+/** Author: Krishna Verma*/
+/** POJO of Movie Class*/
 public class Movie {
 
     private int showNum;
 
     private List<Seat> seatList;
-
-    public Movie() {
-    }
-
-    public Movie(int showNum, List<Seat> seatList) {
-        this.showNum = showNum;
-        this.seatList = seatList;
-    }
 
     public int getShowNum() {
         return showNum;

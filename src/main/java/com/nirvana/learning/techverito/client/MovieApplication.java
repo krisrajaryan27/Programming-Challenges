@@ -6,6 +6,8 @@ import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 
+/** Author: Krishna Verma*/
+/** Client Class to test different scenarios of  movie seating arrangement*/
 public class MovieApplication {
 
     public static void main(String[] args) throws IOException {
@@ -39,6 +41,7 @@ public class MovieApplication {
             System.out.println("Krishi Kalyan Cess @0.5%: Rs. "+krishKalTax);
             System.out.println("Total: Rs. "+total);
         }
+        movieService.printAvailableSeats(false);
     }
     }
 

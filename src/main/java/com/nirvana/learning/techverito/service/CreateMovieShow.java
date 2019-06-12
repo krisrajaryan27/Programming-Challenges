@@ -7,7 +7,8 @@ import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
-
+/** Author: Krishna Verma*/
+/** Movie Show Class to create the initial arrangement*/
 public class CreateMovieShow {
 
     public Map<Integer,Movie> createMovieArrangement(){
