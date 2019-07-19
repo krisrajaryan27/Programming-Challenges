@@ -2,13 +2,10 @@ package com.nirvana.learning.techverito.service;
 
 import com.nirvana.learning.techverito.model.Movie;
 import com.nirvana.learning.techverito.model.Seat;
-import com.nirvana.learning.techverito.util.Util;
 
-import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.List;
-import java.util.Map;
-
+import java.util.*;
+/** Author: Krishna Verma*/
+/** Service Class with business logic of movie seating arrangement*/
 public class MovieService {
 
     private Map<Integer, List<String>> movieSeatMap = new HashMap<>();
@@ -17,22 +14,9 @@ public class MovieService {
 
     private Map<Integer, Movie> movieMap = new HashMap<>();
 
-    public Map<Integer, List<String>> getMovieSeatMap() {
-        return movieSeatMap;
-    }
-
-    public Map<Integer, Movie> getMovieArrangementMap() {
-        return movieArrangementMap;
-    }
-
-    public Map<Integer, Movie> getMovieMap() {
-        return movieMap;
-    }
-
+    /** Prints the available seats based on the status whether it is initial arrangement or after booking*/
     public Map<Integer, List<String>> printAvailableSeats(boolean isInitialSeatArrangement){
-        Util util = new Util();
         int count = 0;
-        String append = util.getAppender().get(0);
         if(isInitialSeatArrangement){
             movieMap = getCreatedMovieMap();
         }
@@ -60,13 +44,14 @@ public class MovieService {
         return movieSeatMap;
     }
 
-
+    /** Creates the seating arrangement of the movie show initially*/
     public Map<Integer, Movie> getCreatedMovieMap(){
         CreateMovieShow createMovieShow = new CreateMovieShow();
         movieArrangementMap = createMovieShow.createMovieArrangement();
         return movieArrangementMap;
     }
 
+    /** Validates whether the seat which is being booked is available or not based on show Number*/
     public boolean isSeatAvailable(int showNum, String seat){
         if(!movieSeatMap.get(showNum).contains(seat)){
             return false;
@@ -74,47 +59,38 @@ public class MovieService {
         return true;
     }
 
-    public double calculateSubTotal(int showNum, String seats[]){
+    /** Calculates the subtotal amount for the movie booking*/
+    public double calculateSubTotal(int showNum, String[] seats){
         double subTotal = 0.0;
         for(String seat: seats){
             if(seat.contains("A")){
                 subTotal+=320;
-                updateSeatArrangementMap(showNum,seat);
             } else if(seat.contains("B")){
                 subTotal+=280;
-                updateSeatArrangementMap(showNum,seat);
             } else if(seat.contains("C")){
                 subTotal+=240;
-                updateSeatArrangementMap(showNum,seat);
             }
+            updateSeatArrangementMap(showNum,seat);
         }
         return subTotal;
     }
+    /** Updates the seat availability after booking*/
     public void updateSeatArrangementMap(int showNum, String seatString){
         Movie movie = movieMap.get(showNum);
         List<Seat> seatList = movie.getSeatList();
-        List<Seat> updatedList = new ArrayList<>();
-        updatedList = seatList;
-        for(Seat seat: seatList){
-            boolean value = seat.getSeatNum() == Integer.parseInt(String.valueOf(seatString.charAt(1))) ? true:false;
-            if(seat.getSeatType().equalsIgnoreCase(String.valueOf(seatString.charAt(0))) && value){
-                updatedList.remove(seat);
+        Iterator<Seat> iter = seatList.iterator();
+        while (iter.hasNext()){
+            Seat seat = iter.next();
+            if(seat.getSeatType().equalsIgnoreCase(String.valueOf(seatString.charAt(0)))
+                    && seat.getSeatNum() == Integer.parseInt(String.valueOf(seatString.charAt(1)))){
+                iter.remove();
             }
         }
-        movie.setSeatList(updatedList);
+        movie.setSeatList(seatList);
         movieMap.put(showNum,movie);
-
-
     }
+    /** Calculates the different taxes incurred while booking the ticket*/
     public double calculateTax(double value, double rate){
         return value+(value*rate)/100;
     }
-
-    public double calculateTotalPrice(){
-        return 0.0;
-    }
-
-
-
-
 }

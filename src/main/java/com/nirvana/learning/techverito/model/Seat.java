@@ -6,14 +6,6 @@ public class Seat {
 
     private int seatNum;
 
-    public Seat() {
-    }
-
-    public Seat(String seatType, int seatNum) {
-        this.seatType = seatType;
-        this.seatNum = seatNum;
-    }
-
     public String getSeatType() {
         return seatType;
     }
