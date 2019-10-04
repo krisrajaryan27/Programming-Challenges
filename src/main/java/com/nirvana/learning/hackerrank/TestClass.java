@@ -1,5 +1,7 @@
 package com.nirvana.learning.hackerrank;
 
+import javafx.util.Pair;
+
 import java.io.*;
 
 public class TestClass {
@@ -12,19 +14,20 @@ public class TestClass {
             System.out.println("Not Equal: "+Output);
         }*/
 
-       /* MultiRun a = new MultiRun();
-        Thread t = new Thread(a);
-        t.start();
-        t.start();*/
+        MultiRun a = new MultiRun("Krishna");
+        Pair p1= new Pair(1,2);
+        /*Thread t = new Thread(a);*/
+        a.start();
+        /*t.start();*/
 
-       File f = new File("testRandomFile.txt");
+       /*File f = new File("testRandomFile.txt");
         FileOutputStream fileOutputStream= new FileOutputStream("textTexst.txt");
         RandomAccessFile randomAccessFile = new RandomAccessFile("fasf.txt","rw");
         try {
             boolean newFile = f.createNewFile();
         } catch (IOException e) {
             e.printStackTrace();
-        }
+        }*/
 
 
     }
