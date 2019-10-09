@@ -2,51 +2,35 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8435e570-0d1e-40cc-965e-be6d17287226" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/Application.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/graphql/entity/Vehicle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/graphql/mutation/VehicleMutation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/graphql/query/VehicleQuery.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/graphql/repository/VehicleRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/graphql/service/VehicleService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/hackerearth/FibonacciDP.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/hackerearth/MinimumDiscount.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/hackerearth/UniquePath.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/hackerrank/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/graphql/vehicleql.graphqls" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/Programming-Challenges.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Programming-Challenges.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/datastructures/LinkedList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/datastructures/ValidateParentheses.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/hackerrank/MultiRun.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/hackerrank/MultiRun.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/hackerrank/TestClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/hackerrank/TestClass.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/nirvana/learning/csvwriter/CSVWriter.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/nirvana/learning/csvwriter/CSVWriter.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/nirvana/learning/geektrust/cricket/CricketTournament.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/nirvana/learning/geektrust/cricket/CricketTournament.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/nirvana/learning/geektrust/cricket/TossConditions.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/nirvana/learning/geektrust/cricket/TossConditions.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/nirvana/learning/geektrust/cricket/enums/MatchType.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/nirvana/learning/geektrust/cricket/enums/MatchType.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/nirvana/learning/geektrust/cricket/enums/Teams.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/nirvana/learning/geektrust/cricket/enums/Teams.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/nirvana/learning/geektrust/cricket/enums/TossType.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/nirvana/learning/geektrust/cricket/enums/TossType.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/nirvana/learning/geektrust/cricket/enums/WeatherType.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/nirvana/learning/geektrust/cricket/enums/WeatherType.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/nirvana/learning/hackerrank/Abs.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/nirvana/learning/hackerrank/Abs.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/nirvana/learning/hackerrank/CEx.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/nirvana/learning/hackerrank/CEx.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/nirvana/learning/hackerrank/LeftRotation.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/nirvana/learning/hackerrank/LeftRotation.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/nirvana/learning/hackerrank/MultiRun.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/nirvana/learning/hackerrank/MultiRun.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/nirvana/learning/hackerrank/RectanglesFormed.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/nirvana/learning/hackerrank/RectanglesFormed.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/nirvana/learning/hackerrank/SockMerchant.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/nirvana/learning/hackerrank/SockMerchant.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/nirvana/learning/hackerrank/TestClass.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/nirvana/learning/hackerrank/TestClass.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/nirvana/learning/hackerrank/ThreadYieldDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/nirvana/learning/hackerrank/ThreadYieldDemo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/nirvana/learning/leetcode/ReverseString.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/nirvana/learning/leetcode/ReverseString.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/nirvana/learning/leetcode/ValidAnagram.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/nirvana/learning/leetcode/ValidAnagram.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/nirvana/learning/leetcode/ZeroSum.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/nirvana/learning/leetcode/ZeroSum.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/nirvana/learning/moneytap/bitcoinsummary/exception/ResourceNotFoundException.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/nirvana/learning/moneytap/bitcoinsummary/exception/ResourceNotFoundException.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/nirvana/learning/threadpool/service/SimpleThreadPool.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/nirvana/learning/threadpool/service/SimpleThreadPool.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/nirvana/learning/threadpool/service/WorkerPool.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/nirvana/learning/threadpool/service/WorkerPool.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/nirvana/learning/threadpool/utils/MyMonitorThread.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/nirvana/learning/threadpool/utils/MyMonitorThread.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/nirvana/learning/threadpool/utils/RejectedExecutionHandlerImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/nirvana/learning/threadpool/utils/RejectedExecutionHandlerImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/nirvana/learning/threadpool/utils/WorkerThread.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/nirvana/learning/threadpool/utils/WorkerThread.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/nirvana/learning/xmlparser/DataItem.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/nirvana/learning/xmlparser/DataItem.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/nirvana/learning/xmlparser/XMLParserJAXB.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/nirvana/learning/xmlparser/XMLParserJAXB.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/nirvana/learning/xmlparser/XMLParserMain.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/nirvana/learning/xmlparser/XMLParserMain.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/ProgrammingChallenges.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/nirvana/learning/dynamoclient/DynamoClient.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/nirvana/learning/dynamoclient/DynamoClient.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/nirvana/learning/dynamoclient/JSONCreator.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/nirvana/learning/dynamoclient/JSONCreator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/nirvana/learning/dynamoclient/SegmentationData.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/nirvana/learning/dynamoclient/SegmentationData.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/nirvana/learning/dynamoclient/StoredSegmentation$StoredSegmentationBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/nirvana/learning/dynamoclient/StoredSegmentation$StoredSegmentationBuilder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/nirvana/learning/dynamoclient/StoredSegmentation.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/nirvana/learning/dynamoclient/StoredSegmentation.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/nirvana/learning/dynamoclient/UtilityClass.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/nirvana/learning/dynamoclient/UtilityClass.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/nirvana/learning/leetcode/TestGC.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/nirvana/learning/leetcode/TestGC.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/nirvana/learning/leetcode/TestJava.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/nirvana/learning/leetcode/TestJava.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/nirvana/learning/leetcode/TestMain.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/nirvana/learning/leetcode/TestMain.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/nirvana/learning/leetcode/recursion.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/nirvana/learning/leetcode/recursion.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/nirvana/learning/projecteuler/FibonacciEvenValuedSum.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/nirvana/learning/projecteuler/FibonacciEvenValuedSum.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/nirvana/learning/projecteuler/KadaneAlgorithm.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/nirvana/learning/projecteuler/KadaneAlgorithm.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/nirvana/learning/projecteuler/KthSmallestElementBST.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/nirvana/learning/projecteuler/KthSmallestElementBST.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/nirvana/learning/projecteuler/LargestPalindromeProduct.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/nirvana/learning/projecteuler/LargestPalindromeProduct.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/nirvana/learning/projecteuler/LargestPrimeFactor.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/nirvana/learning/projecteuler/LargestPrimeFactor.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/nirvana/learning/projecteuler/MultiplesOfThreeAndFive.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/nirvana/learning/projecteuler/MultiplesOfThreeAndFive.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/nirvana/learning/projecteuler/SmallestMultiple.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/nirvana/learning/projecteuler/SmallestMultiple.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/nirvana/learning/techverito/client/MovieApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/nirvana/learning/techverito/client/MovieApplication.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/nirvana/learning/techverito/model/Movie.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/nirvana/learning/techverito/model/Movie.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/nirvana/learning/techverito/model/Seat.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/nirvana/learning/techverito/model/Seat.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/nirvana/learning/techverito/model/SeatType.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/nirvana/learning/techverito/service/CreateMovieShow.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/nirvana/learning/techverito/service/CreateMovieShow.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/nirvana/learning/techverito/service/MovieService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/nirvana/learning/techverito/service/MovieService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/nirvana/learning/techverito/util/Util.class" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -90,7 +74,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1555698483464" />
     <property name="extract.method.default.visibility" value="private" />
-    <property name="last_opened_file_path" value="D:/Hackathon/codebase/ayegatomodihi/backend" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/pom.xml" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
@@ -113,13 +97,26 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Application">
+  <component name="RunManager" selected="Application.ValidateParentheses">
     <configuration name="Application" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.nirvana.learning.Application" />
       <module name="Programming-Challenges" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.nirvana.learning.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LinkedList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.nirvana.learning.datastructures.LinkedList" />
+      <module name="GeekTrustCricketChallenge" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.nirvana.learning.datastructures.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -140,19 +137,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.nirvana.learning.hackerrank.Solution" />
-      <module name="Programming-Challenges" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.nirvana.learning.hackerrank.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="TestClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.nirvana.learning.hackerrank.TestClass" />
       <module name="Programming-Challenges" />
@@ -166,12 +150,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UniquePath" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.nirvana.learning.hackerearth.UniquePath" />
-      <module name="Programming-Challenges" />
+    <configuration name="ValidateParentheses" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.nirvana.learning.datastructures.ValidateParentheses" />
+      <module name="GeekTrustCricketChallenge" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.nirvana.learning.hackerearth.*" />
+          <option name="PATTERN" value="com.nirvana.learning.datastructures.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -228,18 +212,18 @@
     </configuration>
     <list>
       <item itemvalue="Application.Solution (1)" />
-      <item itemvalue="Application.Solution" />
-      <item itemvalue="Application.UniquePath" />
       <item itemvalue="Application.TestClass" />
       <item itemvalue="Application.Application" />
+      <item itemvalue="Application.LinkedList" />
+      <item itemvalue="Application.ValidateParentheses" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ValidateParentheses" />
+        <item itemvalue="Application.LinkedList" />
         <item itemvalue="Application.Application" />
         <item itemvalue="Application.TestClass" />
         <item itemvalue="Application.Solution (1)" />
-        <item itemvalue="Application.UniquePath" />
-        <item itemvalue="Application.Solution" />
       </list>
     </recent_temporary>
   </component>
@@ -312,6 +296,16 @@
           <url>file://$PROJECT_DIR$/src/main/java/com/nirvana/learning/hackerearth/MinimumDiscount.java</url>
           <line>25</line>
           <option name="timeStamp" value="17" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/nirvana/learning/datastructures/LinkedList.java</url>
+          <line>55</line>
+          <option name="timeStamp" value="18" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/nirvana/learning/datastructures/LinkedList.java</url>
+          <line>21</line>
+          <option name="timeStamp" value="19" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
