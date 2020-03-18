@@ -1,4 +1,4 @@
-package com.nirvana.learning.educative.recursion;
+package com.nirvana.learning.educative.recursion.numbers;
 
 public class Factorial {
     // Recursive function
