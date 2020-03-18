@@ -1,4 +1,4 @@
-package com.nirvana.learning.educative;
+package com.nirvana.learning.educative.recursion.string;
 
 /**
  * find out all the permutations of size 4 for the below array [a, b, c, d]
@@ -8,7 +8,7 @@ public class StringPermutation {
         char[] array = new char[]{'a', 'b', 'c', 'd'};
         char[] perm = new char[array.length];
         boolean[] used = new boolean[256];
-        permute(array, perm, 0, used);
+        // permute(array, perm, 0, used);
 
         permutateOptimized(array, 0);
     }
@@ -58,6 +58,19 @@ public class StringPermutation {
             swap(str, index, i);
             permutateOptimized(str, index + 1);
             swap(str, index, i);
+        }
+    }
+
+    public static void permutations(char[] array, int length) {
+        if (length == 1) {
+            System.out.println(array);
+            return;
+        } else {
+            for (int i = 0; i < length; i++) {
+                swap(array, i, length - 1);
+                permutations(array, length - 1);
+                swap(array, i, length - 1);
+            }
         }
     }
 }
