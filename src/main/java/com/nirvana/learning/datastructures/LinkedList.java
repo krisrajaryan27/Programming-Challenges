@@ -1,7 +1,15 @@
 package com.nirvana.learning.datastructures;
 
 public class LinkedList {
-    public static Node head;
+    static Node head;
+    static class Node{
+        private int data;
+        private Node next;
+        public Node(int data){
+            this.data = data;
+            this.next = null;
+        }
+    }
 
     public static void main(String[] args) {
         LinkedList list = new LinkedList();
@@ -11,22 +19,22 @@ public class LinkedList {
         list = insertIntoLinkedList(list,1);
         list = insertIntoLinkedList(list,0);
         printLinkedList(list);
-        head = reverseIteratively(head);
+        head = reverseIteratively(list.head);
         printLinkedList(list);
-        head = reverseRecursively(null, head);
+        head = reverseRecursively(null,list.head);
         printLinkedList(list);
 
 
     }
 
-    public static LinkedList insertIntoLinkedList(LinkedList list, int data) {
+    public static LinkedList insertIntoLinkedList(LinkedList list, int data){
         Node newNode = new Node(data);
         newNode.next = null;
-        if (head == null) {
-            head = newNode;
+        if (list.head == null) {
+            list.head = newNode;
         } else {
-            Node last = head;
-            while (last.next != null) {
+            Node last = list.head;
+            while(last.next!=null){
                 last = last.next;
             }
             last.next = newNode;
@@ -34,21 +42,21 @@ public class LinkedList {
         return list;
     }
 
-    public static void printLinkedList(LinkedList list) {
-        Node current = head;
+    public static void printLinkedList(LinkedList list){
+        Node current = list.head;
         System.out.println("LinkedList: ");
-        while (current != null) {
-            System.out.print(current.data + " ");
+        while(current!=null){
+            System.out.print(current.data+" ");
             current = current.next;
         }
-        System.out.println();
+        System.out.println("");
     }
 
-    public static Node reverseIteratively(Node node) {
+    public static Node reverseIteratively(Node node){
         Node prev = null;
         Node current = node;
         Node next;
-        while (current != null) {
+        while(current != null){
             next = current.next;
             current.next = prev;
             prev = current;
@@ -58,25 +66,15 @@ public class LinkedList {
         return node;
     }
 
-    public static class Node {
-        public int data;
-        public Node next;
-
-        public Node(int data) {
-            this.data = data;
-            this.next = null;
-        }
-    }
-
-    public static Node reverseRecursively(Node prev, Node current) {
-        if (current.next == null) {
-            head = current;
+    public static Node reverseRecursively(Node prev, Node current){
+        if(current.next == null){
+            head =  current;
             current.next = prev;
             return null;
         }
         Node next = current.next;
         current.next = prev;
-        reverseRecursively(current, next);
+        reverseRecursively(current,next);
         return head;
     }
     

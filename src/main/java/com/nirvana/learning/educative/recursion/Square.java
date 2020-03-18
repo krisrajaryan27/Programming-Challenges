@@ -1,4 +1,4 @@
-package com.nirvana.learning.educative.recursion.numbers;
+package com.nirvana.learning.educative.recursion;
 
 public class Square {
     // Recursive method to calculate square of a number
