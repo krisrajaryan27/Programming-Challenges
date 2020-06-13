@@ -1,6 +1,5 @@
 package com.nirvana.learning.dynamoclient;
 
-import com.nirvana.learning.dynamoclient.SegmentationData;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;

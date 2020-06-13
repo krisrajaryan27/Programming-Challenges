@@ -2,7 +2,7 @@ package com.nirvana.learning.geektrust.cricket.enums;
 
 public enum MatchType {
 
-    DAY("Day"),NIGHT("Night");
+    DAY("Day"), NIGHT("Night");
 
     private String value;
 

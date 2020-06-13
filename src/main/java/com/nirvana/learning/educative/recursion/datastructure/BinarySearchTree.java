@@ -1,5 +1,9 @@
 package com.nirvana.learning.educative.recursion.datastructure;
 
+import java.util.LinkedList;
+import java.util.Queue;
+import java.util.Stack;
+
 /**
  * A Binary Search Tree (BST) is a hierarchical data structure that consists of vertices connected through edges.
  * The value of the left node is less than the value of the parent node, and the value of the right node is
@@ -116,6 +120,189 @@ public class BinarySearchTree {
         printTree(current.getRightChild());
 
     }
+
+    public int getSize() {
+        return getSizeRecursive(this.root);
+    }
+
+    private int getSizeRecursive(Node current) {
+        return current == null ? 0 : getSizeRecursive(current.getLeftChild()) + 1 + getSizeRecursive(current.getRightChild());
+    }
+
+    //Function to find an element in BST.
+    public boolean containsNode(int value) {
+        return containsNodeRecursive(this.root, value);
+    }
+
+    public boolean containsNodeRecursive(Node currentNode, int value) {
+        if (currentNode == null) {
+            return false;
+        }
+        if (value == currentNode.getData()) {
+            return true;
+        }
+        return value < currentNode.getData() ? containsNodeRecursive(currentNode.getLeftChild(), value)
+                : containsNodeRecursive(currentNode.getRightChild(), value);
+    }
+
+    //Function to delete an element in BST
+
+    public void delete(int value) {
+        setRoot(deleteRecursive(this.root, value));
+    }
+
+    public Node deleteRecursive(Node currentNode, int value) {
+        if (currentNode == null) {
+            return null;
+        }
+        if (value == currentNode.getData()) {
+            // Case 1: no children
+            if (currentNode.getLeftChild() == null && currentNode.getRightChild() == null) {
+                return null;
+            }
+
+            // Case 2: only 1 child
+            if (currentNode.getRightChild() == null) {
+                return currentNode.getLeftChild();
+            }
+
+            if (currentNode.getLeftChild() == null) {
+                return currentNode.getRightChild();
+            }
+
+            // Case 3: 2 children
+            int smallestValue = findSmallestValue(currentNode.getRightChild());
+            currentNode.setData(smallestValue);
+            currentNode.setRightChild(deleteRecursive(currentNode.getRightChild(), smallestValue));
+            return currentNode;
+        }
+        if (value < currentNode.getData()) {
+            currentNode.setLeftChild(deleteRecursive(currentNode.getLeftChild(), value));
+        }
+        currentNode.setRightChild(deleteRecursive(currentNode.getRightChild(), value));
+        return currentNode;
+    }
+
+    private int findSmallestValue(Node root) {
+        return root.getLeftChild() == null ? root.getData() : findSmallestValue(root.getLeftChild());
+    }
+
+    //Depth First Search - Goes deep in every child before going to next sibling
+
+    // 1. InOrder - LNR
+    public void traverseInOrder(Node node) {
+        if (node != null) {
+            traverseInOrder(node.getLeftChild());
+            System.out.println(" " + node.getData());
+            traverseInOrder(node.getRightChild());
+        }
+    }
+
+    //InOrder Without Recursion
+    public void traverseInOrderIteratively(Node node) {
+        Stack<Node> stack = new Stack<>();
+        Node current = node;
+        stack.push(node);
+        while (!stack.isEmpty()) {
+            while (current.getLeftChild() != null) {
+                current = current.getLeftChild();
+                stack.push(current);
+            }
+            current = stack.pop();
+            visit(current.getData());
+            if (current.getRightChild() != null) {
+                current = current.getRightChild();
+                stack.push(current);
+            }
+        }
+    }
+
+    private void visit(int value) {
+        System.out.print(" " + value);
+    }
+
+    // 2. PreOrder - NLR
+    public void traversePreOrder(Node node) {
+        if (node != null) {
+            System.out.println(" " + node.getData());
+            traversePreOrder(node.getLeftChild());
+            traversePreOrder(node.getRightChild());
+        }
+    }
+
+    public void traversePreOrderWithoutRecursion() {
+        Stack<Node> stack = new Stack<>();
+        Node current = root;
+        stack.push(root);
+        while (!stack.isEmpty()) {
+            current = stack.pop();
+            visit(current.getData());
+
+            if (current.getRightChild() != null)
+                stack.push(current.getRightChild());
+
+            if (current.getLeftChild() != null)
+                stack.push(current.getLeftChild());
+        }
+    }
+
+    // 3. PostOrder - LRN
+    public void traversePostOrder(Node node) {
+        if (node != null) {
+            traversePostOrder(node.getLeftChild());
+            traversePostOrder(node.getRightChild());
+            System.out.println(" " + node.getData());
+        }
+    }
+
+    public void traversePostOrderWithoutRecursion() {
+        Stack<Node> stack = new Stack<>();
+        Node prev = this.root;
+        Node current;
+        stack.push(this.root);
+
+        while (!stack.isEmpty()) {
+            current = stack.peek();
+            boolean hasChild = (current.getLeftChild() != null || current.getRightChild() != null);
+            boolean isPrevLastChild = (prev == current.getRightChild() ||
+                    (prev == current.getLeftChild() && current.getRightChild() == null));
+
+            if (!hasChild || isPrevLastChild) {
+                current = stack.pop();
+                visit(current.getData());
+                prev = current;
+            } else {
+                if (current.getRightChild() != null) {
+                    stack.push(current.getRightChild());
+                }
+                if (current.getLeftChild() != null) {
+                    stack.push(current.getLeftChild());
+                }
+            }
+        }
+    }
+
+    //Breadth First Search - Also called as Level Order Traversal
+    // Visits all the nodes of a level before moving to next level.
+
+    public void traverseLevelOrder(Node node) {
+        if (node == null) {
+            return;
+        }
+        Queue<Node> nodes = new LinkedList<>();
+        nodes.add(node);
+        while (!nodes.isEmpty()) {
+            Node current = nodes.remove();
+            System.out.println(" " + current.getData());
+            if (current.getLeftChild() != null) {
+                nodes.add(current.getLeftChild());
+            }
+            if (current.getRightChild() != null) {
+                nodes.add(current.getRightChild());
+            }
+        }
+    }
+
 
 }
 

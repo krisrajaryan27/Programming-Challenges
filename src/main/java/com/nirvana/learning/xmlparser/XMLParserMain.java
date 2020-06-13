@@ -17,7 +17,7 @@ import java.util.List;
 
 public class XMLParserMain {
 
-    public static void main(String[] args) throws ParserConfigurationException, SAXException,IOException, JAXBException {
+    public static void main(String[] args) throws ParserConfigurationException, SAXException, IOException, JAXBException {
 
         String xmlRecords = XMLRecord.getXmlRecords();
         DocumentBuilder documentBuilder = DocumentBuilderFactory.newInstance().newDocumentBuilder();
@@ -31,8 +31,8 @@ public class XMLParserMain {
         List<DataItem> items = new LinkedList<>();
         Node node = dataItems.item(1);
 
-        while(node != null){
-            if(node.getNodeName().equalsIgnoreCase("TXNID")){
+        while (node != null) {
+            if (node.getNodeName().equalsIgnoreCase("TXNID")) {
                 item = new DataItem();
                 items.add(item);
             }
@@ -44,8 +44,8 @@ public class XMLParserMain {
         items.iterator().forEachRemaining(System.out::println);
 
 
-
     }
+
     static void setValue(DataItem item, String nodeName, String nodeValue) {
         switch (nodeName) {
             case "TXNID":

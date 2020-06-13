@@ -2,7 +2,7 @@ package com.nirvana.learning.geektrust.cricket.enums;
 
 public enum WeatherType {
 
-    CLEAR("Clear"),CLOUDY("Cloudy");
+    CLEAR("Clear"), CLOUDY("Cloudy");
 
     private String value;
 

@@ -11,23 +11,23 @@ import java.io.InputStreamReader;
  * Each army man does some damage to Marut. If an army man has X amount energy and fights with Marut, energy of both of them will decrease by X unit. A person dies if his energy becomes zero unit.
  * Now, Marut knows the number of army men that Devil will send and their energy level. As poor Marut is bad in mathematics, he wants to know the minimum number of times he need to drink "CodeRas" in order to kill all army men and keep himself alive at the end of war. Help him !!!
  * Note: Marut cannot drink "CodeRas" in between the fight. He can only drink it before and after the fight.
- *
+ * <p>
  * Input:
  * First line contains an integer T, denoting the number of test cases.
  * Each testcase contains two lines.
  * First line of each testcase contains three integers N , E and V separated by single space. N denotes the size of army, E denotes the initial energy of Marut and V denotes the amount of energy which is increased after drinking "CodeRas".
  * Second line of each testcase contains N integers, separated by single space. ith integer of this line denotes the energy of ith army man.
- *
+ * <p>
  * Output:
  * For each test case, print the answer in a new line.
- *
+ * <p>
  * Constraints:
  * 1 ≤ T ≤ 100
  * 1 ≤ N ≤ 105
  * 1 ≤ E ≤ 105
  * 1 ≤ V ≤ 105
  * 1 ≤ Army man's energy ≤ 105
- *
+ * <p>
  * SAMPLE INPUT
  * 2
  * 4 5 3
@@ -49,8 +49,8 @@ public class MarutVsDevilArmy {
         int noOfTestCases = Integer.parseInt(br.readLine());
         int totalArmy, energy, energyBoost, currentArmyEnergy, i, x;
         long boostTime;
-        while(noOfTestCases > 0) {
-            String s []  = br.readLine().split("\\s");
+        while (noOfTestCases > 0) {
+            String[] s = br.readLine().split("\\s");
             totalArmy = Integer.parseInt(s[0]);
             energy = Integer.parseInt(s[1]);
             energyBoost = Integer.parseInt(s[2]);
@@ -58,15 +58,15 @@ public class MarutVsDevilArmy {
             boostTime = 0;
             currentArmyEnergy = 0;
 
-            for(i=0; i<totalArmy; i++) {
+            for (i = 0; i < totalArmy; i++) {
                 currentArmyEnergy = Integer.parseInt(s[i]);
-                if(currentArmyEnergy >= energy) {
-                    x = (currentArmyEnergy-energy)/energyBoost;
-                    x+=1;
-                    energy += (energyBoost*x);
-                    boostTime += (long)x;
+                if (currentArmyEnergy >= energy) {
+                    x = (currentArmyEnergy - energy) / energyBoost;
+                    x += 1;
+                    energy += (energyBoost * x);
+                    boostTime += x;
                 }
-                energy-=currentArmyEnergy;
+                energy -= currentArmyEnergy;
             }
             System.out.println(boostTime);
             noOfTestCases--;

@@ -13,6 +13,14 @@ public class ReverseString {
         }
     }
 
+    public static String reverse(final String s) {
+        final StringBuilder builder = new StringBuilder(s.length());
+        for (int i = s.length() - 1; i >= 0; i--) {
+            builder.append(s.charAt(i));
+        }
+        return builder.toString();
+    }
+
     public static void main(String[] args) {
         String string1 = "Hello World";
         String string2 = "Reverse";

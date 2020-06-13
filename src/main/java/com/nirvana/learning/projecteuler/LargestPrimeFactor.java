@@ -16,19 +16,19 @@ public class LargestPrimeFactor {
         System.out.println(largestPrimeFactor(num));
     }
 
-    private static long largestPrimeFactor(long num){
+    private static long largestPrimeFactor(long num) {
         long maxPrime = Integer.MIN_VALUE;
-        while (num%2==0){
+        while (num % 2 == 0) {
             maxPrime = 2;
-            num>>=1;
+            num >>= 1;
         }
-        for (int i=3;i<=Math.sqrt(num);i++){
-            while (num%i == 0){
+        for (int i = 3; i <= Math.sqrt(num); i++) {
+            while (num % i == 0) {
                 maxPrime = i;
-                num/=i;
+                num /= i;
             }
         }
-        if(num>2){
+        if (num > 2) {
             maxPrime = num;
         }
         return maxPrime;

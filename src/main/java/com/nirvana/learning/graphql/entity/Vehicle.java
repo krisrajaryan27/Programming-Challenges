@@ -2,7 +2,6 @@ package com.nirvana.learning.graphql.entity;
 
 import lombok.Data;
 import lombok.EqualsAndHashCode;
-import lombok.Getter;
 
 import javax.persistence.*;
 import java.io.Serializable;

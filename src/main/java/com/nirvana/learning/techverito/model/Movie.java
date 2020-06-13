@@ -2,8 +2,13 @@ package com.nirvana.learning.techverito.model;
 
 import java.util.List;
 
-/** Author: Krishna Verma*/
-/** POJO of Movie Class*/
+/**
+ * Author: Krishna Verma
+ */
+
+/**
+ * POJO of Movie Class
+ */
 public class Movie {
 
     private int showNum;

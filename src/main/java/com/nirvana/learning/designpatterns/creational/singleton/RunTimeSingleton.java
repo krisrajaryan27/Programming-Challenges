@@ -11,7 +11,7 @@ public class RunTimeSingleton {
         System.out.println(singletonRunTime);
         Runtime anotherInstance = Runtime.getRuntime();
         System.out.println(anotherInstance);
-        if(singletonRunTime == anotherInstance){
+        if (singletonRunTime == anotherInstance) {
             System.out.println("They are the same instance");
         }
     }

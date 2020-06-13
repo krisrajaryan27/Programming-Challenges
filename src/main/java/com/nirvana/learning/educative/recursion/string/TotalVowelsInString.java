@@ -23,7 +23,7 @@ public class TotalVowelsInString {
         return totalVowelsM2(text, text.length(), 0);
     }
 
-    //Faster Solution
+    //Faster LargestSquareInMatrix
     public static int totalVowelsM1(String text, int len, int index) {
         int count = 0;
 

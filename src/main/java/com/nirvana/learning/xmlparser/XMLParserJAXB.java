@@ -4,7 +4,6 @@ import com.nirvana.learning.xmlparser.model.FosterHomePOJO;
 
 import javax.xml.bind.JAXBContext;
 import javax.xml.bind.JAXBException;
-import javax.xml.bind.Marshaller;
 import javax.xml.bind.Unmarshaller;
 import java.io.StringReader;
 
@@ -15,8 +14,6 @@ public class XMLParserJAXB {
         String fosterHomeXML = XMLRecord.getFosterHomeXML();
 
         JAXBContext jaxbContext = JAXBContext.newInstance(FosterHomePOJO.class);
-
-
 
 
         Unmarshaller unmarshallerObj = jaxbContext.createUnmarshaller();

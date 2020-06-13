@@ -2,7 +2,7 @@ package com.nirvana.learning.geektrust.cricket.enums;
 
 public enum TossType {
 
-    BOWLS("Bowls"),BATS("Bats");
+    BOWLS("Bowls"), BATS("Bats");
 
     private String value;
 

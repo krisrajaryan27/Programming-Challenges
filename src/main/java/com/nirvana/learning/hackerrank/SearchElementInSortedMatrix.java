@@ -6,7 +6,7 @@ package com.nirvana.learning.hackerrank;
 public class SearchElementInSortedMatrix {
     public static void main(String[] args) {
         int n = 4, m = 5, x = 8;
-        int mat[][] = {{0, 6, 8, 9, 11},
+        int[][] mat = {{0, 6, 8, 9, 11},
                 {20, 22, 28, 29, 31},
                 {36, 38, 50, 61, 63},
                 {64, 66, 100, 122, 128}};
@@ -17,8 +17,7 @@ public class SearchElementInSortedMatrix {
 
     private static void sortedMatrixSearch(int[][] mat, int n, int m, int x) {
         // Single row matrix 
-        if (n == 1)
-        {
+        if (n == 1) {
             binarySearch(mat, 0, 0, m - 1, x);
             return;
         }
@@ -28,19 +27,15 @@ public class SearchElementInSortedMatrix {
         int i_low = 0;
         int i_high = n - 1;
         int j_mid = m / 2;
-        while ((i_low + 1) < i_high)
-        {
+        while ((i_low + 1) < i_high) {
             int i_mid = (i_low + i_high) / 2;
 
             // element found
-            if (mat[i_mid][j_mid] == x)
-            {
-                System.out.println ( "Found at (" + i_mid +", "
-                        + j_mid +")");
+            if (mat[i_mid][j_mid] == x) {
+                System.out.println("Found at (" + i_mid + ", "
+                        + j_mid + ")");
                 return;
-            }
-
-            else if (mat[i_mid][j_mid] > x)
+            } else if (mat[i_mid][j_mid] > x)
                 i_high = i_mid;
 
             else
@@ -50,11 +45,11 @@ public class SearchElementInSortedMatrix {
         // If element is present on
         // the mid of the two rows
         if (mat[i_low][j_mid] == x)
-            System.out.println ( "Found at (" + i_low + ","
-                    + j_mid +")");
+            System.out.println("Found at (" + i_low + ","
+                    + j_mid + ")");
         else if (mat[i_low + 1][j_mid] == x)
-            System.out.println ( "Found at (" + (i_low + 1)
-                    + ", " + j_mid +")");
+            System.out.println("Found at (" + (i_low + 1)
+                    + ", " + j_mid + ")");
 
             // Ssearch element on 1st half of 1st row
         else if (x <= mat[i_low][j_mid - 1])
@@ -72,7 +67,7 @@ public class SearchElementInSortedMatrix {
             // search element on 2nd half of 2nd row
         else
             binarySearch(mat, i_low + 1, j_mid + 1, m - 1, x);
-}
+    }
 
     private static void binarySearch(int[][] mat, int i, int j_low, int j_high, int x) {
     }
