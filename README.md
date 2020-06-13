@@ -1,17 +1,3 @@
 # Programming- Challenges
-Solutions for Programming Challenges
-
-1. XML Parser : 
-
-    Using DOM Parser: 
-          - src/main/java/com/nirvana/learning/xmlparser/XMLParserMain
-          
-    Using JAXB Context: 
-          - src/main/java/com/nirvana/learning/xmlparser/XMLParserJAXB
-          
-2. Hackerrank Solution: 
-      - src/main/java/com/nirvana/learning/hackerrank
-      
-3. Geektrust Challenges Solution: 
-      - src/main/java/com/nirvana/learning/geektrust
-     
+Java solutions for the problems that I read or encounter.
+For more details, visit: https://krisrajaryan27.github.io/Portfolio/
