@@ -2,8 +2,6 @@ package com.nirvana.learning.dynamoclient;
 
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
-import com.nirvana.learning.dynamoclient.SegmentationData;
-import com.nirvana.learning.dynamoclient.StoredSegmentation;
 
 import java.math.BigDecimal;
 import java.text.DateFormat;

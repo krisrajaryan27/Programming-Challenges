@@ -62,9 +62,9 @@ public class UniquePath {
         Integer[][] array = a.stream()
                 .map(l -> l.stream().toArray(Integer[]::new))
                 .toArray(Integer[][]::new);
-        for(int i =0 ;i<array.length;i++){
-            for (int j=0;j<array[0].length;j++){
-                array[i][j]^=1;
+        for (int i = 0; i < array.length; i++) {
+            for (int j = 0; j < array[0].length; j++) {
+                array[i][j] ^= 1;
             }
         }
         return array;

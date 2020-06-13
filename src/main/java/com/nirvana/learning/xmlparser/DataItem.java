@@ -7,6 +7,14 @@ public class DataItem {
     private String TXNID;
     private String TXNAMT;
 
+    public DataItem(String TXNID, String TXNAMT) {
+        this.TXNID = TXNID;
+        this.TXNAMT = TXNAMT;
+    }
+
+    public DataItem() {
+    }
+
     public String getTXNID() {
         return TXNID;
     }
@@ -21,13 +29,6 @@ public class DataItem {
 
     public void setTXNAMT(String TXNAMT) {
         this.TXNAMT = TXNAMT;
-    }
-
-    public DataItem(String TXNID, String TXNAMT) {
-        this.TXNID = TXNID;
-        this.TXNAMT = TXNAMT;
-    }
-    public DataItem() {
     }
 
 }

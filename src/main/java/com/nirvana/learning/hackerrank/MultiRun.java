@@ -3,6 +3,7 @@ package com.nirvana.learning.hackerrank;
 public class MultiRun extends Thread {
 
     String str;
+
     public MultiRun(String s) {
         this.str = s;
     }

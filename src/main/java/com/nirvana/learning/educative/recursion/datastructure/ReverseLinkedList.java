@@ -2,7 +2,6 @@ package com.nirvana.learning.educative.recursion.datastructure;
 
 public class ReverseLinkedList {
     public static void reverse(Node head) {
-
         // Base case
         if (head == null) {
             return;

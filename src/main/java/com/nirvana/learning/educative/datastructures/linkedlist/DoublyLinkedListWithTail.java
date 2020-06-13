@@ -106,6 +106,22 @@ public class DoublyLinkedListWithTail<T> {
         System.out.println(temp.data.toString() + " -> null");
     }
 
+    public void printListReverse() {
+        if (isEmpty()) {
+            System.out.println("List is Empty!");
+        }
+
+        Node temp = tailNode;
+        System.out.print("List : null <- ");
+
+        while (temp.prevNode != null) {
+            System.out.print(temp.data.toString() + " <-> ");
+            temp = temp.prevNode;
+        }
+
+        System.out.println(temp.data.toString() + " -> null");
+    }
+
     //Node inner class for DLL
     public class Node {
         public T data;

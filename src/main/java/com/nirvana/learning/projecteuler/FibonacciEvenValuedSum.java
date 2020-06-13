@@ -11,13 +11,13 @@ public class FibonacciEvenValuedSum {
         int temp = 0;
         int sum = 0;
         do {
-            if(num2%2==0){
-                sum+=num2;
+            if (num2 % 2 == 0) {
+                sum += num2;
             }
-            temp = num1+num2;
-            num1= num2;
-            num2= temp;
-        } while(num2<4000000);
+            temp = num1 + num2;
+            num1 = num2;
+            num2 = temp;
+        } while (num2 < 4000000);
         System.out.println(sum);
     }
 

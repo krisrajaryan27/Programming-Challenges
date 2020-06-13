@@ -6,18 +6,18 @@ import java.io.IOException;
 import java.util.Scanner;
 
 public class LeftRotation {
+    private static final Scanner scanner = new Scanner(System.in);
+
     // Complete the rotLeft function below.
     static int[] rotLeft(int[] a, int d) {
         int len = a.length;
         int[] newArr = new int[len];
-        for(int i=0;i<len;i++){
-            int newLoc = (i+ (len-d))%len;
-            newArr[newLoc]= a[i];
+        for (int i = 0; i < len; i++) {
+            int newLoc = (i + (len - d)) % len;
+            newArr[newLoc] = a[i];
         }
         return newArr;
     }
-
-    private static final Scanner scanner = new Scanner(System.in);
 
     public static void main(String[] args) throws IOException {
         BufferedWriter bufferedWriter = new BufferedWriter(new FileWriter(System.getenv("OUTPUT_PATH")));

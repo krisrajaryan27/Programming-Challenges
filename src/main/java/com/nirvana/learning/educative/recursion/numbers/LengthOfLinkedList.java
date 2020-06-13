@@ -1,7 +1,7 @@
 package com.nirvana.learning.educative.recursion.numbers;
 
 
-import com.nirvana.learning.datastructures.LinkedList;
+import com.nirvana.learning.educative.datastructures.linkedlist.LinkedList;
 
 public class LengthOfLinkedList {
     /* Returns count of nodes in linked list Iteratively*/

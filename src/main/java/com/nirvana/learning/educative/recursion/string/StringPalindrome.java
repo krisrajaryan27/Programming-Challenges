@@ -26,10 +26,31 @@ public class StringPalindrome {
         return false;
     }
 
+    public static boolean isPalindromeMethod3(String text) {
+        if (text.isEmpty()) {
+            return false;
+        }
+        String reverse = reverseString(text);
+        return text.equalsIgnoreCase(reverse);
+    }
+
+    private static String reverseString(String text) {
+        char[] chars = text.toCharArray();
+        int start = 0;
+        int end = text.length() - 1;
+        while (start < end) {
+            char temp = chars[start];
+            chars[start++] = chars[end];
+            chars[end--] = temp;
+        }
+        return new String(chars);
+    }
+
     public static void main(String[] args) {
         System.out.println(isPalindromeIteratively("Madam"));
         System.out.println(isPalindromeIteratively("dad"));
-        System.out.println(isPalindromeIteratively("Hello"));
+        System.out.println(isPalindromeRecursive("Hello"));
         System.out.println(isPalindromeIteratively("Malayalam"));
+        System.out.println(isPalindromeMethod3("Malayalam"));
     }
 }

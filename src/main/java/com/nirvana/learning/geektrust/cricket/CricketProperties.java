@@ -8,8 +8,8 @@ import java.util.Properties;
 
 public class CricketProperties {
 
-    public Properties properties;
     public final String propertyFilePath = "config/Application.properties";
+    public Properties properties;
 
     public CricketProperties() {
         BufferedReader reader;

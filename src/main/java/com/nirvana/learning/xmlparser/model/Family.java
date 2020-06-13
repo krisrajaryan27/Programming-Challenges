@@ -9,11 +9,11 @@ import java.util.List;
 @XmlAccessorType(XmlAccessType.FIELD)
 public class Family {
 
-    @XmlElement(name="ParentID")
+    @XmlElement(name = "ParentID")
     private String parentId;
 
     @XmlElementWrapper(name = "ChildrenList")
-    @XmlElement(name="ChildID")
+    @XmlElement(name = "ChildID")
     private List<String> childList;
 
     @Override

@@ -15,7 +15,7 @@ public class FootballScore {
         teamA.add(3);
         teamB.add(2);
         teamB.add(4);
-        List<Integer> result = count(teamA,teamB);
+        List<Integer> result = count(teamA, teamB);
         System.out.println(result);
     }
 
@@ -24,7 +24,7 @@ public class FootballScore {
         System.out.println(time);
         List<Integer> result = new ArrayList<>();
         teamB.stream().forEach(value -> {
-            result.add((int) teamA.stream().filter(val -> val<=value).count());
+            result.add((int) teamA.stream().filter(val -> val <= value).count());
         });
         System.out.println(System.currentTimeMillis() - time);
         return result;

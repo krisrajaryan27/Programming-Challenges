@@ -1,42 +1,932 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8435e570-0d1e-40cc-965e-be6d17287226" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/datastructures/LinkedList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/datastructures/ValidateParentheses.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+    <list default="true" id="8435e570-0d1e-40cc-965e-be6d17287226" name="Default Changelist" comment="educative: Adding codes for different algorithms">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/basicprogramming/LeapYear.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/basicprogramming/MissingNumberFromSortedConsecutiveArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/basicprogramming/SwapTwoNumbers.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/basicprogramming/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/basicprogramming/Test2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/basicprogramming/conditionals/BinaryToDecimal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/basicprogramming/conditionals/Choice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/basicprogramming/conditionals/DecimalToBinary.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/basicprogramming/conditionals/ReverseNo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/basicprogramming/conditionals/SquareRoot.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/basicprogramming/conditionals/TermsOfAP.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/basicprogramming/fundamentals/AverageMarks.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/basicprogramming/fundamentals/FahrenhietToCelsius.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/basicprogramming/fundamentals/FibonacciMember.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/basicprogramming/fundamentals/FibonacciNum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/basicprogramming/fundamentals/FindCharacterCase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/basicprogramming/fundamentals/NumberPattern.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/basicprogramming/fundamentals/NumberPattern2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/basicprogramming/fundamentals/PrimeNoBelow.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/basicprogramming/fundamentals/StarPattern.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/basicprogramming/fundamentals/SumEven.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/basicprogramming/loopsandconditionals/AlphaPattern.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/basicprogramming/loopsandconditionals/NumberPattern.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/basicprogramming/loopsandconditionals/NumberPattern1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/basicprogramming/loopsandconditionals/NumberPattern2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/basicprogramming/loopsandconditionals/NumberPattern3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/basicprogramming/loopsandconditionals/OddEvenSum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/basicprogramming/loopsandconditionals/PowerOfNum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/basicprogramming/loopsandconditionals/TotalSalary.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/educative/MergeSortImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/educative/QuickSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/educative/codingpatterns/backtracking/PermutationsOfString.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/educative/codingpatterns/slidingwindow/ArrayOfSmallestValues.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/educative/codingpatterns/slidingwindow/AverageOfContiguousSubArraysOfSizeK.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/educative/codingpatterns/slidingwindow/LengthOfLongestSubstringWithNoRepeatingChars.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/educative/codingpatterns/slidingwindow/LongestSubArrayWithOnesAfterReplacement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/educative/codingpatterns/slidingwindow/LongestSubStringWithKDistinctCharacters.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/educative/codingpatterns/slidingwindow/LongestSubstringWithSameLettersAfterReplacement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/educative/codingpatterns/slidingwindow/MaxFruitsIntoBasketsOfDistictTypes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/educative/codingpatterns/slidingwindow/MaxSumOfSubArraysOfSizeK.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/educative/codingpatterns/slidingwindow/MinimumWindowSubstring.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/educative/codingpatterns/slidingwindow/PermutationInString.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/educative/codingpatterns/slidingwindow/SmallestSubArrayWithGivenSum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/educative/codingpatterns/slidingwindow/StringAnagrams.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/educative/codingpatterns/slidingwindow/WordsConcatenation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/educative/codingpatterns/twopointers/PairWithTargetSum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/educative/codingpatterns/twopointers/RemoveDuplicates.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/educative/datastructures/graphs/BreadthFirstSearch.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/educative/datastructures/graphs/CycleDetectionInGraph.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/educative/datastructures/graphs/DepthFirstSearch.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/educative/datastructures/graphs/Graph.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/educative/datastructures/graphs/GraphDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/educative/datastructures/linkedlist/LinkedList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/educative/datastructures/queue/GenerateBinaryNumberUsingQueue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/educative/datastructures/queue/Queue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/educative/datastructures/queue/QueueDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/educative/datastructures/queue/QueueImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/educative/datastructures/queue/QueueWithStack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/educative/datastructures/queue/ReverseFirstKElementsInQueue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/educative/datastructures/stack/BalancedParenthesesUsingStack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/educative/datastructures/stack/CelebrityProblemUsingStack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/educative/datastructures/stack/EvaluatePostfixUsingStack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/educative/datastructures/stack/MinStack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/educative/datastructures/stack/NextGreaterElementUsingStack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/educative/datastructures/stack/SortStackValues.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/educative/datastructures/stack/Stack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/educative/datastructures/stack/StackDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/educative/datastructures/stack/TwoStackUsingOneArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/educative/dynamicprogramming/Fibonacci.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/educative/dynamicprogramming/MaxArraySum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/educative/dynamicprogramming/ZeroOneKnapsack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/educative/recursion/numbers/Factorial.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/hackerrank/NewYearChaos.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/interview/BinaryTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/interview/LRUCache.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/interview/array/AdditiveNumber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/interview/array/Alternatives.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/interview/array/ArrayAddition.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/interview/array/ArrayRotation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/interview/array/BestMeetingPoint.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/interview/array/BuySellStockProfit.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/interview/array/CheckIfArrayElementsAreConsecutive.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/interview/array/ChunkMerge.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/interview/array/CommonThreeSortedArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/interview/array/ConsecutiveElements.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/interview/array/ConvertAnArrayIntoDecreaseIncreaseFashion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/interview/array/CountInversionOfSize3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/interview/array/CountInversions.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/interview/array/CountSmallerOnRight.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/interview/array/DivideNumbersInEqualGroupWithClosestSum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/interview/array/DivisionByFour.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/interview/array/DuplicateInArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/interview/array/DuplicateNumberDetection.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/interview/array/DuplicateWithinkIndices.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/interview/array/EquilibriumIndex.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/interview/array/FindElementsOccurringNByKTimesTetris.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/interview/array/FirstPositiveMissing.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/interview/array/Flip0sMaximum1s.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/interview/array/FourSum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/interview/array/GasStationCircle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/interview/array/GreedyTextJustification.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/interview/array/GroupElementsInSizeM.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/interview/array/HIndex.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/interview/array/IncreasingSubsequnceOfLength3WithMaxProduct.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/interview/array/IncreasingTripletSubsequence.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/interview/array/JumpGame.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/interview/array/KadaneWrapArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/interview/array/KthElementInArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/interview/array/KthLargestInTwoSortedArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/interview/array/LargerElementOnRight.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/interview/array/LargestMountain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/interview/array/LargestSubArrayWithEqual0sAnd1s.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/interview/array/LeetCodeCandy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/interview/array/LongestConsecutiveSubsequence.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/interview/array/LongestIncreasingSubSequenceOlogNMethod.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/interview/array/LongestSameSumSpan.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/interview/array/LongestSubstringWithAtMost2Char.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/interview/array/MaxNumberFromTwoArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/interview/array/MaxProductSubarray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/interview/array/MaxRepeatingNumber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/interview/array/MaximumGap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/interview/array/MaximumIminusJSuchThatAiGTAj.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/interview/array/MaximumMinimumArrangement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/interview/array/MaximumOfSubarrayOfSizeK.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/interview/array/MaximumSumPathTwoArrays.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/interview/array/MaximumSumThreeNonOverlappingSubarray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/interview/array/MedianOfTwoSortedArrays.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/interview/array/MeetingRooms.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/interview/array/MinimumDistanceBetweenTwoNumbers.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/interview/array/MinimumNumberFromSequence.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/interview/array/MinimumSortedWhichSortsEntireArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/interview/array/MissingRanges.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/interview/array/MoveAllZerosToEnd.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/interview/array/MultipleOfTwoAndThree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/interview/array/MultiplyAllFieldsExceptOwnPosition.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/interview/array/NthElementOfCountNumberSequence.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/interview/array/NumberOfTrianglesInUnsortedArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/interview/array/PositiveAndNegativeNumberAlternatively.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/interview/array/PositiveAndNegativeNumberAlternativelyMaintainingOrder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/interview/array/ProfitableStocks.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/interview/array/RearrangeArrayPerIndex.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/interview/array/RearrangeSuchThatArriBecomesArrArri.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/interview/array/ReorderArrayByIndex.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/interview/array/RepeatingAndMissingNumber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/interview/array/RotationWithMaxSum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/interview/array/SelfCrossing.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/interview/array/ShortestPalindrome.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/interview/array/SmallestIntegerNotRepresentedBySubsetSum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/interview/array/SmallestSubArrayWithRequiredSum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/interview/array/SmallestSubarrayWithAtleastKSum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/interview/array/SortArrayByParityII.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/interview/array/SortedArrayTransformation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/interview/array/SpecialArraySum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/interview/array/StableMarriageProblem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/interview/array/StackOfStoneInWell.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/interview/array/SubarrayWithGivenSum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/interview/array/SummaryRanges.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/interview/array/ThreeSumSmallerThanTarget.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/interview/array/TrappingWater.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/interview/array/TripletInArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/interview/array/TripletSumLessThanTotal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/interview/array/TugOfWar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/interview/array/TwoSum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/interview/array/WaterContainer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/interview/array/WiggleSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/interview/array/ZeroSum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/interview/array/ZigZagArrangement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/interview/binarysearch/ArithmeticProgressionSearch.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/interview/binarysearch/BinarySearch.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/interview/binarysearch/CircularBinarySearch.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/interview/binarysearch/CountNDistinctPairsWithDifferenceK.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/interview/binarysearch/FirstOccurrenceOfNumberInSortedArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/interview/binarysearch/FloorAndCeilingSortedArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/interview/binarysearch/MedianOfTwoSortedArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/interview/binarysearch/MedianOfTwoSortedArrayOfDifferentLength.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/interview/binarysearch/MinimumInSortedRotatedArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/interview/binarysearch/MissingNumberInConsecutiveNumbers.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/interview/binarysearch/MonotonicallyIncreasingFunctionBecomesPositive.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/interview/binarysearch/NumberOfPairWithXPowerYGreaterThanYPowerX.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/interview/binarysearch/PeakElement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/interview/binarysearch/SearchForRange.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/interview/binarysearch/SearchInsertPosition.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/interview/binarysearch/SortedAndRotatedArraySearch.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/interview/binarysearch/SquareRootOfNumber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/interview/bits/AddTwoNumberInBinaryRepresentation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/interview/bits/BitRotation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/interview/bits/ByteAsStorage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/interview/bits/CountBits.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/interview/bits/CountingBitsTillNum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/interview/bits/DrawHorizontalLine.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/interview/bits/FindNumberOccurringOnceOtherNumbers3Times.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/interview/bits/GrayCode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/interview/bits/InsertMintoNiTojBits.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/interview/bits/MaxProductWordLength.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/interview/bits/MissingNumbers.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/interview/bits/NextHigherAndNextLowerWithSameNumberBits.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/interview/bits/NextPowerOf2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/interview/bits/NumberOccuringOddTimes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/interview/bits/NumberOfBitsFlipToConvertNToM.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/interview/bits/RealNumberToBinary.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/interview/bits/RepeatedDnaSequence.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/interview/bits/ReverseBits.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/interview/bits/SquareOfNumber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/interview/bits/SwapOddEvenBits.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/interview/bits/SwapTwoBits.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/interview/bits/WinnerWithBeautifulNumber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/interview/dynamicprogramming/BitonicSequence.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/interview/dynamicprogramming/BoxStacking.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/interview/dynamicprogramming/BreakMultipleWordsWithNoSpaceIntoSpace.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/interview/dynamicprogramming/BurstBalloons.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/interview/dynamicprogramming/CoinChanging.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/interview/dynamicprogramming/CoinChangingMinimumCoin.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/interview/dynamicprogramming/CountAs.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/interview/dynamicprogramming/CountNumberOfBinaryWithoutConsecutive1s.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/interview/dynamicprogramming/CountNumberOfTreePreorder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/interview/dynamicprogramming/CountNumberOfTreesInBST.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/interview/dynamicprogramming/CutRodToMinimizeCost.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/interview/dynamicprogramming/CuttingRod.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/interview/dynamicprogramming/DecodeWays.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/interview/dynamicprogramming/DiceThrowWays.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/interview/dynamicprogramming/DistinctSubsequence.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/interview/dynamicprogramming/DivisorGame.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/interview/dynamicprogramming/DungeonGame.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/interview/dynamicprogramming/EditDistance.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/interview/dynamicprogramming/EggDropping.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/interview/dynamicprogramming/ExpressionEvaluation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/interview/dynamicprogramming/FibonacciSeries.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/interview/dynamicprogramming/Immutable2DSumRangeQuery.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/interview/dynamicprogramming/Knapsack01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/interview/dynamicprogramming/LargestSquareInMatrix.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/interview/dynamicprogramming/LongestCommonSubsequence.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/interview/dynamicprogramming/LongestCommonSubstring.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/interview/dynamicprogramming/LongestEvenLengthSubstringOfEqualHalf.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/interview/dynamicprogramming/LongestIncreasingPath.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/interview/dynamicprogramming/LongestIncreasingSubsequence.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/interview/dynamicprogramming/LongestPalindromicSubsequence.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/interview/dynamicprogramming/LongestSubstringWithMostVowels.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/interview/dynamicprogramming/MatrixMultiplicationCost.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/interview/dynamicprogramming/MaxSumForNonAdjacentElements.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/interview/dynamicprogramming/MaximizeSkiGates.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/interview/dynamicprogramming/MaximumLengthChainPair.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/interview/dynamicprogramming/MaximumProductCutting.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/interview/dynamicprogramming/MaximumRectangularSubmatrixOf1s.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/interview/dynamicprogramming/MaximumSizeSubMatrix.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/interview/dynamicprogramming/MaximumSumSubsequence.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/interview/dynamicprogramming/MinCostPath.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/interview/dynamicprogramming/MinJumpToReachEnd.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/interview/dynamicprogramming/MinimumCostTrainTicket.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/interview/dynamicprogramming/MinimumNumberOfPerfectSquares.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/interview/dynamicprogramming/MinimumTriangleSum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/interview/dynamicprogramming/NPotGold.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/interview/dynamicprogramming/NumberOfPathsInMxNMatrix.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/interview/dynamicprogramming/NumberOfWaysToScorePoints.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/interview/dynamicprogramming/OptimalTreeSearch.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/interview/dynamicprogramming/PaintHouse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/interview/dynamicprogramming/PalindromePartition.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/interview/dynamicprogramming/PhoneDialNumberOfCombinationOfSizeK.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/interview/dynamicprogramming/RegexMatching.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/interview/dynamicprogramming/RemoveFromEndToMake2IntoMinGreaterThanMax.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/interview/dynamicprogramming/ScrambledString.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/interview/dynamicprogramming/StockBuySellKTransactions.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/interview/dynamicprogramming/SubRectangularMatrixWithMaximumSum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/interview/dynamicprogramming/SubsetSum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/interview/dynamicprogramming/SubsquareSurrounedByXs.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/interview/dynamicprogramming/SymbolExpressionEvaluation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/interview/dynamicprogramming/TextJustification.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/interview/dynamicprogramming/TwoStringInterleavingToFormThird.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/interview/dynamicprogramming/UglyNumber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/interview/dynamicprogramming/UglyNumbers.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/interview/dynamicprogramming/WeightedJobSchedulingMaximumProfit.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/interview/dynamicprogramming/WildCardMatching.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/interview/dynamicprogramming/knapsack/CountOfSubsetForGivenDifference.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/interview/dynamicprogramming/knapsack/CountOfSubsetForGivenSum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/interview/dynamicprogramming/knapsack/EqualSumPartition.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/interview/dynamicprogramming/knapsack/Knapsack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/interview/dynamicprogramming/knapsack/MinimumDifferenceOfSubsetSum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/interview/dynamicprogramming/knapsack/SubsetProblem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/interview/dynamicprogramming/knapsack/TargetSum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/interview/dynamicprogramming/unboundedknapsack/RodCuttingProblem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/interview/dynamicprogramming/unboundedknapsack/UnboundedKnapsack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/interview/geometry/ClosestPairOfPoints.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/interview/geometry/GrahamScanConvexHull.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/interview/geometry/JarvisMarchConvexHull.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/interview/geometry/MaximumPointsOnSameLine.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/interview/geometry/SkylineDrawing.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/interview/graph/AlientDictionary.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/interview/graph/AllCyclesInDirectedGraphJohnson.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/interview/graph/AllCyclesInDirectedGraphTarjan.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/interview/graph/ArticulationPoint.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/interview/graph/BellmanFordShortestPath.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/interview/graph/BinaryMaxHeap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/interview/graph/BinaryMinHeap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/interview/graph/BiparteGraph.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/interview/graph/Boggle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/interview/graph/Bridge.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/interview/graph/CloneDirectedGraph.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/interview/graph/CloneGraph.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/interview/graph/ConvertOneWordToAnother.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/interview/graph/CourseSchedule.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/interview/graph/CycleInDirectedGraph.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/interview/graph/CycleUndirectedGraph.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/interview/graph/DAGShortestPathTopological.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/interview/graph/DijkstraShortestPath.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/interview/graph/DirectedGraphConnectivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/interview/graph/DisjointSet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/interview/graph/EulerianPathAndCircuit.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/interview/graph/EvaluateDivison.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/interview/graph/FillOsWIthXsIfSurroundedByXs.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/interview/graph/FloodFillAlgorithm.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/interview/graph/FloydWarshallAllPairShortestPath.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/interview/graph/FordFulkerson.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/interview/graph/Graph.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/interview/graph/GraphColoring.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/interview/graph/GraphTraversal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/interview/graph/HamiltonianCycle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/interview/graph/KruskalMST.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/interview/graph/MaximumBiparteMatching.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/interview/graph/MinimumHeightTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/interview/graph/NumberOfIsland.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/interview/graph/NumberOfIslandDynamic.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/interview/graph/NumberofTriangles.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/interview/graph/PrimMST.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/interview/graph/PrintAllPathFromSourceToDestination.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/interview/graph/ShortestDistanceFromExit.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/interview/graph/StronglyConnectedComponent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/interview/graph/TarjanStronglyConnectedComponent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/interview/graph/TopologicalSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/interview/graph/TransitiveClosure.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/interview/graph/TravelingSalesmanHeldKarp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/interview/graph/ValidTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/interview/graph/WallsAndGates.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/interview/graph/WordLadder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/interview/linkedlist/AddNumberRepresentedByLinkList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/interview/linkedlist/AddTwoNumbersLinkedList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/interview/linkedlist/CopyLinkListWIthArbitPointer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/interview/linkedlist/DeleteDuplicateNodes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/interview/linkedlist/DeleteNAfterMNodes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/interview/linkedlist/DeleteNodeWithGreaterValueOnRight.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/interview/linkedlist/DoubleLinkList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/interview/linkedlist/Flatten2DList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/interview/linkedlist/FlattenLinkList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/interview/linkedlist/InsertionSortLinkList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/interview/linkedlist/LRUCache.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/interview/linkedlist/LRUCacheLeetCode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/interview/linkedlist/LinkListIsPalindrome.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/interview/linkedlist/LinkListToCompleteBinaryTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/interview/linkedlist/LinkedList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/interview/linkedlist/LoopInLinkList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/interview/linkedlist/MergeForLargestSum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/interview/linkedlist/MergeSortLinkList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/interview/linkedlist/MiddleElementOfLinkList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/interview/linkedlist/MultiplyTwoNumbersLinkList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/interview/linkedlist/Node.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/interview/linkedlist/QuickSortSingleLinkList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/interview/linkedlist/RemoveDuplicatesSortedList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/interview/linkedlist/RemoveMiddleElementsOfLineSegment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/interview/linkedlist/ReorderList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/interview/linkedlist/ReverseAlternateKNodes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/interview/linkedlist/ReverseAlternateNodeAndAppendAtEnd.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/interview/linkedlist/ReverseKNodes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/interview/linkedlist/RotateList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/interview/linkedlist/ShuffleMerge.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/interview/linkedlist/SortNearlySortedList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/interview/linkedlist/SortedCircularLinkList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/interview/linkedlist/SortedLLToBalancedBST.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/interview/linkedlist/StackWithLinkListMiddleOperation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/interview/linkedlist/SwapTwoNodesInDoubleLL.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/interview/linkedlist/TripletToSumInLinkList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/interview/misc/AddingTwoSetOfIntervals.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/interview/misc/AngleBetweenHourAndMinuteHand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/interview/misc/BulbSwitcher.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/interview/misc/CandiesProblem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/interview/misc/ContainsNumberWithinKDistance.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/interview/misc/ConvertNumberIntoBase26.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/interview/misc/CountRanges.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/interview/misc/DayDifferenceBetweenTwoDates.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/interview/misc/DifferenceBetweenTwoTime.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/interview/misc/FindingCelebrity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/interview/misc/FloatPointConversion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/interview/misc/FourPointsFormSquare.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/interview/misc/GetKthPermutation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/interview/misc/HammingDistanceBetweenPair.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/interview/misc/InsertInterval.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/interview/misc/IntegerListParser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/interview/misc/KthLargestInRowiseColumnWiseSorted2DArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/interview/misc/LoadBalancers.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/interview/misc/NestedIterator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/interview/misc/NumberToWord.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/interview/misc/PrimeNumbersBeforeN.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/interview/misc/Read4Function.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/interview/misc/RomanNumberToDecimal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/interview/misc/SparseTableRangeMinimumQuery.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/interview/multiarray/Fill2DMatrixWith1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/interview/multiarray/GameOfLife.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/interview/multiarray/LongestConsecutiveIntegerInUnsorted2DArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/interview/multiarray/MatrixCalculation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/interview/multiarray/MatrixFindAllSubSquareRectangleMatrix.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/interview/multiarray/MatrixInDiagonalOrder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/interview/multiarray/MatrixOf0sAnd1s.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/interview/multiarray/MoveCellPerCellValue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/interview/multiarray/Mutable2DSumRangeQuery.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/interview/multiarray/RotateImage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/interview/multiarray/ShortestDistanceFromAllBuildings.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/interview/multiarray/SmallestRectangleBlackPixel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/interview/multiarray/SpiralGeneration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/interview/multiarray/SpiralPrinting.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/interview/multiarray/TilingProblem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/interview/multithreaded/BoundedBlockingQueue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/interview/multithreaded/CountingWord.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/interview/multithreaded/DependencyTaskExecutor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/interview/multithreaded/FillupMatrix.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/interview/multithreaded/MinMaxKeeper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/interview/multithreaded/PrintInSequence.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/interview/multithreaded/RealTimeCounter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/interview/multithreaded/SingleQueueDomainTableUpdate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/interview/multithreaded/SpinLockMutex.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/interview/multithreaded/ThreadPoolExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/interview/multithreaded/ThreadPoolImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/interview/number/AggregateNumber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/interview/number/AllStrobogrammaticNumber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/interview/number/ArithemeticProgressionExists.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/interview/number/ArrayMultiplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/interview/number/BasicCalculator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/interview/number/BinomialCoefficient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/interview/number/ConvertToBaseN.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/interview/number/CountNoOf2s.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/interview/number/CountNumbersNotIncluding4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/interview/number/DivisionWithoutDivisionOperator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/interview/number/EuclideanAlgoForGCD.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/interview/number/FactorialOfLargeNumber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/interview/number/GenerateSignature.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/interview/number/LargestMultipleOf3inArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/interview/number/LuckyNumbers.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/interview/number/MedianOf3Number.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/interview/number/MthNumberInNSizeArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/interview/number/NBy2PairSumToK.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/interview/number/NextLargestPalindrome.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/interview/number/NotIncluding4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/interview/number/NumberAsSumOfConsecutiveNo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/interview/number/NumberOfCombinationsForStairs.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/interview/number/PermutationBiggerThanNumber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/interview/number/PermutationLargerThanGivenArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/interview/number/PowerFunction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/interview/number/RearrangeNumberInArrayToFormLargestNumber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/interview/number/RussianPeasantMultiplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/interview/number/SmallestNumberGreaterThanGiveNumberIncreasingSequence.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/interview/number/SquareRoot.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/interview/number/StrobogrammaticNumber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/interview/number/Trailing0sinFactorial.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/interview/number/UniquePartitionOfInteger.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/interview/playground/TestInnerClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/interview/random/Rand7UsingRand5.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/interview/random/RandomCountrySelectionByPopluation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/interview/random/SelectMRandomNumbersInStream.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/interview/random/ShuffleArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/interview/recursion/AllAdjacentCombination.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/interview/recursion/Bracketology.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/interview/recursion/ChainWordsToFormCircle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/interview/recursion/Combination.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/interview/recursion/CombinationOfSizeK.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/interview/recursion/CombinationWithStar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/interview/recursion/DifferentWaysToAddParentheses.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/interview/recursion/FancyShuffle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/interview/recursion/InterpretationOfArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/interview/recursion/KeyPadPermutation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/interview/recursion/LongestAbsolutePath.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/interview/recursion/MinimumEditForReversePolishNotation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/interview/recursion/NQueenProblem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/interview/recursion/OneEditApart.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/interview/recursion/OperatorAdditionForTarget.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/interview/recursion/OptimalDivision.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/interview/recursion/PrintAllPathFromTopLeftToBottomRight.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/interview/recursion/PrintAllSubsequence.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/interview/recursion/PrintArrayInAdjacentWay.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/interview/recursion/PrintArrayInCustomizedFormat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/interview/recursion/PrintSumCombination.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/interview/recursion/ReconstructItinerary.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/interview/recursion/RemoveInvalidParenthesis.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/interview/recursion/RestoreIPAddresses.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/interview/recursion/SetPairTogether.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/interview/recursion/StringInterleaving.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/interview/recursion/StringPermutation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/interview/recursion/StringPermutationRotation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/interview/recursion/SudokuSolver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/interview/recursion/WordCombination.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/interview/recursion/WordPattern.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/interview/regex/MultiSpaceReplacement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/interview/sort/CountingSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/interview/sort/HeapSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/interview/sort/IterativeQuickSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/interview/sort/MergeSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/interview/sort/PanCakeSorting.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/interview/sort/QuickSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/interview/sort/RadixSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/interview/sort/Sort0toN3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/interview/sort/SortArrayByFrequence.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/interview/stackqueue/CircularQueue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/interview/stackqueue/MaximumHistogram.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/interview/stackqueue/MedianFinder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/interview/stackqueue/RealTimeCounter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/interview/stackqueue/RealTimeCounterUsingCircularQueue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/interview/stackqueue/RemoveDuplicateMaintainingOrder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/interview/stackqueue/RemoveExtraBrackets.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/interview/stackqueue/ReverseStackUsingRecursion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/interview/stackqueue/SimplyPath.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/interview/stackqueue/StockSpanProblem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/interview/string/AmazingStrings.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/interview/string/AnagramList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/interview/string/AnagramOfFirstAsSubstring.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/interview/string/CycleLeaderIteration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/interview/string/FizzBuzz.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/interview/string/GroupAnagramsTogether.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/interview/string/InPlaceTransformationOfString.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/interview/string/LexicographicRankInPermutation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/interview/string/LongestPalindromeSubstring.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/interview/string/LongestSubstringWithKDistinctCharacters.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/interview/string/LongestSubstringWithoutRepetingCharacter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/interview/string/MultiplyStrings.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/interview/string/NTMatch.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/interview/string/PalindromePair.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/interview/string/Pangrams.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/interview/string/PrintAnagramTogether.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/interview/string/RabinKarpSearch.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/interview/string/RearrangeDuplicateCharsdDistanceAway.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/interview/string/RemoveConsecutiveDuplicate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/interview/string/RemoveDuplicates.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/interview/string/ReverseString.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/interview/string/RunLengthEncoding.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/interview/string/SmallestWindowContaingAllCharacters.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/interview/string/StringEncoderDecoder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/interview/string/SubstringSearch.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/interview/string/SubtringWithConcatentationOfWords.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/interview/string/TwoSubstrings.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/interview/string/ValidAnagram.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/interview/string/ValidPalindrome.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/interview/string/ValidWordAbbreviation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/interview/string/ValidateParentheses.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/interview/string/WordAbbreviationCombination.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/interview/string/WordsFormedFromCharacters.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/interview/string/ZAlgorithm.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/interview/suffixprefix/SuffixArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/interview/suffixprefix/SuffixTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/interview/suffixprefix/TernaryTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/interview/suffixprefix/Trie.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/interview/tree/AVLTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/interview/tree/AddGreaterValueNodeToEveryNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/interview/tree/ArbitaryTreeToChildSumTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/interview/tree/BSTOneChildPreOrderTraversal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/interview/tree/BSTSearch.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/interview/tree/BTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/interview/tree/BinaryTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/interview/tree/BinaryTreeFromParentRepresentation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/interview/tree/BinaryTreeMaximumPathSum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/interview/tree/BinaryTreeToCircularLinkList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/interview/tree/BinaryTreeToDoubleLinkList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/interview/tree/BinaryTreeToSortedLinkList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/interview/tree/BoundaryTraversal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/interview/tree/ClosestValueBinaryTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/interview/tree/ConnectNodesAtSameLevel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/interview/tree/ConstructAllBinaryTreeFromInorderTraversal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/interview/tree/ConstructBSTFromPreOrderArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/interview/tree/ConstructFullTreeFromPreOrderPostOrder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/interview/tree/ConstructTreeFromInOrderPreOrder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/interview/tree/ConstructTreeFromLevelOrderInOrder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/interview/tree/ConstructTreeFromPreOrderTraversalWith0or2Child.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/interview/tree/ContructTreeFromInOrderTraversalRootGreaterThanChild.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/interview/tree/ContructTreeFromInorderPostOrder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/interview/tree/CountNodesCompleteTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/interview/tree/CountNumberOfSmallerElementOnRight.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/interview/tree/CountPathSum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/interview/tree/CountUnivalueTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/interview/tree/CousinNodes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/interview/tree/DegenerateBinaryTreeToSortedLL.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/interview/tree/DiameterOfTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/interview/tree/FenwickTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/interview/tree/FlattenLinkListToBinaryTreePreorder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/interview/tree/HeightBalanced.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/interview/tree/HuffmanEncoding.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/interview/tree/IdenticalTrees.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/interview/tree/InorderSuccessor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/interview/tree/IntervalTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/interview/tree/IsBST.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/interview/tree/IsCompleteBinaryTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/interview/tree/IsPreOrderArrayBST.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/interview/tree/KClosestValueInBinaryTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/interview/tree/LargestBSTInBinaryTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/interview/tree/LargestIndependentSetInTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/interview/tree/LeavesOfBinaryTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/interview/tree/LevelOrderTraversal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/interview/tree/LevelOrderTraversalInReverse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/interview/tree/LongestConsecutiveSequence.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/interview/tree/LowestCommonAncestorInBinaryTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/interview/tree/LowestCommonAncestoryBinarySearchTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/interview/tree/MorrisTraversal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/interview/tree/NextInorderSuccessorIterator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/interview/tree/NextInorderSuccessorOfTwoTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/interview/tree/NodesAtDistanceK.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/interview/tree/NodesWithNoSibling.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/interview/tree/PathSum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/interview/tree/PopulateInOrderSuccessor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/interview/tree/PrintPostOrderFromPreOrderInOrder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/interview/tree/PrintTwoBSTInSortedForm.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/interview/tree/RedBlackTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/interview/tree/RootToLeafToSum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/interview/tree/SameTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/interview/tree/SegmentTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/interview/tree/SegmentTreeMinimumRangeQuery.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/interview/tree/SerializeDeserializeBinaryTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/interview/tree/SinkNegativeToBottom.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/interview/tree/SizeOfBinaryTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/interview/tree/SortedArrayToBST.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/interview/tree/SortedOrderPrintCompleteTreeArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/interview/tree/SuccinctTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/interview/tree/SumTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/interview/tree/TreeIsomorphism.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/interview/tree/TreeTraversalInSpiralOrder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/interview/tree/TreeTraversalLevelByLevel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/interview/tree/TreeTraversals.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/interview/tree/UpsidedownBinaryTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/interview/tree/VertexCoverBinaryTreeDP.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/interview/tree/VerticalOrder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/interview/tree/VerticalTreePrinting.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/javaeight/NaturalSortingImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/javaeight/collectionimprovements/ForEachRemainingImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/javaeight/collections/CollectionConcepts1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/javaeight/collections/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/javaeight/lambda/WellWisher.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/javaeight/lambda/capturinglambda/CapturingLambdaImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/javaeight/lambda/comparator/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/javaeight/lambda/comparator/PersonMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/javaeight/lambda/comparator/PersonService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/javaeight/lambda/consumer/ConsumerImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/javaeight/lambda/function/BinaryOperatorImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/javaeight/lambda/function/FunctionImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/javaeight/lambda/function/UnaryOperatorImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/javaeight/lambda/predicate/PredicateImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/javaeight/lambda/supplier/SupplierImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/javaeight/methods/DefaultMethods.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/javaeight/methods/DefaultMethodsTwo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/javaeight/methods/FunctionalInterfaces.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/javaeight/methods/StaticMethod.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/javaeight/streamapi/MethodReferences.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/javaeight/streamapi/OptionalImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/javaeight/streamapi/StreamCreation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/javaeight/streamapi/intermediate/FilteringOperation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/javaeight/streamapi/intermediate/MappingOperations.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/javaeight/streamapi/intermediate/SlicingOperation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/javaeight/streamapi/parallelstream/ParallelStreamImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/javaeight/streamapi/terminal/CollectionAggregator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/javaeight/streamapi/terminal/CollectionGrouping.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/javaeight/streamapi/terminal/FindingOperations.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/javaeight/streamapi/terminal/ImmutableReductionOperations.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/javaeight/streamapi/terminal/MatchingOperations.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/javaeight/streamapi/terminal/MutableReductionOperations.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/threads/ThreadYieldDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/threads/connectionpool/ConnectionPool.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/threads/connectionpool/ConnectionPoolManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/threads/connectionpool/ConnectionPoolModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/threads/connectionpool/TestConnectionPool.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/threads/creation/Calculator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/threads/creation/CalculatorMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/threads/creation/ChildThread.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/threads/creation/ThreadImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/threads/interruption/PrimeGenerator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/threads/interruption/PrimeGeneratorMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/threads/service/SimpleThreadPool.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/threads/service/WorkerPool.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/threads/utils/Counter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/threads/utils/CounterClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/threads/utils/ExecuterServiceExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/threads/utils/MyMonitorThread.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/threads/utils/ParallelSorting.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/threads/utils/RejectedExecutionHandlerImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/threads/utils/ThreadExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/threads/utils/WorkerThread.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/NaturalSortingTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/nirvana/learning/interview/TestUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/nirvana/learning/interview/array/AdditiveNumberTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/nirvana/learning/interview/array/ArrayAdditionTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/nirvana/learning/interview/array/MaximumMinimumArrangementTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/nirvana/learning/interview/array/MeetingRoomsTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/nirvana/learning/interview/array/MultiplyAllFieldsExceptOwnPositionTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/nirvana/learning/interview/array/NumberOfTriangledInUnsortedArrayTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/nirvana/learning/interview/array/ThreeSumSmallerThanTargetTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/nirvana/learning/interview/bits/CountingBitsTillNumTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/nirvana/learning/interview/bits/MaxProductWordLengthTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/nirvana/learning/interview/dynamic/DecodeWaysTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/nirvana/learning/interview/dynamic/PalindromePartitionTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/nirvana/learning/interview/graph/CourseScheduleTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/nirvana/learning/interview/graph/TravelingSalesmanHeldKarpTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/nirvana/learning/interview/graph/WallsAndGatesTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/nirvana/learning/interview/linklist/DeleteDuplicateNodesTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/nirvana/learning/interview/misc/IntegerListParserTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/nirvana/learning/interview/multiarray/Mutable2DSumRangeQueryTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/nirvana/learning/interview/number/AllStrobogrammaticNumberTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/nirvana/learning/interview/number/BasicCalculatorTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/nirvana/learning/interview/recursion/RestoreIPAddressesTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/nirvana/learning/interview/string/LongestSubstringWithKDistinctCharactersTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/nirvana/learning/interview/string/PalindromePairTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/nirvana/learning/interview/string/StringEncoderDecoderTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/nirvana/learning/interview/string/ValidPalindromeTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/nirvana/learning/interview/string/ValidWordAbbreviationTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/nirvana/learning/interview/suffixprefix/TrieTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/nirvana/learning/interview/tree/KClosestValueInBinaryTreeTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/nirvana/learning/interview/tree/VerticalOrderTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/ProgrammingChallenges.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/nirvana/learning/dynamoclient/DynamoClient.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/nirvana/learning/dynamoclient/DynamoClient.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/Application.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/codechef/Lecandy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/codechef/Lecandy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/codeforces/dp/LengthOfMaxNonDecSubsequence.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/codingninjas/arrays/Alternatives.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/codingninjas/arrays/ConsecutiveElements.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/codingninjas/arrays/CountInversions.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/codingninjas/arrays/DivisionByFour.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/codingninjas/arrays/DuplicateInArray.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/codingninjas/arrays/EquilibriumIndex.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/codingninjas/arrays/MultipleOfTwoAndThree.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/codingninjas/arrays/ProfitableStocks.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/codingninjas/arrays/SmallestSubArrayWithRequiredSum.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/codingninjas/arrays/SpecialArraySum.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/codingninjas/conditionals/BinaryToDecimal.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/codingninjas/conditionals/Choice.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/codingninjas/conditionals/DecimalToBinary.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/codingninjas/conditionals/ReverseNo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/codingninjas/conditionals/SquareRoot.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/codingninjas/conditionals/TermsOfAP.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/codingninjas/fundamentals/AverageMarks.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/codingninjas/fundamentals/FahrenhietToCelsius.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/codingninjas/fundamentals/FibonacciMember.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/codingninjas/fundamentals/FibonacciNum.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/codingninjas/fundamentals/FindCharacterCase.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/codingninjas/fundamentals/NumberPattern.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/codingninjas/fundamentals/NumberPattern2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/codingninjas/fundamentals/PrimeNoBelow.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/codingninjas/fundamentals/StarPattern.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/codingninjas/fundamentals/SumEven.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/codingninjas/loopsandconditionals/AlphaPattern.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/codingninjas/loopsandconditionals/NumberPattern.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/codingninjas/loopsandconditionals/NumberPattern1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/codingninjas/loopsandconditionals/NumberPattern2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/codingninjas/loopsandconditionals/NumberPattern3.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/codingninjas/loopsandconditionals/OddEvenSum.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/codingninjas/loopsandconditionals/PowerOfNum.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/codingninjas/loopsandconditionals/TotalSalary.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/codingninjas/strings/AmazingStrings.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/codingninjas/strings/Pangrams.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/codingninjas/strings/RemoveDuplicates.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/codingninjas/strings/TwoSubstrings.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/collections/CollectionConcepts1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/collections/Product.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/connectionpool/ConnectionPool.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/connectionpool/ConnectionPoolManager.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/connectionpool/ConnectionPoolModel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/connectionpool/TestConnectionPool.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/csvwriter/CSVWriter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/csvwriter/CSVWriter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/datastructures/BinaryTree.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/datastructures/LRUCache.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/datastructures/LinkedList.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/datastructures/StackOfStoneInWell.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/datastructures/StackOfStoneInWell.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/datastructures/TestClass.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/datastructures/ValidateParentheses.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/designpatterns/creational/singleton/DbSingleton.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/designpatterns/creational/singleton/DbSingleton.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/designpatterns/creational/singleton/RunTimeSingleton.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/designpatterns/creational/singleton/RunTimeSingleton.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/dynamoclient/JSONCreator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/dynamoclient/JSONCreator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/dynamoclient/StoredSegmentation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/dynamoclient/StoredSegmentation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/dynamoclient/UtilityClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/dynamoclient/UtilityClass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/educative/BinarySearch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/educative/BinarySearch.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/educative/datastructures/linkedlist/DoublyLinkedListWithTail.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/educative/datastructures/linkedlist/DoublyLinkedListWithTail.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/educative/recursion/Factorial.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/educative/recursion/datastructure/BinarySearchTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/educative/recursion/datastructure/BinarySearchTree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/educative/recursion/datastructure/ReverseLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/educative/recursion/datastructure/ReverseLinkedList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/educative/recursion/numbers/IsPrimeNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/educative/recursion/numbers/IsPrimeNumber.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/educative/recursion/numbers/LengthOfLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/educative/recursion/numbers/LengthOfLinkedList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/educative/recursion/string/ReverseString.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/educative/recursion/string/ReverseString.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/educative/recursion/string/StringPalindrome.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/educative/recursion/string/StringPalindrome.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/educative/recursion/string/TotalVowelsInString.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/educative/recursion/string/TotalVowelsInString.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/geektrust/cricket/CricketProperties.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/geektrust/cricket/CricketProperties.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/geektrust/cricket/CricketTournament.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/geektrust/cricket/CricketTournament.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/geektrust/cricket/TossConditions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/geektrust/cricket/TossConditions.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/geektrust/cricket/enums/MatchType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/geektrust/cricket/enums/MatchType.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/geektrust/cricket/enums/Teams.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/geektrust/cricket/enums/Teams.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/geektrust/cricket/enums/TossType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/geektrust/cricket/enums/TossType.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/geektrust/cricket/enums/WeatherType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/geektrust/cricket/enums/WeatherType.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/goldmansachs/NumberAsSumOfConsecutiveNo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/graphql/entity/Vehicle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/graphql/entity/Vehicle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/graphql/mutation/VehicleMutation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/graphql/mutation/VehicleMutation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/graphql/query/VehicleQuery.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/graphql/query/VehicleQuery.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/graphql/repository/VehicleRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/graphql/repository/VehicleRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/hackerearth/FibonacciDP.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/hackerearth/FibonacciDP.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/hackerearth/MarutVsDevilArmy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/hackerearth/MarutVsDevilArmy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/hackerearth/MinimumDiscount.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/hackerearth/MinimumDiscount.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/hackerearth/UniquePath.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/hackerearth/UniquePath.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/hackerrank/Abs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/hackerrank/Abs.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/hackerrank/CEx.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/hackerrank/CEx.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/hackerrank/FootballScore.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/hackerrank/FootballScore.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/hackerrank/JumpingOnClouds.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/hackerrank/JumpingOnClouds.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/hackerrank/LeftRotation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/hackerrank/LeftRotation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/hackerrank/MultiRun.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/hackerrank/MultiRun.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/hackerrank/RectanglesFormed.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/hackerrank/RectanglesFormed.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/hackerrank/SearchElementInSortedMatrix.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/hackerrank/SearchElementInSortedMatrix.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/hackerrank/SockMerchant.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/hackerrank/SockMerchant.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/hackerrank/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/hackerrank/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/hackerrank/SumOfBitwiseAND.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/hackerrank/SumOfBitwiseAND.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/hackerrank/TestClass.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/hackerrank/TestClient.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/hackerrank/ThreadYieldDemo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/leetcode/ArrayRotation.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/leetcode/FibonacciNumbers.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/leetcode/ReverseString.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/leetcode/SortArrayByParityII.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/leetcode/TestGC.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/leetcode/TestJava.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/leetcode/TestMain.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/leetcode/ValidAnagram.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/leetcode/WordsFormedFromCharacters.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/leetcode/ZeroSum.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/leetcode/dynamicprogramming/DivisorGame.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/moneytap/bitcoinsummary/exception/ResourceNotFoundException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/projecteuler/FibonacciEvenValuedSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/projecteuler/FibonacciEvenValuedSum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/projecteuler/KadaneAlgorithm.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/projecteuler/KadaneAlgorithm.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/projecteuler/KthSmallestElementBST.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/projecteuler/KthSmallestElementBST.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/projecteuler/LargestPalindromeProduct.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/projecteuler/LargestPalindromeProduct.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/projecteuler/LargestPrimeFactor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/projecteuler/LargestPrimeFactor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/projecteuler/MultiplesOfThreeAndFive.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/projecteuler/MultiplesOfThreeAndFive.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/projecteuler/SmallestMultiple.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/projecteuler/SmallestMultiple.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/techverito/client/MovieApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/techverito/client/MovieApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/techverito/model/Movie.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/techverito/model/Movie.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/techverito/service/CreateMovieShow.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/techverito/service/CreateMovieShow.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/techverito/service/MovieService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/techverito/service/MovieService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/threadpool/service/SimpleThreadPool.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/threadpool/service/WorkerPool.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/threadpool/utils/Counter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/threadpool/utils/CounterClient.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/threadpool/utils/ExecuterServiceExample.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/threadpool/utils/MyMonitorThread.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/threadpool/utils/ParallelSorting.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/threadpool/utils/RejectedExecutionHandlerImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/threadpool/utils/ThreadExample.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/threadpool/utils/WorkerThread.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/xmlparser/DataItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/xmlparser/DataItem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/xmlparser/XMLParserJAXB.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/xmlparser/XMLParserJAXB.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/xmlparser/XMLParserMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/xmlparser/XMLParserMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/xmlparser/model/Family.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/xmlparser/model/Family.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/xmlparser/model/FosterHomePOJO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/xmlparser/model/FosterHomePOJO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/convertedFile.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/convertedFile.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/CricketChallengeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/CricketChallengeTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/nirvana/learning/codechef/Lecandy.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/nirvana/learning/codechef/Lecandy.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/nirvana/learning/connectionpool/ConnectionPool.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/nirvana/learning/connectionpool/ConnectionPoolManager.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/nirvana/learning/connectionpool/ConnectionPoolModel.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/nirvana/learning/connectionpool/TestConnectionPool.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/nirvana/learning/datastructures/LinkedList$Node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/nirvana/learning/datastructures/LinkedList.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/nirvana/learning/datastructures/ValidateParentheses.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/nirvana/learning/dynamoclient/JSONCreator.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/nirvana/learning/dynamoclient/JSONCreator.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/nirvana/learning/dynamoclient/SegmentationData.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/nirvana/learning/dynamoclient/SegmentationData.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/nirvana/learning/dynamoclient/StoredSegmentation$StoredSegmentationBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/nirvana/learning/dynamoclient/StoredSegmentation$StoredSegmentationBuilder.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/nirvana/learning/dynamoclient/StoredSegmentation.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/nirvana/learning/dynamoclient/StoredSegmentation.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/nirvana/learning/dynamoclient/UtilityClass.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/nirvana/learning/dynamoclient/UtilityClass.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/nirvana/learning/leetcode/TestGC.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/nirvana/learning/leetcode/TestGC.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/nirvana/learning/leetcode/TestJava.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/nirvana/learning/leetcode/TestJava.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/nirvana/learning/leetcode/TestMain.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/nirvana/learning/leetcode/TestMain.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/nirvana/learning/leetcode/recursion.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/nirvana/learning/leetcode/recursion.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/nirvana/learning/projecteuler/FibonacciEvenValuedSum.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/nirvana/learning/projecteuler/FibonacciEvenValuedSum.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/nirvana/learning/geektrust/cricket/CricketProperties.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/nirvana/learning/geektrust/cricket/CricketProperties.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/nirvana/learning/geektrust/cricket/CricketTournament.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/nirvana/learning/geektrust/cricket/TossConditions.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/nirvana/learning/geektrust/cricket/TossConditions.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/nirvana/learning/goldmansachs/NumberAsSumOfConsecutiveNo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/nirvana/learning/graphql/entity/Vehicle.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/nirvana/learning/graphql/entity/Vehicle.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/nirvana/learning/graphql/query/VehicleQuery.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/nirvana/learning/graphql/query/VehicleQuery.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/nirvana/learning/hackerrank/Abs.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/nirvana/learning/hackerrank/Abs.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/nirvana/learning/hackerrank/Base.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/nirvana/learning/hackerrank/Base.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/nirvana/learning/hackerrank/CEx.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/nirvana/learning/hackerrank/CEx.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/nirvana/learning/hackerrank/LeftRotation.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/nirvana/learning/hackerrank/LeftRotation.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/nirvana/learning/hackerrank/MultiRun.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/nirvana/learning/hackerrank/MultiRun.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/nirvana/learning/hackerrank/MyThread.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/nirvana/learning/hackerrank/RectanglesFormed.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/nirvana/learning/hackerrank/RectanglesFormed.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/nirvana/learning/hackerrank/Result.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/nirvana/learning/hackerrank/Result.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/nirvana/learning/hackerrank/SearchElementInSortedMatrix.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/nirvana/learning/hackerrank/SearchElementInSortedMatrix.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/nirvana/learning/hackerrank/SockMerchant.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/nirvana/learning/hackerrank/SockMerchant.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/nirvana/learning/hackerrank/Solution.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/nirvana/learning/hackerrank/Solution.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/nirvana/learning/hackerrank/Sub.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/nirvana/learning/hackerrank/Sub.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/nirvana/learning/hackerrank/Sub2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/nirvana/learning/hackerrank/Sub2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/nirvana/learning/hackerrank/TestClass.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/nirvana/learning/hackerrank/TestClient.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/nirvana/learning/hackerrank/ThreadYieldDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/nirvana/learning/leetcode/ArrayRotation.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/nirvana/learning/leetcode/FibonacciNumbers.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/nirvana/learning/leetcode/ReverseString.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/nirvana/learning/leetcode/SortArrayByParityII.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/nirvana/learning/leetcode/TestGC.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/nirvana/learning/leetcode/TestJava.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/nirvana/learning/leetcode/TestMain.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/nirvana/learning/leetcode/ValidAnagram.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/nirvana/learning/leetcode/WordsFormedFromCharacters.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/nirvana/learning/leetcode/ZeroSum.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/nirvana/learning/leetcode/dynamicprogramming/DivisorGame.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/nirvana/learning/leetcode/recursion.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/nirvana/learning/moneytap/bitcoinsummary/exception/ResourceNotFoundException.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/nirvana/learning/projecteuler/KadaneAlgorithm.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/nirvana/learning/projecteuler/KadaneAlgorithm.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/nirvana/learning/projecteuler/KthSmallestElementBST$Node.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/nirvana/learning/projecteuler/KthSmallestElementBST$Node.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/nirvana/learning/projecteuler/KthSmallestElementBST.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/nirvana/learning/projecteuler/KthSmallestElementBST.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/nirvana/learning/projecteuler/LargestPalindromeProduct.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/nirvana/learning/projecteuler/LargestPalindromeProduct.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/nirvana/learning/projecteuler/LargestPrimeFactor.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/nirvana/learning/projecteuler/LargestPrimeFactor.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/nirvana/learning/projecteuler/MultiplesOfThreeAndFive.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/nirvana/learning/projecteuler/MultiplesOfThreeAndFive.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/nirvana/learning/projecteuler/SmallestMultiple.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/nirvana/learning/projecteuler/SmallestMultiple.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/nirvana/learning/techverito/client/MovieApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/nirvana/learning/techverito/client/MovieApplication.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/nirvana/learning/techverito/model/Movie.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/nirvana/learning/techverito/model/Movie.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/nirvana/learning/techverito/model/Seat.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/nirvana/learning/techverito/model/Seat.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/nirvana/learning/techverito/model/SeatType.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/nirvana/learning/techverito/service/CreateMovieShow.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/nirvana/learning/techverito/service/CreateMovieShow.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/nirvana/learning/techverito/service/MovieService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/nirvana/learning/techverito/service/MovieService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/nirvana/learning/techverito/util/Util.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/nirvana/learning/threadpool/service/SimpleThreadPool.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/nirvana/learning/threadpool/service/WorkerPool.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/nirvana/learning/threadpool/utils/Counter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/nirvana/learning/threadpool/utils/CounterClient.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/nirvana/learning/threadpool/utils/ExecuterServiceExample.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/nirvana/learning/threadpool/utils/MyMonitorThread.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/nirvana/learning/threadpool/utils/ParallelSorting.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/nirvana/learning/threadpool/utils/RejectedExecutionHandlerImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/nirvana/learning/threadpool/utils/ThreadExample.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/nirvana/learning/threadpool/utils/WorkerThread.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/nirvana/learning/xmlparser/DataItem.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/nirvana/learning/xmlparser/DataItem.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/nirvana/learning/xmlparser/XMLParserJAXB.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/nirvana/learning/xmlparser/XMLParserJAXB.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/nirvana/learning/xmlparser/XMLParserMain.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/nirvana/learning/xmlparser/XMLParserMain.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/CricketChallengeTest.class" beforeDir="false" />
     </list>
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
   </component>
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/GeekTrustCricketChallenge$CricketChallengeTest.ic" NAME="CricketChallengeTest Coverage Results" MODIFIED="1554126374562" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
@@ -68,42 +958,56 @@
       </MavenImportingSettings>
     </option>
   </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="1" />
+  </component>
   <component name="ProjectId" id="1OhAvvcnaT5W6k3SOqzK3zXrcjx" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="SONARLINT_PRECOMMIT_ANALYSIS" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1555698483464" />
     <property name="extract.method.default.visibility" value="private" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/pom.xml" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/com/nirvana/learning/threads" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="copyright.profiles" />
   </component>
   <component name="RecentsManager">
     <key name="ExtractSuperBase.RECENT_KEYS">
       <recent name="com.nirvana.learning.connectionpool" />
     </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.nirvana.learning.interview.number" />
+      <recent name="com.nirvana.learning.interview.string" />
+      <recent name="com.nirvana.learning.interview.array" />
+      <recent name="com.nirvana.learning.interview.dynamicprogramming" />
+      <recent name="com.nirvana.learning.javaeight" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\OpenSource\GeekTrustCricketChallenge\src\main\java" />
+      <recent name="$PROJECT_DIR$/src/main/java/com/nirvana/learning/threads" />
+      <recent name="$PROJECT_DIR$/src/test/java/com/nirvana/learning" />
+      <recent name="$PROJECT_DIR$/src/main/java/com/nirvana/learning/interview/string" />
+      <recent name="$PROJECT_DIR$/src/main/java/com/nirvana/learning/interview/dynamicprogramming" />
+      <recent name="$PROJECT_DIR$/src/main/java/com/nirvana/learning/interview" />
     </key>
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
-  </component>
-  <component name="RunManager" selected="Application.ValidateParentheses">
-    <configuration name="Application" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.nirvana.learning.Application" />
+  <component name="RunManager" selected="Application.MedianOfTwoSortedArrays">
+    <configuration name="CalculatorMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.nirvana.learning.threads.creation.CalculatorMain" />
       <module name="Programming-Challenges" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.nirvana.learning.*" />
+          <option name="PATTERN" value="com.nirvana.learning.threads.creation.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -111,25 +1015,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LinkedList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.nirvana.learning.datastructures.LinkedList" />
-      <module name="GeekTrustCricketChallenge" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.nirvana.learning.datastructures.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Solution (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.nirvana.learning.hackerearth.Solution" />
+    <configuration name="MedianOfTwoSortedArrays" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.nirvana.learning.leetcode.array.MedianOfTwoSortedArrays" />
       <module name="Programming-Challenges" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.nirvana.learning.hackerearth.*" />
+          <option name="PATTERN" value="com.nirvana.learning.leetcode.array.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -137,12 +1028,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.nirvana.learning.hackerrank.TestClass" />
+    <configuration name="PrimeGeneratorMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.nirvana.learning.threads.interruption.PrimeGeneratorMain" />
       <module name="Programming-Challenges" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.nirvana.learning.hackerrank.*" />
+          <option name="PATTERN" value="com.nirvana.learning.threads.interruption.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -150,12 +1041,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ValidateParentheses" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.nirvana.learning.datastructures.ValidateParentheses" />
-      <module name="GeekTrustCricketChallenge" />
+    <configuration name="SimpleThreadPool" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.nirvana.learning.threads.service.SimpleThreadPool" />
+      <module name="Programming-Challenges" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.nirvana.learning.datastructures.*" />
+          <option name="PATTERN" value="com.nirvana.learning.threads.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TwoSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.nirvana.learning.leetcode.array.TwoSum" />
+      <module name="Programming-Challenges" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.nirvana.learning.leetcode.array.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -211,19 +1115,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Solution (1)" />
-      <item itemvalue="Application.TestClass" />
-      <item itemvalue="Application.Application" />
-      <item itemvalue="Application.LinkedList" />
-      <item itemvalue="Application.ValidateParentheses" />
+      <item itemvalue="Application.SimpleThreadPool" />
+      <item itemvalue="Application.CalculatorMain" />
+      <item itemvalue="Application.PrimeGeneratorMain" />
+      <item itemvalue="Application.TwoSum" />
+      <item itemvalue="Application.MedianOfTwoSortedArrays" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.ValidateParentheses" />
-        <item itemvalue="Application.LinkedList" />
-        <item itemvalue="Application.Application" />
-        <item itemvalue="Application.TestClass" />
-        <item itemvalue="Application.Solution (1)" />
+        <item itemvalue="Application.MedianOfTwoSortedArrays" />
+        <item itemvalue="Application.TwoSum" />
+        <item itemvalue="Application.PrimeGeneratorMain" />
+        <item itemvalue="Application.CalculatorMain" />
+        <item itemvalue="Application.SimpleThreadPool" />
       </list>
     </recent_temporary>
   </component>
@@ -237,19 +1141,63 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1554125012668</updated>
+      <workItem from="1583764880459" duration="6695000" />
+      <workItem from="1583907151959" duration="19502000" />
+      <workItem from="1584209300839" duration="47665000" />
+      <workItem from="1584618856668" duration="1986000" />
+      <workItem from="1584707248117" duration="31732000" />
+      <workItem from="1584968712553" duration="229000" />
+      <workItem from="1585123580100" duration="1310000" />
+      <workItem from="1585215255746" duration="1808000" />
+      <workItem from="1585822637749" duration="422000" />
+      <workItem from="1586508739515" duration="288000" />
+      <workItem from="1586613496051" duration="13803000" />
+      <workItem from="1587056215515" duration="1868000" />
+      <workItem from="1587103317099" duration="1941000" />
+      <workItem from="1587143800855" duration="7943000" />
+      <workItem from="1587563823087" duration="3331000" />
+      <workItem from="1587664375381" duration="230000" />
+      <workItem from="1587714024273" duration="3071000" />
+      <workItem from="1588152010554" duration="2454000" />
+      <workItem from="1589300683044" duration="2919000" />
+      <workItem from="1589607794166" duration="5774000" />
+      <workItem from="1589905019791" duration="1566000" />
+      <workItem from="1589990397979" duration="5502000" />
+      <workItem from="1590064356985" duration="2493000" />
+      <workItem from="1590430589115" duration="6701000" />
+      <workItem from="1590517334991" duration="5665000" />
+      <workItem from="1590597415631" duration="693000" />
+      <workItem from="1590772288248" duration="34669000" />
+      <workItem from="1591002327388" duration="18119000" />
+      <workItem from="1591083017813" duration="22884000" />
+      <workItem from="1591856105572" duration="10468000" />
     </task>
+    <task id="LOCAL-00001" summary="educative: Adding codes for different algorithms">
+      <created>1583906937661</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1583906937661</updated>
+    </task>
+    <task id="LOCAL-00002" summary="educative: Adding codes for different algorithms">
+      <created>1584557402290</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1584557402291</updated>
+    </task>
+    <task id="LOCAL-00003" summary="&quot;educative: Adding new codes&quot;">
+      <created>1584558489109</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1584558489109</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
-  <component name="TestHistory">
-    <history-entry file="CricketChallengeTest_playSuperOver - 2019.04.01 at 19h 14m 48s.xml">
-      <configuration name="CricketChallengeTest.playSuperOver" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="CricketChallengeTest - 2019.04.01 at 19h 16m 00s.xml">
-      <configuration name="CricketChallengeTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="CricketChallengeTest - 2019.04.01 at 19h 16m 30s.xml">
-      <configuration name="CricketChallengeTest" configurationId="JUnit" />
-    </history-entry>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -263,6 +1211,157 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_CLEANUP_BEFORE_PROJECT_COMMIT" value="true" />
+    <MESSAGE value="Revert &quot;educative: Adding codes for different algorithms&quot;&#10;&#10;This reverts commit 0c7c2b3d" />
+    <MESSAGE value="Revert &quot;educative: Adding new codes&quot;&#10;&#10;This reverts commit 5926893c" />
+    <MESSAGE value="&quot;educative: Adding new codes&quot;" />
+    <MESSAGE value="educative: Adding codes for different algorithms" />
+    <option name="LAST_COMMIT_MESSAGE" value="educative: Adding codes for different algorithms" />
+    <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
+    <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
+    <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="533" y="126" key="#com.intellij.ide.util.MemberChooser" timestamp="1591248988677">
+      <screen x="0" y="23" width="1440" height="832" />
+    </state>
+    <state x="533" y="125" key="#com.intellij.ide.util.MemberChooser/0.23.1440.823@0.23.1440.823" timestamp="1587615478010" />
+    <state x="533" y="126" key="#com.intellij.ide.util.MemberChooser/0.23.1440.832@0.23.1440.832" timestamp="1591248988677" />
+    <state x="569" y="341" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1583765192661">
+      <screen x="0" y="23" width="1440" height="823" />
+    </state>
+    <state x="569" y="341" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.23.1440.823@0.23.1440.823" timestamp="1583765192661" />
+    <state x="201" y="371" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1592036284605">
+      <screen x="0" y="23" width="1440" height="832" />
+    </state>
+    <state x="201" y="371" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.23.1440.832@0.23.1440.832" timestamp="1592036284605" />
+    <state x="293" y="23" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1592037699035">
+      <screen x="0" y="23" width="1440" height="832" />
+    </state>
+    <state x="293" y="23" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.23.1440.823@0.23.1440.823" timestamp="1584353028239" />
+    <state x="293" y="23" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.23.1440.832@0.23.1440.832" timestamp="1592037699035" />
+    <state x="458" y="193" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1592036338788">
+      <screen x="0" y="23" width="1440" height="832" />
+    </state>
+    <state x="458" y="193" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.23.1440.832@0.23.1440.832" timestamp="1592036338788" />
+    <state x="490" y="270" key="#xdebugger.evaluate" timestamp="1590432317782">
+      <screen x="0" y="23" width="1440" height="832" />
+    </state>
+    <state x="490" y="267" key="#xdebugger.evaluate/0.23.1440.823@0.23.1440.823" timestamp="1587206688133" />
+    <state x="490" y="270" key="#xdebugger.evaluate/0.23.1440.832@0.23.1440.832" timestamp="1590432317782" />
+    <state x="0" y="23" width="1022" height="823" key="CommitChangelistDialog2" timestamp="1592039376710">
+      <screen x="0" y="23" width="1440" height="832" />
+    </state>
+    <state x="0" y="23" width="1022" height="823" key="CommitChangelistDialog2/0.23.1440.823@0.23.1440.823" timestamp="1584558488696" />
+    <state x="0" y="23" key="CommitChangelistDialog2/0.23.1440.832@0.23.1440.832" timestamp="1592039376710" />
+    <state x="100" y="123" width="1240" height="632" key="DiffContextDialog" timestamp="1592037604961">
+      <screen x="0" y="23" width="1440" height="832" />
+    </state>
+    <state x="100" y="123" width="1240" height="632" key="DiffContextDialog/0.23.1440.832@0.23.1440.832" timestamp="1592037604961" />
+    <state width="1396" height="277" key="GridCell.Tab.0.bottom" timestamp="1592039607114">
+      <screen x="0" y="23" width="1440" height="832" />
+    </state>
+    <state width="1398" height="212" key="GridCell.Tab.0.bottom/0.23.1440.823@0.23.1440.823" timestamp="1587617809633" />
+    <state width="1396" height="277" key="GridCell.Tab.0.bottom/0.23.1440.832@0.23.1440.832" timestamp="1592039607114" />
+    <state width="1396" height="277" key="GridCell.Tab.0.center" timestamp="1592039607114">
+      <screen x="0" y="23" width="1440" height="832" />
+    </state>
+    <state width="1398" height="212" key="GridCell.Tab.0.center/0.23.1440.823@0.23.1440.823" timestamp="1587617809633" />
+    <state width="1396" height="277" key="GridCell.Tab.0.center/0.23.1440.832@0.23.1440.832" timestamp="1592039607114" />
+    <state width="1396" height="277" key="GridCell.Tab.0.left" timestamp="1592039607113">
+      <screen x="0" y="23" width="1440" height="832" />
+    </state>
+    <state width="1398" height="212" key="GridCell.Tab.0.left/0.23.1440.823@0.23.1440.823" timestamp="1587617809632" />
+    <state width="1396" height="277" key="GridCell.Tab.0.left/0.23.1440.832@0.23.1440.832" timestamp="1592039607113" />
+    <state width="1396" height="277" key="GridCell.Tab.0.right" timestamp="1592039607114">
+      <screen x="0" y="23" width="1440" height="832" />
+    </state>
+    <state width="1398" height="212" key="GridCell.Tab.0.right/0.23.1440.823@0.23.1440.823" timestamp="1587617809633" />
+    <state width="1396" height="277" key="GridCell.Tab.0.right/0.23.1440.832@0.23.1440.832" timestamp="1592039607114" />
+    <state width="1396" height="277" key="GridCell.Tab.1.bottom" timestamp="1592039607115">
+      <screen x="0" y="23" width="1440" height="832" />
+    </state>
+    <state width="1398" height="333" key="GridCell.Tab.1.bottom/0.23.1440.823@0.23.1440.823" timestamp="1587617809545" />
+    <state width="1396" height="277" key="GridCell.Tab.1.bottom/0.23.1440.832@0.23.1440.832" timestamp="1592039607115" />
+    <state width="1396" height="277" key="GridCell.Tab.1.center" timestamp="1592039607115">
+      <screen x="0" y="23" width="1440" height="832" />
+    </state>
+    <state width="1398" height="333" key="GridCell.Tab.1.center/0.23.1440.823@0.23.1440.823" timestamp="1587617809545" />
+    <state width="1396" height="277" key="GridCell.Tab.1.center/0.23.1440.832@0.23.1440.832" timestamp="1592039607115" />
+    <state width="1396" height="277" key="GridCell.Tab.1.left" timestamp="1592039607115">
+      <screen x="0" y="23" width="1440" height="832" />
+    </state>
+    <state width="1398" height="333" key="GridCell.Tab.1.left/0.23.1440.823@0.23.1440.823" timestamp="1587617809545" />
+    <state width="1396" height="277" key="GridCell.Tab.1.left/0.23.1440.832@0.23.1440.832" timestamp="1592039607115" />
+    <state width="1396" height="277" key="GridCell.Tab.1.right" timestamp="1592039607115">
+      <screen x="0" y="23" width="1440" height="832" />
+    </state>
+    <state width="1398" height="333" key="GridCell.Tab.1.right/0.23.1440.823@0.23.1440.823" timestamp="1587617809545" />
+    <state width="1396" height="277" key="GridCell.Tab.1.right/0.23.1440.832@0.23.1440.832" timestamp="1592039607115" />
+    <state x="144" y="94" key="MergeDialog" timestamp="1584557527851">
+      <screen x="0" y="23" width="1440" height="823" />
+    </state>
+    <state x="144" y="94" key="MergeDialog/0.23.1440.823@0.23.1440.823" timestamp="1584557527851" />
+    <state x="431" y="157" key="MultipleFileMergeDialog" timestamp="1584557527902">
+      <screen x="0" y="23" width="1440" height="823" />
+    </state>
+    <state x="431" y="157" key="MultipleFileMergeDialog/0.23.1440.823@0.23.1440.823" timestamp="1584557527902" />
+    <state x="208" y="23" width="1024" height="823" key="SettingsEditor" timestamp="1586615330357">
+      <screen x="0" y="23" width="1440" height="823" />
+    </state>
+    <state x="208" y="23" width="1024" height="823" key="SettingsEditor/0.23.1440.823@0.23.1440.823" timestamp="1586615330357" />
+    <state x="320" y="163" key="Vcs.Push.Dialog.v2" timestamp="1584558491087">
+      <screen x="0" y="23" width="1440" height="823" />
+    </state>
+    <state x="320" y="163" key="Vcs.Push.Dialog.v2/0.23.1440.823@0.23.1440.823" timestamp="1584558491087" />
+    <state x="100" y="124" width="1240" height="630" key="com.intellij.history.integration.ui.views.DirectoryHistoryDialog" timestamp="1592037604962">
+      <screen x="0" y="23" width="1440" height="832" />
+    </state>
+    <state x="100" y="123" width="1240" height="623" key="com.intellij.history.integration.ui.views.DirectoryHistoryDialog/0.23.1440.823@0.23.1440.823" timestamp="1584558438634" />
+    <state x="100" y="124" width="1240" height="630" key="com.intellij.history.integration.ui.views.DirectoryHistoryDialog/0.23.1440.832@0.23.1440.832" timestamp="1592037604962" />
+    <state x="100" y="123" width="1240" height="623" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1584820464683">
+      <screen x="0" y="23" width="1440" height="823" />
+    </state>
+    <state x="100" y="123" width="1240" height="623" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.23.1440.823@0.23.1440.823" timestamp="1584820464683" />
+    <state x="397" y="271" key="com.intellij.ide.util.TipDialog" timestamp="1589607793825">
+      <screen x="0" y="23" width="1440" height="832" />
+    </state>
+    <state x="397" y="271" key="com.intellij.ide.util.TipDialog/0.23.1440.832@0.23.1440.832" timestamp="1589607793825" />
+    <state x="375" y="56" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1586618602379">
+      <screen x="0" y="23" width="1440" height="823" />
+    </state>
+    <state x="375" y="56" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.23.1440.823@0.23.1440.823" timestamp="1586618602379" />
+    <state x="392" y="180" key="com.intellij.openapi.vcs.changes.SpecificFilesViewDialog" timestamp="1592039065758">
+      <screen x="0" y="23" width="1440" height="832" />
+    </state>
+    <state x="392" y="180" key="com.intellij.openapi.vcs.changes.SpecificFilesViewDialog/0.23.1440.832@0.23.1440.832" timestamp="1592039065758" />
+    <state x="231" y="177" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1584422405639">
+      <screen x="0" y="23" width="1440" height="823" />
+    </state>
+    <state x="231" y="177" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/0.23.1440.823@0.23.1440.823" timestamp="1584422405639" />
+    <state x="775" y="143" key="extract.method.dialog" timestamp="1591199379494">
+      <screen x="0" y="23" width="1440" height="832" />
+    </state>
+    <state x="775" y="142" key="extract.method.dialog/0.23.1440.823@0.23.1440.823" timestamp="1584557170419" />
+    <state x="775" y="143" key="extract.method.dialog/0.23.1440.832@0.23.1440.832" timestamp="1591199379494" />
+    <state x="301" y="160" width="862" height="558" key="find.popup" timestamp="1592039594964">
+      <screen x="0" y="23" width="1440" height="832" />
+    </state>
+    <state x="301" y="159" width="837" height="550" key="find.popup/0.23.1440.823@0.23.1440.823" timestamp="1587150514101" />
+    <state x="301" y="160" width="837" height="555" key="find.popup/0.23.1440.829@0.23.1440.829" timestamp="1587728054324" />
+    <state x="301" y="160" width="862" height="558" key="find.popup/0.23.1440.832@0.23.1440.832" timestamp="1592039594964" />
+    <state x="385" y="199" key="run.anything.popup" timestamp="1589991326923">
+      <screen x="0" y="23" width="1440" height="832" />
+    </state>
+    <state x="385" y="199" key="run.anything.popup/0.23.1440.832@0.23.1440.832" timestamp="1589991326923" />
+    <state x="385" y="172" width="670" height="684" key="search.everywhere.popup" timestamp="1591856209169">
+      <screen x="0" y="23" width="1440" height="832" />
+    </state>
+    <state x="385" y="170" width="670" height="676" key="search.everywhere.popup/0.23.1440.823@0.23.1440.823" timestamp="1587615394143" />
+    <state x="385" y="171" width="670" height="681" key="search.everywhere.popup/0.23.1440.829@0.23.1440.829" timestamp="1588156347492" />
+    <state x="385" y="172" width="670" height="684" key="search.everywhere.popup/0.23.1440.832@0.23.1440.832" timestamp="1591856209169" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -299,7 +1398,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/nirvana/learning/datastructures/LinkedList.java</url>
-          <line>55</line>
+          <line>56</line>
           <option name="timeStamp" value="18" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
@@ -307,72 +1406,197 @@
           <line>21</line>
           <option name="timeStamp" value="19" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/nirvana/learning/educative/PriorityExpiryCache.java</url>
+          <line>15</line>
+          <option name="timeStamp" value="20" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/nirvana/learning/educative/PriorityExpiryCache.java</url>
+          <line>18</line>
+          <option name="timeStamp" value="21" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/nirvana/learning/educative/PriorityExpiryCache.java</url>
+          <line>13</line>
+          <option name="timeStamp" value="22" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/nirvana/learning/educative/PriorityExpiryCache.java</url>
+          <line>76</line>
+          <option name="timeStamp" value="23" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/nirvana/learning/educative/PriorityExpiryCache.java</url>
+          <line>100</line>
+          <option name="timeStamp" value="24" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/nirvana/learning/educative/PriorityExpiryCache.java</url>
+          <line>96</line>
+          <option name="timeStamp" value="25" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/nirvana/learning/educative/recursion/numbers/CountDigits.java</url>
+          <line>27</line>
+          <option name="timeStamp" value="26" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/nirvana/learning/educative/recursion/numbers/CountDigits.java</url>
+          <line>13</line>
+          <option name="timeStamp" value="27" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/nirvana/learning/educative/recursion/numbers/CountDigits.java</url>
+          <line>16</line>
+          <option name="timeStamp" value="28" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/nirvana/learning/educative/recursion/numbers/GreatestCommonDivisor.java</url>
+          <line>6</line>
+          <option name="timeStamp" value="29" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/nirvana/learning/educative/recursion/numbers/GreatestCommonDivisor.java</url>
+          <line>10</line>
+          <option name="timeStamp" value="30" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/nirvana/learning/educative/recursion/string/TotalVowelsInString.java</url>
+          <line>4</line>
+          <option name="timeStamp" value="35" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/nirvana/learning/educative/recursion/arrays/FirstOccurenceOfNumber.java</url>
+          <line>5</line>
+          <option name="timeStamp" value="38" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/nirvana/learning/educative/recursion/arrays/FirstOccurenceOfNumber.java</url>
+          <line>25</line>
+          <option name="timeStamp" value="40" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/nirvana/learning/educative/datastructures/arrays/FirstNonRepeatingIntegerInArray.java</url>
+          <line>61</line>
+          <option name="timeStamp" value="43" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/nirvana/learning/educative/datastructures/arrays/FirstNonRepeatingIntegerInArray.java</url>
+          <line>60</line>
+          <option name="timeStamp" value="45" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/nirvana/learning/educative/datastructures/arrays/FirstNonRepeatingIntegerInArray.java</url>
+          <line>11</line>
+          <option name="timeStamp" value="48" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/nirvana/learning/educative/datastructures/arrays/RearrangeSortedArrayMaxMinForm.java</url>
+          <line>18</line>
+          <option name="timeStamp" value="49" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/nirvana/learning/educative/datastructures/linkedlist/LinkedListDemo.java</url>
+          <line>77</line>
+          <option name="timeStamp" value="52" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/nirvana/learning/educative/datastructures/linkedlist/LinkedListDemo.java</url>
+          <line>23</line>
+          <option name="timeStamp" value="53" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/nirvana/learning/educative/datastructures/linkedlist/LinkedListDemo.java</url>
+          <line>177</line>
+          <option name="timeStamp" value="55" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/nirvana/learning/educative/datastructures/linkedlist/LinkedListDemo.java</url>
+          <line>178</line>
+          <option name="timeStamp" value="56" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/nirvana/learning/educative/datastructures/linkedlist/LinkedListDemo.java</url>
+          <line>57</line>
+          <option name="timeStamp" value="57" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/nirvana/learning/educative/codingpatterns/slidingwindow/StringAnagrams.java</url>
+          <line>13</line>
+          <option name="timeStamp" value="59" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/nirvana/learning/educative/codingpatterns/slidingwindow/StringAnagrams.java</url>
+          <line>19</line>
+          <option name="timeStamp" value="60" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/nirvana/learning/educative/codingpatterns/backtracking/PermutationsOfString.java</url>
+          <line>20</line>
+          <option name="timeStamp" value="61" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/nirvana/learning/educative/codingpatterns/slidingwindow/MinimumWindowSubstring.java</url>
+          <line>16</line>
+          <option name="timeStamp" value="64" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/nirvana/learning/educative/codingpatterns/slidingwindow/MinimumWindowSubstring.java</url>
+          <line>10</line>
+          <option name="timeStamp" value="65" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/nirvana/learning/educative/codingpatterns/slidingwindow/WordsConcatenation.java</url>
+          <line>21</line>
+          <option name="timeStamp" value="66" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/nirvana/learning/educative/codingpatterns/slidingwindow/WordsConcatenation.java</url>
+          <line>14</line>
+          <option name="timeStamp" value="67" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/nirvana/learning/educative/codingpatterns/twopointers/RemoveDuplicates.java</url>
+          <line>12</line>
+          <option name="timeStamp" value="68" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/nirvana/learning/hackerrank/NewYearChaos.java</url>
+          <line>11</line>
+          <option name="timeStamp" value="75" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/nirvana/learning/hackerrank/NewYearChaos.java</url>
+          <line>7</line>
+          <option name="timeStamp" value="76" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/nirvana/learning/hackerrank/NewYearChaos.java</url>
+          <line>14</line>
+          <option name="timeStamp" value="77" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/nirvana/learning/hackerrank/NewYearChaos.java</url>
+          <line>15</line>
+          <option name="timeStamp" value="78" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/nirvana/learning/hackerrank/NewYearChaos.java</url>
+          <line>16</line>
+          <option name="timeStamp" value="79" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/nirvana/learning/hackerrank/NewYearChaos.java</url>
+          <line>17</line>
+          <option name="timeStamp" value="80" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/nirvana/learning/leetcode/array/MedianOfTwoSortedArrays.java</url>
+          <line>32</line>
+          <option name="timeStamp" value="82" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
-  </component>
-  <component name="debuggerHistoryManager">
-    <expressions id="evaluateExpression">
-      <expression>
-        <expression-string>result</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>prices.get(i)</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>stack.peek()</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>list</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>stack</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>obstacleGrid</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>prices</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>items.iterator()</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>node.getNextSibling().getNextSibling()</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-    </expressions>
-  </component>
-  <component name="masterDetails">
-    <states>
-      <state key="ProjectJDKs.UI">
-        <settings>
-          <last-edited>1.8</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-    </states>
   </component>
 </project>

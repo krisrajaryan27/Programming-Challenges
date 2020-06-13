@@ -1,7 +1,7 @@
 package com.nirvana.learning.geektrust.cricket.enums;
 
 public enum Teams {
-    LENGABURU("Lengaburu"),ENCHAI("Enchai");
+    LENGABURU("Lengaburu"), ENCHAI("Enchai");
 
     private String value;
 

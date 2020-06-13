@@ -18,19 +18,19 @@ public class LargestPalindromeProduct {
 
     private static long largestPalindromeProduct(int num) {
         int upperLimit = 0;
-        for(int i=1;i<=num;i++){
-            upperLimit*=10;
-            upperLimit+=9;
+        for (int i = 1; i <= num; i++) {
+            upperLimit *= 10;
+            upperLimit += 9;
         }
-        int lowerLimit = 1 + upperLimit/10;
+        int lowerLimit = 1 + upperLimit / 10;
         long maxProduct = 0;
-        for(int i= upperLimit; i>=lowerLimit;i--){
-            for(int j=i;j>=lowerLimit;j--){
-                long product = i*j;
-                if(product<maxProduct)
+        for (int i = upperLimit; i >= lowerLimit; i--) {
+            for (int j = i; j >= lowerLimit; j--) {
+                long product = i * j;
+                if (product < maxProduct)
                     break;
                 long number = product;
-                if(isPalindrome(product) && product > maxProduct){
+                if (isPalindrome(product) && product > maxProduct) {
                     maxProduct = product;
                 }
             }
@@ -40,15 +40,15 @@ public class LargestPalindromeProduct {
 
     private static long getReverse(long number) {
         long reverse = 0;
-        while(number!=0){
-            reverse= reverse*10+ number%10;
-            number/=10;
+        while (number != 0) {
+            reverse = reverse * 10 + number % 10;
+            number /= 10;
         }
         return reverse;
     }
 
-    private static boolean isPalindrome(long number){
-        return number==getReverse(number);
+    private static boolean isPalindrome(long number) {
+        return number == getReverse(number);
     }
 
 
