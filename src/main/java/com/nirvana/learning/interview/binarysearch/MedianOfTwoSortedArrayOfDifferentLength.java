@@ -4,7 +4,7 @@ package com.nirvana.learning.interview.binarysearch;
  * There are two sorted arrays nums1 and nums2 of size m and n respectively.
  * Find the median of the two sorted arrays. The overall run time complexity should be O(log (m+n)).
  * <p>
- * Solution
+ * ConvertSortedArrayToBinarySearchTree
  * Take minimum size of two array. Possible number of partitions are from 0 to m in m size array.
  * Try every cut in binary search way. When you cut first array at i then you cut second array at (m + n + 1)/2 - i
  * Now try to find the i where a[i-1] <= b[j] and b[j-1] <= a[i]. So this i is partition around which lies the median.

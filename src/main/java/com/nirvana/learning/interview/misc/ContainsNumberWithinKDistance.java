@@ -12,7 +12,7 @@ import java.util.TreeMap;
  * find out whether there are two distinct indices i and j in the array such that the difference
  * between nums[i] and nums[j] is at most t and the difference between i and j is at most k.
  * <p>
- * Solution
+ * ConvertSortedArrayToBinarySearchTree
  * Keep a tree map of num and its count. For every new number check if any number exists in map between
  * num - t and num + t. If yes than return true. If no then add this number to the tree map. Also if tree map
  * becomes of size k then drop the num[i - k] number from the tree map.

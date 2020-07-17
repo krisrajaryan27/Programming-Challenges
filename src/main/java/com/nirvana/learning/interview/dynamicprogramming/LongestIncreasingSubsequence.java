@@ -10,7 +10,7 @@ package com.nirvana.learning.interview.dynamicprogramming;
  * Find a subsequence in given array in which the subsequence's elements are
  * in sorted order, lowest to highest, and in which the subsequence is as long as possible
  * <p>
- * Solution :
+ * ConvertSortedArrayToBinarySearchTree :
  * Dynamic Programming is used to solve this question. DP equation is
  * if(arr[i] > arr[j]) { T[i] = max(T[i], T[j] + 1 }
  * <p>

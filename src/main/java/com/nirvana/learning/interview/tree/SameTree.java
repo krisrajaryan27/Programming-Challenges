@@ -10,7 +10,7 @@ package com.nirvana.learning.interview.tree;
  * Given roots of two tree, return true if they have same data and same structure
  * or return false.
  * <p>
- * Solution
+ * ConvertSortedArrayToBinarySearchTree
  * Keep comparing root of both data and then recursively check left and right.
  * <p>
  * Time complexity is O(n)

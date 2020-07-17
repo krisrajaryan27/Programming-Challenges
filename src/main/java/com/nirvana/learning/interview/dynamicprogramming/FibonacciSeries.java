@@ -11,7 +11,7 @@ package com.nirvana.learning.interview.dynamicprogramming;
  * n = 4 -> 5
  * n = 5 -> 8
  * <p>
- * Solution
+ * ConvertSortedArrayToBinarySearchTree
  * Recursively it can calculated very easily by f(n) = f(n-1) + f(n-2)
  * For Dp version we do not recalculate f(n-1) and f(n-2) but keep it in a and b
  * <p>

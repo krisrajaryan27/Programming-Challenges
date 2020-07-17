@@ -13,7 +13,7 @@ import java.util.*;
  * e.g peanutbutter -> pea nut butter
  * e.g Iliketoplay -> I like to play
  * <p>
- * Solution
+ * ConvertSortedArrayToBinarySearchTree
  * DP solution to this problem
  * if( input[i...j] belongs in dictionary) T[i][j] = i
  * else{

@@ -11,7 +11,7 @@ import java.util.Arrays;
  * number of steps that can be made forward from that element. Write a function to
  * return the minimum number of jumps to reach the end of the array from first element
  * <p>
- * Solution
+ * ConvertSortedArrayToBinarySearchTree
  * Have 2 for loop. j trails i. If arr[j] + j >= i then you calculate new jump
  * and result.
  * <p>

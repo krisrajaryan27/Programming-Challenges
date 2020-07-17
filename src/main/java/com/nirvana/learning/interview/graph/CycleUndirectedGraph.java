@@ -10,7 +10,7 @@ import java.util.Set;
  * <p>
  * Given an undirected graph find cycle in this graph.
  * <p>
- * Solution
+ * ConvertSortedArrayToBinarySearchTree
  * This can be solved in many ways.
  * Below is the code to solve it using disjoint sets and DFS.
  * <p>

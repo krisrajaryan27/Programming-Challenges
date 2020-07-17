@@ -8,7 +8,7 @@ package com.nirvana.learning.interview.dynamicprogramming;
  * Write a program to find maximum sum rectangle in give 2D matrix.
  * Assume there is at least one positive number in the 2D matrix.
  * <p>
- * Solution:
+ * ConvertSortedArrayToBinarySearchTree:
  * Keep temp array with size as number of rows. Start left and right from 0
  * and keep adding values for each row and maintain them in this temp array.
  * Run Kadane's algorithm to find max sum subarray in temp. Now increment right by

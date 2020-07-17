@@ -18,7 +18,7 @@ import java.util.Stack;
  * <p>
  * Output should be 4 5 6 7 2 3 1
  * <p>
- * Solution
+ * ConvertSortedArrayToBinarySearchTree
  * Maintain a stack and queue. Do regular level order traversal but
  * put right first in the queue. Instead of printing put the result
  * in stack. Finally print contents of the stack.

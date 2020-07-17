@@ -7,7 +7,7 @@ import java.util.*;
  * Only one letter can be changed at a time
  * Each intermediate word must exist in the word list
  * <p>
- * Solution -
+ * ConvertSortedArrayToBinarySearchTree -
  * Since we have to find all paths we need care about below extra stuff on top of regular BFS
  * 1) Maintain parent of every word to recreate the path
  * 2) Maintain 2 visited. First is for level and once the entire level is done then move it to visited.

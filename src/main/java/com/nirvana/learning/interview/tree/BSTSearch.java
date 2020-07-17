@@ -10,7 +10,7 @@ package com.nirvana.learning.interview.tree;
  * Given a binary search tree and a key, return node which has data as this key or return
  * null if no node has data as key.
  * <p>
- * Solution
+ * ConvertSortedArrayToBinarySearchTree
  * Since its BST for every node check if root.data is key and if not go either left or
  * right depending on if root.data is greater or less than key
  * <p>

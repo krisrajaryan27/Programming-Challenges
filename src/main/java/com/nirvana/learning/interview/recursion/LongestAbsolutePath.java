@@ -8,12 +8,12 @@ import java.util.StringTokenizer;
 /**
  * Find longest absolute path in file system indicated by \n and \t.
  * <p>
- * Solution 1:
+ * ConvertSortedArrayToBinarySearchTree 1:
  * Create queue of file and its level. Then recurse from root towards file. Use level
  * to decide if next word in queue is in same level (so no more recursion) or next level so
  * going deep in recursion.
  * <p>
- * Solution 2(iterative):
+ * ConvertSortedArrayToBinarySearchTree 2(iterative):
  * Keep pushing elements into stack till you either reach a file with . or a file whose number of tabs is less than
  * top of stack. If you reach file with extension then update the max. Otherwise keep popping from stack till number of tabs
  * at top of stack becomes less than current file. Maintain current length during push and pop.

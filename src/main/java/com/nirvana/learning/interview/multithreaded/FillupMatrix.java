@@ -17,7 +17,7 @@ import java.util.concurrent.atomic.AtomicLong;
  * <p>
  * This program should be threadsafe.
  * <p>
- * Solution
+ * ConvertSortedArrayToBinarySearchTree
  * Use AtomicLong to increment the value and return old value.
  * <p>
  * Test cases

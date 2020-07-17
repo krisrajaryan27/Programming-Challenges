@@ -13,7 +13,7 @@ import java.util.List;
  * Given a binary tree and a sum, find if there is a path from root to leaf
  * which sums to this sum.
  * <p>
- * Solution
+ * ConvertSortedArrayToBinarySearchTree
  * Keep going left and right and keep subtracting node value from sum.
  * If leaf node is reached check if whatever sum is remaining same as leaf node data.
  * <p>

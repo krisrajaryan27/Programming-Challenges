@@ -19,7 +19,7 @@ import java.util.Queue;
  * 5 15
  * 0 -1 2 6
  * <p>
- * Solution
+ * ConvertSortedArrayToBinarySearchTree
  * Technique 1:
  * Use 2 queue. Keep polling from q1 and offer to q2 till q1 is empty.
  * After that print a new line. Keep polling from q2 and offer to q1

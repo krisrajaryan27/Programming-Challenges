@@ -2,7 +2,7 @@ package com.nirvana.learning.interview.dynamicprogramming;
 
 /**
  * Given a preorder sequence how many unique trees can be created
- * Solution is catalan number. Number of tree is exactly same
+ * ConvertSortedArrayToBinarySearchTree is catalan number. Number of tree is exactly same
  * as number of unique BST create with array of size n
  * <p>
  * The way it works for preorder sequence is as follows

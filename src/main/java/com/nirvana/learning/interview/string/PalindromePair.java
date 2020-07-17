@@ -6,7 +6,7 @@ import java.util.*;
  * Given a list of unique words. Find all pairs of distinct indices (i, j) in the given list,
  * so that the concatenation of the two words, i.e. words[i] + words[j] is a palindrome.
  * <p>
- * Solution -
+ * ConvertSortedArrayToBinarySearchTree -
  * First keep mapping of word and its index.
  * Then iterate through every word and split it into every possible 2 substring. Then if first substring is palindrome
  * and reverse of second substring is in map means you can form a palindrome by combing this word with the word
