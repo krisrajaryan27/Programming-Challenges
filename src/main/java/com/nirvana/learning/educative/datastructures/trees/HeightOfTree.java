@@ -3,6 +3,12 @@ package com.nirvana.learning.educative.datastructures.trees;
 import java.util.LinkedList;
 import java.util.Queue;
 
+/**
+ * https://www.hackerrank.com/challenges/tree-height-of-a-binary-tree/problem?h_l=interview&playlist_slugs%5B%5D=interview-preparation-kit&playlist_slugs%5B%5D=trees
+ *
+ * @author Krishna Verma
+ * @date 18th July 2020
+ */
 public class HeightOfTree {
     public static void main(String[] args) {
         BinarySearchTree binarySearchTree = new BinarySearchTree();
@@ -30,7 +36,7 @@ public class HeightOfTree {
         return 1 + Math.max(heightLeftSubTree, heightRightSubTree);
     }
 
-    //Iterative Way
+    //Iterative Way using Queues.
     public static int height(Node root) {
         if (root == null || (root.getLeftChild() == null && root.getRightChild() == null)) {
             return 0;
