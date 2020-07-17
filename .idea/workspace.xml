@@ -5,8 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8435e570-0d1e-40cc-965e-be6d17287226" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/educative/datastructures/trees/CheckIfTreeIsBST.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/hackerrank/TwoStrings.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/hackerrank/SortingComparator.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -96,7 +95,7 @@
       <recent name="$PROJECT_DIR$/src/main/java/com/nirvana/learning/interview/dynamicprogramming" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.TwoStrings">
+  <component name="RunManager" selected="Application.SortingComparator">
     <configuration name="BinarySearchTreeDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.nirvana.learning.educative.datastructures.trees.BinarySearchTreeDemo" />
       <module name="Programming-Challenges" />
@@ -136,12 +135,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ThreadCreationDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.nirvana.learning.threads.creation.ThreadCreationDemo" />
+    <configuration name="SortingComparator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.nirvana.learning.hackerrank.SortingComparator" />
       <module name="Programming-Challenges" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.nirvana.learning.threads.creation.*" />
+          <option name="PATTERN" value="com.nirvana.learning.hackerrank.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -217,20 +216,20 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.ThreadCreationDemo" />
       <item itemvalue="Spring Boot.Application" />
       <item itemvalue="Application.BinarySearchTreeDemo" />
       <item itemvalue="Application.HeightOfTree" />
       <item itemvalue="Application.CheckIfTreeIsBST" />
       <item itemvalue="Application.TwoStrings" />
+      <item itemvalue="Application.SortingComparator" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SortingComparator" />
         <item itemvalue="Application.TwoStrings" />
         <item itemvalue="Application.CheckIfTreeIsBST" />
         <item itemvalue="Application.HeightOfTree" />
         <item itemvalue="Application.BinarySearchTreeDemo" />
-        <item itemvalue="Application.ThreadCreationDemo" />
       </list>
     </recent_temporary>
   </component>
@@ -281,7 +280,7 @@
       <workItem from="1593874217458" duration="2517000" />
       <workItem from="1594009492889" duration="165000" />
       <workItem from="1594701642672" duration="3235000" />
-      <workItem from="1594991136177" duration="19705000" />
+      <workItem from="1594991136177" duration="20364000" />
     </task>
     <task id="LOCAL-00001" summary="educative: Adding codes for different algorithms">
       <created>1583906937661</created>
@@ -341,14 +340,14 @@
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="533" y="127" key="#com.intellij.ide.util.MemberChooser" timestamp="1595023312383">
+    <state x="533" y="127" key="#com.intellij.ide.util.MemberChooser" timestamp="1595026466486">
       <screen x="0" y="23" width="1440" height="835" />
     </state>
     <state x="533" y="125" key="#com.intellij.ide.util.MemberChooser/0.23.1440.823@0.23.1440.823" timestamp="1587615478010" />
     <state x="533" y="126" key="#com.intellij.ide.util.MemberChooser/0.23.1440.829@0.23.1440.829" timestamp="1594702766217" />
     <state x="533" y="126" key="#com.intellij.ide.util.MemberChooser/0.23.1440.830@0.23.1440.830" timestamp="1593876120269" />
     <state x="533" y="126" key="#com.intellij.ide.util.MemberChooser/0.23.1440.832@0.23.1440.832" timestamp="1591248988677" />
-    <state x="533" y="127" key="#com.intellij.ide.util.MemberChooser/0.23.1440.835@0.23.1440.835" timestamp="1595023312383" />
+    <state x="533" y="127" key="#com.intellij.ide.util.MemberChooser/0.23.1440.835@0.23.1440.835" timestamp="1595026466486" />
     <state x="201" y="371" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1592036284605">
       <screen x="0" y="23" width="1440" height="832" />
     </state>
@@ -374,38 +373,38 @@
       <screen x="0" y="23" width="1440" height="832" />
     </state>
     <state x="100" y="123" width="1240" height="632" key="DiffContextDialog/0.23.1440.832@0.23.1440.832" timestamp="1592037604961" />
-    <state width="1398" height="214" key="GridCell.Tab.0.bottom" timestamp="1595025988329">
+    <state width="1398" height="214" key="GridCell.Tab.0.bottom" timestamp="1595026732478">
       <screen x="0" y="23" width="1440" height="835" />
     </state>
     <state width="1398" height="212" key="GridCell.Tab.0.bottom/0.23.1440.823@0.23.1440.823" timestamp="1587617809633" />
     <state width="1396" height="275" key="GridCell.Tab.0.bottom/0.23.1440.829@0.23.1440.829" timestamp="1594707494002" />
     <state width="1396" height="276" key="GridCell.Tab.0.bottom/0.23.1440.830@0.23.1440.830" timestamp="1593876471457" />
     <state width="1396" height="277" key="GridCell.Tab.0.bottom/0.23.1440.832@0.23.1440.832" timestamp="1592918000501" />
-    <state width="1398" height="214" key="GridCell.Tab.0.bottom/0.23.1440.835@0.23.1440.835" timestamp="1595025988329" />
-    <state width="1398" height="214" key="GridCell.Tab.0.center" timestamp="1595025988329">
+    <state width="1398" height="214" key="GridCell.Tab.0.bottom/0.23.1440.835@0.23.1440.835" timestamp="1595026732478" />
+    <state width="1398" height="214" key="GridCell.Tab.0.center" timestamp="1595026732477">
       <screen x="0" y="23" width="1440" height="835" />
     </state>
     <state width="1398" height="212" key="GridCell.Tab.0.center/0.23.1440.823@0.23.1440.823" timestamp="1587617809633" />
     <state width="1396" height="275" key="GridCell.Tab.0.center/0.23.1440.829@0.23.1440.829" timestamp="1594707493999" />
     <state width="1396" height="276" key="GridCell.Tab.0.center/0.23.1440.830@0.23.1440.830" timestamp="1593876471456" />
     <state width="1396" height="277" key="GridCell.Tab.0.center/0.23.1440.832@0.23.1440.832" timestamp="1592918000501" />
-    <state width="1398" height="214" key="GridCell.Tab.0.center/0.23.1440.835@0.23.1440.835" timestamp="1595025988329" />
-    <state width="1398" height="214" key="GridCell.Tab.0.left" timestamp="1595025988328">
+    <state width="1398" height="214" key="GridCell.Tab.0.center/0.23.1440.835@0.23.1440.835" timestamp="1595026732477" />
+    <state width="1398" height="214" key="GridCell.Tab.0.left" timestamp="1595026732477">
       <screen x="0" y="23" width="1440" height="835" />
     </state>
     <state width="1398" height="212" key="GridCell.Tab.0.left/0.23.1440.823@0.23.1440.823" timestamp="1587617809632" />
     <state width="1396" height="275" key="GridCell.Tab.0.left/0.23.1440.829@0.23.1440.829" timestamp="1594707493994" />
     <state width="1396" height="276" key="GridCell.Tab.0.left/0.23.1440.830@0.23.1440.830" timestamp="1593876471455" />
     <state width="1396" height="277" key="GridCell.Tab.0.left/0.23.1440.832@0.23.1440.832" timestamp="1592918000501" />
-    <state width="1398" height="214" key="GridCell.Tab.0.left/0.23.1440.835@0.23.1440.835" timestamp="1595025988328" />
-    <state width="1398" height="214" key="GridCell.Tab.0.right" timestamp="1595025988329">
+    <state width="1398" height="214" key="GridCell.Tab.0.left/0.23.1440.835@0.23.1440.835" timestamp="1595026732477" />
+    <state width="1398" height="214" key="GridCell.Tab.0.right" timestamp="1595026732478">
       <screen x="0" y="23" width="1440" height="835" />
     </state>
     <state width="1398" height="212" key="GridCell.Tab.0.right/0.23.1440.823@0.23.1440.823" timestamp="1587617809633" />
     <state width="1396" height="275" key="GridCell.Tab.0.right/0.23.1440.829@0.23.1440.829" timestamp="1594707494001" />
     <state width="1396" height="276" key="GridCell.Tab.0.right/0.23.1440.830@0.23.1440.830" timestamp="1593876471457" />
     <state width="1396" height="277" key="GridCell.Tab.0.right/0.23.1440.832@0.23.1440.832" timestamp="1592918000501" />
-    <state width="1398" height="214" key="GridCell.Tab.0.right/0.23.1440.835@0.23.1440.835" timestamp="1595025988329" />
+    <state width="1398" height="214" key="GridCell.Tab.0.right/0.23.1440.835@0.23.1440.835" timestamp="1595026732478" />
     <state width="1398" height="277" key="GridCell.Tab.1.bottom" timestamp="1595014878558">
       <screen x="0" y="23" width="1440" height="835" />
     </state>
