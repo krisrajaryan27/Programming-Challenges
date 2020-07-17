@@ -9,7 +9,7 @@ package com.nirvana.learning.interview.multiarray;
  * four rules (taken from the above Wikipedia article):
  * Read full qs on leetcode.
  * <p>
- * Solution - Keep two array prev and current. Fill the values in current array. As soon as current row is done
+ * ConvertSortedArrayToBinarySearchTree - Keep two array prev and current. Fill the values in current array. As soon as current row is done
  * replace elemments of board with prev array.
  * <p>
  * Time complexity O(n * m)

@@ -10,8 +10,8 @@ import java.util.*;
  * Given a positive integer n, find the least number of perfect square numbers (for example, 1, 4, 9, 16, ...) which sum to n.
  * For example, given n = 12, return 3 because 12 = 4 + 4 + 4; given n = 13, return 2 because 13 = 4 + 9.
  * <p>
- * Solution 1 - Using DP similar to coin change problem with infinite supply
- * Solution 2 - Using a BFS. Put all perfect squares in queue. Then considering each as a node try adding
+ * ConvertSortedArrayToBinarySearchTree 1 - Using DP similar to coin change problem with infinite supply
+ * ConvertSortedArrayToBinarySearchTree 2 - Using a BFS. Put all perfect squares in queue. Then considering each as a node try adding
  * another perfect square and see if we can get n. Keep doing this in BFS fashion till you hit the number.
  * <p>
  * https://leetcode.com/problems/perfect-squares/

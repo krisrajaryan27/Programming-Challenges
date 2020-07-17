@@ -7,7 +7,7 @@ package com.nirvana.learning.interview.tree;
  * <p>
  * Given a root of binary tree, return size of binar tree
  * <p>
- * Solution:
+ * ConvertSortedArrayToBinarySearchTree:
  * Recursively find size of left side, right side and add one to them and return that to calling function.
  * <p>
  * Time complexity - O(n)

@@ -12,7 +12,7 @@ import java.util.LinkedList;
  * <p>
  * Given a binary tree, return true if it is binary search tree else return false.
  * <p>
- * Solution
+ * ConvertSortedArrayToBinarySearchTree
  * Keep min, max for every recursion. Initial min and max is very small and very larger
  * number. Check if root.data is in this range. When you go left pass min and root.data and
  * for right pass root.data and max.

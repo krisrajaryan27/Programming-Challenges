@@ -22,7 +22,7 @@ import java.util.concurrent.atomic.AtomicLongArray;
  * This class might not have 100% accuracy as far as events in last 5 mins are concerned.
  * Since we are using circular queue last second information may not be very accurate.
  * <p>
- * Solution:
+ * ConvertSortedArrayToBinarySearchTree:
  * Keep atomiclong of 300 in array. PositionUpdater updates position every second.
  * @Threadsafe
  */

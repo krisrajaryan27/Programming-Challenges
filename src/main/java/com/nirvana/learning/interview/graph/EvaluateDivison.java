@@ -11,7 +11,7 @@ import java.util.Map;
  * Equations are given in the format A / B = k, where A and B are variables represented as strings, and k is a real number (floating point number).
  * Given some queries, return the answers. If the answer does not exist, return -1.0.
  * <p>
- * Solution
+ * ConvertSortedArrayToBinarySearchTree
  * Do Flyod warshall algorithm initialized as values between equations. Do Flyod Warshall to create
  * all possible paths b/w two strings.
  * <p>

@@ -13,7 +13,7 @@ package com.nirvana.learning.interview.tree;
  * <p>
  * should become 7->8->9->10->11->13->15->16
  * <p>
- * Solution
+ * ConvertSortedArrayToBinarySearchTree
  * Idea is that at every root, get the sorted linklist from left and right and merge them
  * along with root and return left most element in this merged linklist to upper level call.
  * <p>

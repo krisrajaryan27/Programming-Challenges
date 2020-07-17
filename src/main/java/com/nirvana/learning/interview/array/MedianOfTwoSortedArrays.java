@@ -10,7 +10,7 @@ package com.nirvana.learning.interview.array;
  * nums1: {1,2}
  * nums2: {3,4}
  * median: (2+3)/2 = 2.5
- * Solution
+ * ConvertSortedArrayToBinarySearchTree
  * Take minimum size of two array. Possible number of partitions are from 0 to m in m size array.
  * Try every cut in binary search way. When you cut first array at i then you cut second array at (m + n + 1)/2 - i
  * Now try to find the i where a[i-1] <= b[j] and b[j-1] <= a[i]. So this i is partition around which lies the median.

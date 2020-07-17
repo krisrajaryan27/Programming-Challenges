@@ -16,13 +16,13 @@ import java.util.LinkedList;
  * ((mnq)abc))) -> ((mna)abc)
  * (abc)(( -> (abc)
  * <p>
- * Solution 1
+ * ConvertSortedArrayToBinarySearchTree 1
  * Keep a stack. When non bracket character shows up just skip it.
  * When an opening bracket shows up just add it.
  * When closing bracket shows up, see if top of stack is opening bracket. If yes
  * then just remove that from stack else add closing bracket into the stack.
  * <p>
- * Solution 2
+ * ConvertSortedArrayToBinarySearchTree 2
  * This can be done without stack as well. Keep count of open and close brackets.
  * Any time closeBracket gets more than openBracket do not put it in result.
  * After we are done iterating input again if openBracket is more than closeBracket

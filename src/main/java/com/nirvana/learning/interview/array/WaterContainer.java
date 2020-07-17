@@ -8,17 +8,34 @@ package com.nirvana.learning.interview.array;
  * https://leetcode.com/problems/container-with-most-water/
  */
 public class WaterContainer {
-    public int maxArea(int[] height) {
-        int i = 0;
-        int j = height.length - 1;
-        int maxArea = 0;
-        while (i < j) {
-            if (height[i] < height[j]) {
-                maxArea = Math.max(maxArea, (height[i]) * (j - i));
-                i++;
+    public static void main(String[] args) {
+        int[] height = {1, 8, 6, 2, 5, 4, 8, 3, 7};
+        System.out.println(maxAreaBrute(height));
+        System.out.println(maxArea(height));
+    }
+
+    public static int maxAreaBrute(int[] height) {
+        int max = Integer.MIN_VALUE;
+        for (int i = 0; i < height.length; i++) {
+            for (int j = i + 1; j < height.length; j++) {
+                int min = Math.min(height[i], height[j]);
+                max = Math.max(max, min * (j - i));
+            }
+        }
+        return max;
+    }
+
+    public static int maxArea(int[] height) {
+        int left = 0;
+        int right = height.length - 1;
+        int maxArea = Integer.MIN_VALUE;
+        while (left < right) {
+            int min = Math.min(height[left], height[right]);
+            maxArea = Math.max(maxArea, min * (right - left));
+            if (height[left] < height[right]) {
+                left++;
             } else {
-                maxArea = Math.max(maxArea, height[j] * (j - i));
-                j--;
+                right--;
             }
         }
         return maxArea;

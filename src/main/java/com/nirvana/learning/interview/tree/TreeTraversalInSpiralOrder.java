@@ -18,16 +18,16 @@ import java.util.Stack;
  * 8   9  10    11
  * should print 1 3 2 4 5 6 7 8 9 10 11
  * <p>
- * Solution 1 : Use two stack. Put root in stack1. While stack1 is not
+ * ConvertSortedArrayToBinarySearchTree 1 : Use two stack. Put root in stack1. While stack1 is not
  * empty take items from stack1 and put its child left,right in stack2.
  * Then once stack1 is empty pop from stack2 and put its child right,
  * left into stack1.
  * <p>
- * Solution 2 : Use one dequeue. Technique is like above but instead of
+ * ConvertSortedArrayToBinarySearchTree 2 : Use one dequeue. Technique is like above but instead of
  * using two stack use dequeue. Also keep count till which point you read
  * in the dequeue.
  * <p>
- * Solution 3: Use one dequeue. Use a delimiter to separate between one
+ * ConvertSortedArrayToBinarySearchTree 3: Use one dequeue. Use a delimiter to separate between one
  * stack growing from top and another one growing from bottom.
  * <p>
  * Time complexity is O(n)

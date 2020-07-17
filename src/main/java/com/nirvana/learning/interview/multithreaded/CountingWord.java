@@ -13,7 +13,7 @@ import java.util.concurrent.atomic.AtomicLong;
  * 1) void addWord(String word) -> increment count of this word
  * 2) long getCount(String word) -> get count of this word
  * <p>
- * Solution
+ * ConvertSortedArrayToBinarySearchTree
  * Keep a concurrent map. Key to this map should be word while value should be AtomicLong to update it
  * in threadsafe way
  * <p>

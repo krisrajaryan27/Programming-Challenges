@@ -61,7 +61,7 @@ public class NQueenProblem {
     }
 
     /*
-     *Solution for https://leetcode.com/problems/n-queens/
+     *ConvertSortedArrayToBinarySearchTree for https://leetcode.com/problems/n-queens/
      */
     public List<List<String>> solveNQueens(int n) {
         List<List<String>> result = new ArrayList<>();

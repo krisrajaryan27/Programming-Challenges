@@ -17,7 +17,7 @@ package com.nirvana.learning.interview.dynamicprogramming;
  * <p>
  * Output of above program should be 3
  * <p>
- * Solution
+ * ConvertSortedArrayToBinarySearchTree
  * Have another matrix which is capable of holding 2 values hori and ver.
  * Ver stores how far vertically you can see Xs. Hori stores how far horizontally you can see Xs.
  * Once this matrix is build look for biggest subsquare by getting min of hori and ver at each point and checking

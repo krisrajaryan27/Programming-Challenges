@@ -8,7 +8,7 @@ package com.nirvana.learning.interview.sort;
  * Heap Sort
  * Given an array sort it using heap sort
  * <p>
- * Solution :
+ * ConvertSortedArrayToBinarySearchTree :
  * First convert the original array to create the heap out of the array
  * Then move the max element to last position and do heapify to recreate the heap
  * with rest of the array element. Repeat this process

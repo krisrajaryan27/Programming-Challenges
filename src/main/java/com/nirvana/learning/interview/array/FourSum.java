@@ -32,55 +32,50 @@ public class FourSum {
 
     public List<List<Integer>> fourSum(int[] nums, int target) {
         if (nums.length < 4) {
-            return Collections.EMPTY_LIST;
+            return Collections.emptyList();
         }
         Arrays.sort(nums);
         List<List<Integer>> result = new ArrayList<>();
-        for (int i = 0; i < nums.length - 3; i++) {
-            if (i != 0 && nums[i] == nums[i - 1]) {
+        for (int i = 0; i < nums.length - 3; i++) { // 3 indices remain
+            if (i != 0 && nums[i] == nums[i - 1]) { // Skip duplicates
                 continue;
             }
-            if (nums[i] + nums[i + 1] + nums[i + 2] + nums[i + 3] > target) {
+            if (nums[i] + nums[i + 1] + nums[i + 2] + nums[i + 3] > target) { // Already greater than the target
                 break;
             }
-            if (nums[i] + nums[nums.length - 3] + nums[nums.length - 2] + nums[nums.length - 1] < target) {
+            if (nums[i] + nums[nums.length - 3] + nums[nums.length - 2] + nums[nums.length - 1] < target) { // Skip this index i as sum < target
                 continue;
             }
-            for (int j = i + 1; j < nums.length - 2; j++) {
-                if (j != i + 1 && nums[j] == nums[j - 1]) {
+            for (int j = i + 1; j < nums.length - 2; j++) { // 2 indices remain
+                if (j != i + 1 && nums[j] == nums[j - 1]) { // Skip duplicates
                     continue;
                 }
-                if (nums[i] + nums[j] + nums[j + 1] + nums[j + 2] > target) {
+                if (nums[i] + nums[j] + nums[j + 1] + nums[j + 2] > target) { // Already greater than the target
                     break;
                 }
-                if (nums[i] + nums[j] + nums[nums.length - 1] + nums[nums.length - 1] < target) {
+                if (nums[i] + nums[j] + nums[nums.length - 1] + nums[nums.length - 2] < target) { // Skip this index j as sum < target
                     continue;
                 }
                 int low = j + 1;
                 int high = nums.length - 1;
                 while (low < high) {
-                    if (low != j + 1 && nums[low] == nums[low - 1]) {
+                    if (low != j + 1 && nums[low] == nums[low - 1]) { // Skip duplicates
                         low++;
                         continue;
                     }
-                    if (high != nums.length - 1 && nums[high] == nums[high + 1]) {
+                    if (high != nums.length - 1 && nums[high] == nums[high + 1]) { // Skip duplicates
                         high--;
                         continue;
                     }
 
                     int sum = nums[i] + nums[j] + nums[low] + nums[high];
-                    if (sum == target) {
-                        List<Integer> r = new ArrayList<>();
-                        r.add(nums[i]);
-                        r.add(nums[j]);
-                        r.add(nums[low]);
-                        r.add(nums[high]);
-                        result.add(r);
+                    if (sum < target) {
                         low++;
+                    } else if (sum > target) {
                         high--;
-                    } else if (sum < target) {
+                    } else { // sum == target
+                        result.add(Arrays.asList(nums[i], nums[j], nums[low], nums[high]));
                         low++;
-                    } else {
                         high--;
                     }
                 }

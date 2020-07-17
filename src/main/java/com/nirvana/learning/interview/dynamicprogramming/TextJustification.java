@@ -11,7 +11,7 @@ package com.nirvana.learning.interview.dynamicprogramming;
  * in one line (line width). Put line breaks in the given sequence such that the
  * lines are printed neatly
  * <p>
- * Solution:
+ * ConvertSortedArrayToBinarySearchTree:
  * Badness - We define badness has square of empty spaces in every line. So 2 empty space
  * on one line gets penalized as 4 (2^2) while 1 each empty space on 2 lines gets
  * penalized as 2(1 + 1). So we prefer 1 empty space on different lines over 2 empty space on

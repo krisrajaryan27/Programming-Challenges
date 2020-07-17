@@ -15,7 +15,7 @@ import java.util.List;
  * 7 8 9
  * Printing should be 1 2 3 6 9 8 7 4 5
  * <p>
- * Solution:
+ * ConvertSortedArrayToBinarySearchTree:
  * Keep 4 pointers which are bounds for this matrix, up, down, left, right. Print each
  * row or column and keep incrementing and decrementing the bounds. As soon as up meets down
  * or left meets right we are done.

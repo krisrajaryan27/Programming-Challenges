@@ -12,7 +12,7 @@ import java.util.List;
  * Given a sorted integer array without duplicates, return the summary of its ranges.
  * For example, given [0,1,2,4,5,7], return ["0->2","4->5","7"].
  * <p>
- * Solution -
+ * ConvertSortedArrayToBinarySearchTree -
  * Just check if num[i] + 1 != num[i + 1]. If its not equal means you need to add previous range to result
  * and start a new range.
  * <p>

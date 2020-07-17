@@ -17,7 +17,7 @@ import java.util.concurrent.atomic.AtomicInteger;
  * int getMin()
  * int getMax()
  * <p>
- * Solution
+ * ConvertSortedArrayToBinarySearchTree
  * Use compareAndSet method of AtomicInteger to update min and max
  * @ThreadSafe
  */

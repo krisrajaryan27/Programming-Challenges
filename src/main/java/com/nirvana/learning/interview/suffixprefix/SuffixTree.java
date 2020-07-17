@@ -10,7 +10,7 @@ import java.util.List;
  * <p>
  * Construct suffix tree using Ukkonen's algorithm
  * <p>
- * Solution
+ * ConvertSortedArrayToBinarySearchTree
  * Rule 1: For phase i+1 if S[j..i] ends at last character of leaf edge then add S[i+1] at
  * the end.
  * Rule 2: For phase i+1 if S[j..i] ends somewhere in middle of edge and next character is
