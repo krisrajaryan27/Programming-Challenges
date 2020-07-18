@@ -7,6 +7,7 @@ import java.util.Scanner;
 
 /**
  * https://www.hackerrank.com/challenges/ctci-comparator-sorting/problem?h_l=interview&playlist_slugs%5B%5D=virtusa
+ *
  * @author Krishna Verma
  */
 public class SortingComparator {
