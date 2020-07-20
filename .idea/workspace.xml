@@ -5,11 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8435e570-0d1e-40cc-965e-be6d17287226" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/educative/datastructures/trees/AncestorOfGivenNodeInBST.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/educative/datastructures/trees/KthMaximumValueInBST.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/educative/datastructures/trees/MinimumValueInBST.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/educative/datastructures/trees/BinarySearchTreeDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/educative/datastructures/trees/BinarySearchTreeDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/educative/datastructures/trees/AncestorOfGivenNodeInBST.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/educative/datastructures/trees/AncestorOfGivenNodeInBST.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -98,7 +96,20 @@
       <recent name="$PROJECT_DIR$/src/main/java/com/nirvana/learning/interview/dynamicprogramming" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.KthMaximumValueInBST">
+  <component name="RunManager" selected="Application.AncestorOfGivenNodeInBST">
+    <configuration name="AncestorOfGivenNodeInBST" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.nirvana.learning.educative.datastructures.trees.AncestorOfGivenNodeInBST" />
+      <module name="Programming-Challenges" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.nirvana.learning.educative.datastructures.trees.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="CountTripletsSolution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.nirvana.learning.hackerrank.CountTripletsSolution" />
       <module name="Programming-Challenges" />
@@ -140,19 +151,6 @@
     </configuration>
     <configuration name="PairsSolution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.nirvana.learning.hackerrank.PairsSolution" />
-      <module name="Programming-Challenges" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.nirvana.learning.hackerrank.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SortingComparator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.nirvana.learning.hackerrank.SortingComparator" />
       <module name="Programming-Challenges" />
       <extension name="coverage">
         <pattern>
@@ -219,20 +217,20 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Spring Boot.Application" />
-      <item itemvalue="Application.SortingComparator" />
       <item itemvalue="Application.PairsSolution" />
       <item itemvalue="Application.CountTripletsSolution" />
       <item itemvalue="Application.MinimumValueInBST" />
       <item itemvalue="Application.KthMaximumValueInBST" />
+      <item itemvalue="Spring Boot.Application" />
+      <item itemvalue="Application.AncestorOfGivenNodeInBST" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.AncestorOfGivenNodeInBST" />
         <item itemvalue="Application.KthMaximumValueInBST" />
         <item itemvalue="Application.MinimumValueInBST" />
         <item itemvalue="Application.CountTripletsSolution" />
         <item itemvalue="Application.PairsSolution" />
-        <item itemvalue="Application.SortingComparator" />
       </list>
     </recent_temporary>
   </component>
@@ -284,6 +282,9 @@
       <workItem from="1594009492889" duration="165000" />
       <workItem from="1594701642672" duration="3235000" />
       <workItem from="1594991136177" duration="32033000" />
+      <workItem from="1595178031204" duration="305000" />
+      <workItem from="1595186164111" duration="959000" />
+      <workItem from="1595266088880" duration="924000" />
     </task>
     <task id="LOCAL-00001" summary="educative: Adding codes for different algorithms">
       <created>1583906937661</created>

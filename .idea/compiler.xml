@@ -6,9 +6,9 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="ProgrammingChallenges" />
         <module name="Programming-Challenges" />
         <module name="GeekTrustCricketChallenge" />
+        <module name="ProgrammingChallenges" />
       </profile>
     </annotationProcessing>
   </component>
