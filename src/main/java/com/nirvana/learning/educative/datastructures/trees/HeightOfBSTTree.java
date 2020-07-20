@@ -5,11 +5,12 @@ import java.util.Queue;
 
 /**
  * https://www.hackerrank.com/challenges/tree-height-of-a-binary-tree/problem?h_l=interview&playlist_slugs%5B%5D=interview-preparation-kit&playlist_slugs%5B%5D=trees
+ * Given the root to a Binary Search Tree, write a function to find the height of the tree.
  *
  * @author Krishna Verma
  * @date 18th July 2020
  */
-public class HeightOfTree {
+public class HeightOfBSTTree {
     public static void main(String[] args) {
         BinarySearchTree binarySearchTree = new BinarySearchTree();
         binarySearchTree.add(3);
@@ -34,6 +35,16 @@ public class HeightOfTree {
         int heightLeftSubTree = heightRecursively(root.getLeftChild());
         int heightRightSubTree = heightRecursively(root.getRightChild());
         return 1 + Math.max(heightLeftSubTree, heightRightSubTree);
+    }
+
+    public static int findHeight(Node root) {
+        //Base case, leaf nodes have 0 height
+        if (root == null) return -1;
+        else {
+            return 1 + Math.max(findHeight(root.getLeftChild()), findHeight(root.getRightChild()));
+            // Find Height of left subtree right subtree
+            // Return greater height value of left or right subtree (plus 1)
+        }
     }
 
     //Iterative Way using Queues.
