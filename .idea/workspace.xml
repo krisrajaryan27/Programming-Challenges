@@ -5,9 +5,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8435e570-0d1e-40cc-965e-be6d17287226" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/educative/datastructures/trees/NodesAtKDistanceFromRootBST.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/educative/datastructures/arrays/PrintMatrixInSpiralForm.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/educative/datastructures/linkedlist/DetectLoopAndRemoveInLinkedList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/educative/datastructures/trees/BinaryTreeSize.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/educative/datastructures/trees/BinaryTreeView.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/enquero/Device.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/enquero/DeviceDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/enquero/Status.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/enquero/StatusConstants.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/hackerearth/VictorWareHousing.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/interview/array/FirstDuplicateNumber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/interview/string/FirstNonRepeatingCharacters.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/ongrid/CustomStack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/ongrid/LongestConsecutiveCharacters.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/educative/datastructures/trees/HeightOfTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/educative/datastructures/trees/HeightOfBSTTree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/techverito.zip" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,13 +70,14 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="SONARLINT_PRECOMMIT_ANALYSIS" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1555698483464" />
-    <property name="extract.method.default.visibility" value="private" />
+    <property name="extract.method.default.visibility" value="public" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/com/nirvana/learning" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -96,13 +110,13 @@
       <recent name="$PROJECT_DIR$/src/main/java/com/nirvana/learning/interview/dynamicprogramming" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.NodesAtKDistanceFromRootBST">
-    <configuration name="AncestorOfGivenNodeInBST" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.nirvana.learning.educative.datastructures.trees.AncestorOfGivenNodeInBST" />
+  <component name="RunManager" selected="Application.FirstNonRepeatingCharacters">
+    <configuration name="FirstDuplicateNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.nirvana.learning.interview.array.FirstDuplicateNumber" />
       <module name="Programming-Challenges" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.nirvana.learning.educative.datastructures.trees.*" />
+          <option name="PATTERN" value="com.nirvana.learning.interview.array.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -110,12 +124,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CountTripletsSolution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.nirvana.learning.hackerrank.CountTripletsSolution" />
+    <configuration name="FirstNonRepeatingCharacters" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.nirvana.learning.interview.string.FirstNonRepeatingCharacters" />
       <module name="Programming-Challenges" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.nirvana.learning.hackerrank.*" />
+          <option name="PATTERN" value="com.nirvana.learning.interview.string.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -123,12 +137,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="KthMaximumValueInBST" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.nirvana.learning.educative.datastructures.trees.KthMaximumValueInBST" />
+    <configuration name="PrintMatrixInSpiralForm" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.nirvana.learning.educative.datastructures.arrays.PrintMatrixInSpiralForm" />
       <module name="Programming-Challenges" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.nirvana.learning.educative.datastructures.trees.*" />
+          <option name="PATTERN" value="com.nirvana.learning.educative.datastructures.arrays.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -136,12 +150,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MinimumValueInBST" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.nirvana.learning.educative.datastructures.trees.MinimumValueInBST" />
+    <configuration name="Test (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.nirvana.learning.enquero.Test" />
       <module name="Programming-Challenges" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.nirvana.learning.educative.datastructures.trees.*" />
+          <option name="PATTERN" value="com.nirvana.learning.enquero.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -149,12 +163,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NodesAtKDistanceFromRootBST" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.nirvana.learning.educative.datastructures.trees.NodesAtKDistanceFromRootBST" />
+    <configuration name="ThreadDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.nirvana.learning.enquero.ThreadDemo" />
       <module name="Programming-Challenges" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.nirvana.learning.educative.datastructures.trees.*" />
+          <option name="PATTERN" value="com.nirvana.learning.enquero.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -217,20 +231,20 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.CountTripletsSolution" />
-      <item itemvalue="Application.MinimumValueInBST" />
-      <item itemvalue="Application.KthMaximumValueInBST" />
+      <item itemvalue="Application.Test (1)" />
+      <item itemvalue="Application.ThreadDemo" />
+      <item itemvalue="Application.PrintMatrixInSpiralForm" />
       <item itemvalue="Spring Boot.Application" />
-      <item itemvalue="Application.AncestorOfGivenNodeInBST" />
-      <item itemvalue="Application.NodesAtKDistanceFromRootBST" />
+      <item itemvalue="Application.FirstDuplicateNumber" />
+      <item itemvalue="Application.FirstNonRepeatingCharacters" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.NodesAtKDistanceFromRootBST" />
-        <item itemvalue="Application.AncestorOfGivenNodeInBST" />
-        <item itemvalue="Application.KthMaximumValueInBST" />
-        <item itemvalue="Application.MinimumValueInBST" />
-        <item itemvalue="Application.CountTripletsSolution" />
+        <item itemvalue="Application.FirstNonRepeatingCharacters" />
+        <item itemvalue="Application.FirstDuplicateNumber" />
+        <item itemvalue="Application.ThreadDemo" />
+        <item itemvalue="Application.Test (1)" />
+        <item itemvalue="Application.PrintMatrixInSpiralForm" />
       </list>
     </recent_temporary>
   </component>
@@ -284,7 +298,25 @@
       <workItem from="1594991136177" duration="32033000" />
       <workItem from="1595178031204" duration="305000" />
       <workItem from="1595186164111" duration="959000" />
-      <workItem from="1595266088880" duration="2260000" />
+      <workItem from="1595266088880" duration="4459000" />
+      <workItem from="1595747029634" duration="3396000" />
+      <workItem from="1595928033240" duration="1881000" />
+      <workItem from="1596015976513" duration="689000" />
+      <workItem from="1596521456461" duration="4449000" />
+      <workItem from="1596835752053" duration="557000" />
+      <workItem from="1597048371751" duration="3847000" />
+      <workItem from="1597055603836" duration="5529000" />
+      <workItem from="1597642541817" duration="996000" />
+      <workItem from="1597676016429" duration="1634000" />
+      <workItem from="1597821800198" duration="7427000" />
+      <workItem from="1598088151878" duration="5617000" />
+      <workItem from="1598328499619" duration="60000" />
+      <workItem from="1598341567151" duration="3221000" />
+      <workItem from="1598433015457" duration="723000" />
+      <workItem from="1599114838730" duration="6661000" />
+      <workItem from="1599236210446" duration="67000" />
+      <workItem from="1599236326451" duration="550000" />
+      <workItem from="1599398723679" duration="3551000" />
     </task>
     <task id="LOCAL-00001" summary="educative: Adding codes for different algorithms">
       <created>1583906937661</created>
@@ -344,22 +376,25 @@
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="533" y="127" key="#com.intellij.ide.util.MemberChooser" timestamp="1595026466486">
-      <screen x="0" y="23" width="1440" height="835" />
+    <state x="533" y="126" key="#com.intellij.ide.util.MemberChooser" timestamp="1599115853868">
+      <screen x="0" y="23" width="1440" height="832" />
     </state>
-    <state x="533" y="125" key="#com.intellij.ide.util.MemberChooser/0.23.1440.823@0.23.1440.823" timestamp="1587615478010" />
     <state x="533" y="126" key="#com.intellij.ide.util.MemberChooser/0.23.1440.829@0.23.1440.829" timestamp="1594702766217" />
     <state x="533" y="126" key="#com.intellij.ide.util.MemberChooser/0.23.1440.830@0.23.1440.830" timestamp="1593876120269" />
-    <state x="533" y="126" key="#com.intellij.ide.util.MemberChooser/0.23.1440.832@0.23.1440.832" timestamp="1591248988677" />
+    <state x="533" y="126" key="#com.intellij.ide.util.MemberChooser/0.23.1440.832@0.23.1440.832" timestamp="1599115853868" />
     <state x="533" y="127" key="#com.intellij.ide.util.MemberChooser/0.23.1440.835@0.23.1440.835" timestamp="1595026466486" />
+    <state x="408" y="182" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1599236216610">
+      <screen x="0" y="23" width="1440" height="832" />
+    </state>
+    <state x="408" y="182" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.23.1440.832@0.23.1440.832" timestamp="1599236216610" />
     <state x="201" y="371" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1592036284605">
       <screen x="0" y="23" width="1440" height="832" />
     </state>
     <state x="201" y="371" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.23.1440.832@0.23.1440.832" timestamp="1592036284605" />
-    <state x="293" y="23" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1592037699035">
+    <state x="293" y="23" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1595748736522">
       <screen x="0" y="23" width="1440" height="832" />
     </state>
-    <state x="293" y="23" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.23.1440.832@0.23.1440.832" timestamp="1592037699035" />
+    <state x="293" y="23" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.23.1440.832@0.23.1440.832" timestamp="1595748736522" />
     <state x="458" y="193" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1592036338788">
       <screen x="0" y="23" width="1440" height="832" />
     </state>
@@ -367,8 +402,6 @@
     <state x="490" y="271" key="#xdebugger.evaluate" timestamp="1595095599062">
       <screen x="0" y="23" width="1440" height="835" />
     </state>
-    <state x="490" y="267" key="#xdebugger.evaluate/0.23.1440.823@0.23.1440.823" timestamp="1587206688133" />
-    <state x="490" y="270" key="#xdebugger.evaluate/0.23.1440.832@0.23.1440.832" timestamp="1590432317782" />
     <state x="490" y="271" key="#xdebugger.evaluate/0.23.1440.835@0.23.1440.835" timestamp="1595095599062" />
     <state x="0" y="23" width="1022" height="823" key="CommitChangelistDialog2" timestamp="1592039768547">
       <screen x="0" y="23" width="1440" height="832" />
@@ -378,70 +411,62 @@
       <screen x="0" y="23" width="1440" height="832" />
     </state>
     <state x="100" y="123" width="1240" height="632" key="DiffContextDialog/0.23.1440.832@0.23.1440.832" timestamp="1592037604961" />
-    <state width="1398" height="277" key="GridCell.Tab.0.bottom" timestamp="1595267043249">
-      <screen x="0" y="23" width="1440" height="835" />
+    <state width="1398" height="275" key="GridCell.Tab.0.bottom" timestamp="1599452351719">
+      <screen x="0" y="23" width="1440" height="832" />
     </state>
-    <state width="1398" height="212" key="GridCell.Tab.0.bottom/0.23.1440.823@0.23.1440.823" timestamp="1587617809633" />
     <state width="1396" height="275" key="GridCell.Tab.0.bottom/0.23.1440.829@0.23.1440.829" timestamp="1594707494002" />
     <state width="1396" height="276" key="GridCell.Tab.0.bottom/0.23.1440.830@0.23.1440.830" timestamp="1593876471457" />
-    <state width="1396" height="277" key="GridCell.Tab.0.bottom/0.23.1440.832@0.23.1440.832" timestamp="1592918000501" />
-    <state width="1398" height="277" key="GridCell.Tab.0.bottom/0.23.1440.835@0.23.1440.835" timestamp="1595267043249" />
-    <state width="1398" height="277" key="GridCell.Tab.0.center" timestamp="1595267043248">
-      <screen x="0" y="23" width="1440" height="835" />
+    <state width="1398" height="275" key="GridCell.Tab.0.bottom/0.23.1440.832@0.23.1440.832" timestamp="1599452351719" />
+    <state width="1398" height="214" key="GridCell.Tab.0.bottom/0.23.1440.835@0.23.1440.835" timestamp="1595310010432" />
+    <state width="1398" height="275" key="GridCell.Tab.0.center" timestamp="1599452351718">
+      <screen x="0" y="23" width="1440" height="832" />
     </state>
-    <state width="1398" height="212" key="GridCell.Tab.0.center/0.23.1440.823@0.23.1440.823" timestamp="1587617809633" />
     <state width="1396" height="275" key="GridCell.Tab.0.center/0.23.1440.829@0.23.1440.829" timestamp="1594707493999" />
     <state width="1396" height="276" key="GridCell.Tab.0.center/0.23.1440.830@0.23.1440.830" timestamp="1593876471456" />
-    <state width="1396" height="277" key="GridCell.Tab.0.center/0.23.1440.832@0.23.1440.832" timestamp="1592918000501" />
-    <state width="1398" height="277" key="GridCell.Tab.0.center/0.23.1440.835@0.23.1440.835" timestamp="1595267043248" />
-    <state width="1398" height="277" key="GridCell.Tab.0.left" timestamp="1595267043247">
-      <screen x="0" y="23" width="1440" height="835" />
+    <state width="1398" height="275" key="GridCell.Tab.0.center/0.23.1440.832@0.23.1440.832" timestamp="1599452351718" />
+    <state width="1398" height="214" key="GridCell.Tab.0.center/0.23.1440.835@0.23.1440.835" timestamp="1595310010431" />
+    <state width="1398" height="275" key="GridCell.Tab.0.left" timestamp="1599452351717">
+      <screen x="0" y="23" width="1440" height="832" />
     </state>
-    <state width="1398" height="212" key="GridCell.Tab.0.left/0.23.1440.823@0.23.1440.823" timestamp="1587617809632" />
     <state width="1396" height="275" key="GridCell.Tab.0.left/0.23.1440.829@0.23.1440.829" timestamp="1594707493994" />
     <state width="1396" height="276" key="GridCell.Tab.0.left/0.23.1440.830@0.23.1440.830" timestamp="1593876471455" />
-    <state width="1396" height="277" key="GridCell.Tab.0.left/0.23.1440.832@0.23.1440.832" timestamp="1592918000501" />
-    <state width="1398" height="277" key="GridCell.Tab.0.left/0.23.1440.835@0.23.1440.835" timestamp="1595267043247" />
-    <state width="1398" height="277" key="GridCell.Tab.0.right" timestamp="1595267043249">
-      <screen x="0" y="23" width="1440" height="835" />
+    <state width="1398" height="275" key="GridCell.Tab.0.left/0.23.1440.832@0.23.1440.832" timestamp="1599452351717" />
+    <state width="1398" height="214" key="GridCell.Tab.0.left/0.23.1440.835@0.23.1440.835" timestamp="1595310010431" />
+    <state width="1398" height="275" key="GridCell.Tab.0.right" timestamp="1599452351719">
+      <screen x="0" y="23" width="1440" height="832" />
     </state>
-    <state width="1398" height="212" key="GridCell.Tab.0.right/0.23.1440.823@0.23.1440.823" timestamp="1587617809633" />
     <state width="1396" height="275" key="GridCell.Tab.0.right/0.23.1440.829@0.23.1440.829" timestamp="1594707494001" />
     <state width="1396" height="276" key="GridCell.Tab.0.right/0.23.1440.830@0.23.1440.830" timestamp="1593876471457" />
-    <state width="1396" height="277" key="GridCell.Tab.0.right/0.23.1440.832@0.23.1440.832" timestamp="1592918000501" />
-    <state width="1398" height="277" key="GridCell.Tab.0.right/0.23.1440.835@0.23.1440.835" timestamp="1595267043249" />
-    <state width="1398" height="277" key="GridCell.Tab.1.bottom" timestamp="1595267043251">
-      <screen x="0" y="23" width="1440" height="835" />
+    <state width="1398" height="275" key="GridCell.Tab.0.right/0.23.1440.832@0.23.1440.832" timestamp="1599452351719" />
+    <state width="1398" height="214" key="GridCell.Tab.0.right/0.23.1440.835@0.23.1440.835" timestamp="1595310010431" />
+    <state width="1398" height="275" key="GridCell.Tab.1.bottom" timestamp="1599452351582">
+      <screen x="0" y="23" width="1440" height="832" />
     </state>
-    <state width="1398" height="333" key="GridCell.Tab.1.bottom/0.23.1440.823@0.23.1440.823" timestamp="1587617809545" />
     <state width="1396" height="275" key="GridCell.Tab.1.bottom/0.23.1440.829@0.23.1440.829" timestamp="1594707494005" />
     <state width="1396" height="276" key="GridCell.Tab.1.bottom/0.23.1440.830@0.23.1440.830" timestamp="1593876471291" />
-    <state width="1396" height="277" key="GridCell.Tab.1.bottom/0.23.1440.832@0.23.1440.832" timestamp="1592918000502" />
-    <state width="1398" height="277" key="GridCell.Tab.1.bottom/0.23.1440.835@0.23.1440.835" timestamp="1595267043251" />
-    <state width="1398" height="277" key="GridCell.Tab.1.center" timestamp="1595267043251">
-      <screen x="0" y="23" width="1440" height="835" />
+    <state width="1398" height="275" key="GridCell.Tab.1.bottom/0.23.1440.832@0.23.1440.832" timestamp="1599452351582" />
+    <state width="1398" height="277" key="GridCell.Tab.1.bottom/0.23.1440.835@0.23.1440.835" timestamp="1595310010398" />
+    <state width="1398" height="275" key="GridCell.Tab.1.center" timestamp="1599452351581">
+      <screen x="0" y="23" width="1440" height="832" />
     </state>
-    <state width="1398" height="333" key="GridCell.Tab.1.center/0.23.1440.823@0.23.1440.823" timestamp="1587617809545" />
     <state width="1396" height="275" key="GridCell.Tab.1.center/0.23.1440.829@0.23.1440.829" timestamp="1594707494003" />
     <state width="1396" height="276" key="GridCell.Tab.1.center/0.23.1440.830@0.23.1440.830" timestamp="1593876471291" />
-    <state width="1396" height="277" key="GridCell.Tab.1.center/0.23.1440.832@0.23.1440.832" timestamp="1592918000502" />
-    <state width="1398" height="277" key="GridCell.Tab.1.center/0.23.1440.835@0.23.1440.835" timestamp="1595267043251" />
-    <state width="1398" height="277" key="GridCell.Tab.1.left" timestamp="1595267043250">
-      <screen x="0" y="23" width="1440" height="835" />
+    <state width="1398" height="275" key="GridCell.Tab.1.center/0.23.1440.832@0.23.1440.832" timestamp="1599452351581" />
+    <state width="1398" height="277" key="GridCell.Tab.1.center/0.23.1440.835@0.23.1440.835" timestamp="1595310010397" />
+    <state width="1398" height="275" key="GridCell.Tab.1.left" timestamp="1599452351580">
+      <screen x="0" y="23" width="1440" height="832" />
     </state>
-    <state width="1398" height="333" key="GridCell.Tab.1.left/0.23.1440.823@0.23.1440.823" timestamp="1587617809545" />
     <state width="1396" height="275" key="GridCell.Tab.1.left/0.23.1440.829@0.23.1440.829" timestamp="1594707494002" />
     <state width="1396" height="276" key="GridCell.Tab.1.left/0.23.1440.830@0.23.1440.830" timestamp="1593876471291" />
-    <state width="1396" height="277" key="GridCell.Tab.1.left/0.23.1440.832@0.23.1440.832" timestamp="1592918000502" />
-    <state width="1398" height="277" key="GridCell.Tab.1.left/0.23.1440.835@0.23.1440.835" timestamp="1595267043250" />
-    <state width="1398" height="277" key="GridCell.Tab.1.right" timestamp="1595267043251">
-      <screen x="0" y="23" width="1440" height="835" />
+    <state width="1398" height="275" key="GridCell.Tab.1.left/0.23.1440.832@0.23.1440.832" timestamp="1599452351580" />
+    <state width="1398" height="277" key="GridCell.Tab.1.left/0.23.1440.835@0.23.1440.835" timestamp="1595310010396" />
+    <state width="1398" height="275" key="GridCell.Tab.1.right" timestamp="1599452351582">
+      <screen x="0" y="23" width="1440" height="832" />
     </state>
-    <state width="1398" height="333" key="GridCell.Tab.1.right/0.23.1440.823@0.23.1440.823" timestamp="1587617809545" />
     <state width="1396" height="275" key="GridCell.Tab.1.right/0.23.1440.829@0.23.1440.829" timestamp="1594707494004" />
     <state width="1396" height="276" key="GridCell.Tab.1.right/0.23.1440.830@0.23.1440.830" timestamp="1593876471291" />
-    <state width="1396" height="277" key="GridCell.Tab.1.right/0.23.1440.832@0.23.1440.832" timestamp="1592918000502" />
-    <state width="1398" height="277" key="GridCell.Tab.1.right/0.23.1440.835@0.23.1440.835" timestamp="1595267043251" />
+    <state width="1398" height="275" key="GridCell.Tab.1.right/0.23.1440.832@0.23.1440.832" timestamp="1599452351582" />
+    <state width="1398" height="277" key="GridCell.Tab.1.right/0.23.1440.835@0.23.1440.835" timestamp="1595310010397" />
     <state x="320" y="165" key="Vcs.Push.Dialog.v2" timestamp="1592039774170">
       <screen x="0" y="23" width="1440" height="832" />
     </state>
@@ -454,38 +479,29 @@
       <screen x="0" y="23" width="1440" height="829" />
     </state>
     <state x="397" y="270" key="com.intellij.ide.util.TipDialog/0.23.1440.829@0.23.1440.829" timestamp="1594009650154" />
-    <state x="397" y="271" key="com.intellij.ide.util.TipDialog/0.23.1440.832@0.23.1440.832" timestamp="1589607793825" />
     <state x="392" y="180" key="com.intellij.openapi.vcs.changes.SpecificFilesViewDialog" timestamp="1592039065758">
       <screen x="0" y="23" width="1440" height="832" />
     </state>
     <state x="392" y="180" key="com.intellij.openapi.vcs.changes.SpecificFilesViewDialog/0.23.1440.832@0.23.1440.832" timestamp="1592039065758" />
-    <state x="775" y="143" key="extract.method.dialog" timestamp="1595011951786">
-      <screen x="0" y="23" width="1440" height="835" />
+    <state x="766" y="305" key="extract.method.dialog" timestamp="1597062105054">
+      <screen x="0" y="23" width="1440" height="832" />
     </state>
-    <state x="775" y="143" key="extract.method.dialog/0.23.1440.832@0.23.1440.832" timestamp="1592061311227" />
+    <state x="766" y="305" key="extract.method.dialog/0.23.1440.832@0.23.1440.832" timestamp="1597062105054" />
     <state x="775" y="143" key="extract.method.dialog/0.23.1440.835@0.23.1440.835" timestamp="1595011951786" />
-    <state x="301" y="160" width="862" height="561" key="find.popup" timestamp="1595019552382">
-      <screen x="0" y="23" width="1440" height="835" />
+    <state x="301" y="160" width="862" height="558" key="find.popup" timestamp="1597844640927">
+      <screen x="0" y="23" width="1440" height="832" />
     </state>
-    <state x="301" y="159" width="837" height="550" key="find.popup/0.23.1440.823@0.23.1440.823" timestamp="1587150514101" />
-    <state x="301" y="160" width="837" height="555" key="find.popup/0.23.1440.829@0.23.1440.829" timestamp="1587728054324" />
-    <state x="301" y="160" width="862" height="558" key="find.popup/0.23.1440.832@0.23.1440.832" timestamp="1592123272119" />
+    <state x="301" y="160" width="862" height="558" key="find.popup/0.23.1440.832@0.23.1440.832" timestamp="1597844640927" />
     <state x="301" y="160" width="862" height="561" key="find.popup/0.23.1440.835@0.23.1440.835" timestamp="1595019552382" />
     <state x="419" y="223" key="refactoring.ChangeSignatureDialog" timestamp="1595011897524">
       <screen x="0" y="23" width="1440" height="835" />
     </state>
     <state x="419" y="223" key="refactoring.ChangeSignatureDialog/0.23.1440.835@0.23.1440.835" timestamp="1595011897524" />
-    <state x="385" y="199" key="run.anything.popup" timestamp="1589991326923">
+    <state x="385" y="172" width="670" height="684" key="search.everywhere.popup" timestamp="1599402568509">
       <screen x="0" y="23" width="1440" height="832" />
     </state>
-    <state x="385" y="199" key="run.anything.popup/0.23.1440.832@0.23.1440.832" timestamp="1589991326923" />
-    <state x="385" y="173" width="670" height="687" key="search.everywhere.popup" timestamp="1595266945289">
-      <screen x="0" y="23" width="1440" height="835" />
-    </state>
-    <state x="385" y="170" width="670" height="676" key="search.everywhere.popup/0.23.1440.823@0.23.1440.823" timestamp="1587615394143" />
-    <state x="385" y="171" width="670" height="681" key="search.everywhere.popup/0.23.1440.829@0.23.1440.829" timestamp="1588156347492" />
-    <state x="385" y="172" width="670" height="684" key="search.everywhere.popup/0.23.1440.832@0.23.1440.832" timestamp="1592904651333" />
-    <state x="385" y="173" width="670" height="687" key="search.everywhere.popup/0.23.1440.835@0.23.1440.835" timestamp="1595266945289" />
+    <state x="385" y="172" width="670" height="684" key="search.everywhere.popup/0.23.1440.832@0.23.1440.832" timestamp="1599402568509" />
+    <state x="385" y="173" width="670" height="687" key="search.everywhere.popup/0.23.1440.835@0.23.1440.835" timestamp="1595268947941" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -754,6 +770,19 @@
           <url>file://$PROJECT_DIR$/src/main/java/com/nirvana/learning/educative/datastructures/trees/KthMaximumValueInBST.java</url>
           <line>35</line>
           <option name="timeStamp" value="95" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/nirvana/learning/enquero/DeviceDemo.java</url>
+          <line>15</line>
+          <option name="timeStamp" value="96" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/main/java/com/nirvana/learning/educative/datastructures/arrays/FirstNonRepeatingIntegerInArray.java</url>
+          <line>14</line>
+          <properties class="com.nirvana.learning.educative.datastructures.arrays.FirstNonRepeatingIntegerInArray" method="findFirstUnique">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="97" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
