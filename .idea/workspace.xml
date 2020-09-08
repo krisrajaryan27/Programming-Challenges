@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8435e570-0d1e-40cc-965e-be6d17287226" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/interview/array/AdjacentElementProductMaximum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/interview/array/RotateImageOfMatrix.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/interview/array/AlmostIncreasingSequence.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/interview/array/MatrixElementSum.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -97,7 +97,7 @@
       <recent name="$PROJECT_DIR$/src/main/java/com/nirvana/learning/interview/dynamicprogramming" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.AdjacentElementProductMaximum">
+  <component name="RunManager" selected="Application.MatrixElementSum">
     <configuration name="AdjacentElementProductMaximum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.nirvana.learning.interview.array.AdjacentElementProductMaximum" />
       <module name="Programming-Challenges" />
@@ -111,8 +111,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FirstDuplicateNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.nirvana.learning.interview.array.FirstDuplicateNumber" />
+    <configuration name="AlmostIncreasingSequence" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.nirvana.learning.interview.array.AlmostIncreasingSequence" />
       <module name="Programming-Challenges" />
       <extension name="coverage">
         <pattern>
@@ -137,8 +137,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RotateImageOfMatrix" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.nirvana.learning.interview.array.RotateImageOfMatrix" />
+    <configuration name="MatrixElementSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.nirvana.learning.interview.array.MatrixElementSum" />
       <module name="Programming-Challenges" />
       <extension name="coverage">
         <pattern>
@@ -150,12 +150,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ThreadDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.nirvana.learning.enquero.ThreadDemo" />
+    <configuration name="RotateImageOfMatrix" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.nirvana.learning.interview.array.RotateImageOfMatrix" />
       <module name="Programming-Challenges" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.nirvana.learning.enquero.*" />
+          <option name="PATTERN" value="com.nirvana.learning.interview.array.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -218,20 +218,20 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.ThreadDemo" />
-      <item itemvalue="Spring Boot.Application" />
-      <item itemvalue="Application.FirstDuplicateNumber" />
       <item itemvalue="Application.FirstNonRepeatingCharacters" />
       <item itemvalue="Application.RotateImageOfMatrix" />
       <item itemvalue="Application.AdjacentElementProductMaximum" />
+      <item itemvalue="Spring Boot.Application" />
+      <item itemvalue="Application.AlmostIncreasingSequence" />
+      <item itemvalue="Application.MatrixElementSum" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MatrixElementSum" />
+        <item itemvalue="Application.AlmostIncreasingSequence" />
         <item itemvalue="Application.AdjacentElementProductMaximum" />
         <item itemvalue="Application.RotateImageOfMatrix" />
         <item itemvalue="Application.FirstNonRepeatingCharacters" />
-        <item itemvalue="Application.FirstDuplicateNumber" />
-        <item itemvalue="Application.ThreadDemo" />
       </list>
     </recent_temporary>
   </component>
@@ -303,7 +303,8 @@
       <workItem from="1599114838730" duration="6661000" />
       <workItem from="1599236210446" duration="67000" />
       <workItem from="1599236326451" duration="550000" />
-      <workItem from="1599398723679" duration="6573000" />
+      <workItem from="1599398723679" duration="6782000" />
+      <workItem from="1599468867307" duration="3111000" />
     </task>
     <task id="LOCAL-00001" summary="educative: Adding codes for different algorithms">
       <created>1583906937661</created>
@@ -398,61 +399,61 @@
       <screen x="0" y="23" width="1440" height="832" />
     </state>
     <state x="100" y="123" width="1240" height="632" key="DiffContextDialog/0.23.1440.832@0.23.1440.832" timestamp="1592037604961" />
-    <state width="1398" height="213" key="GridCell.Tab.0.bottom" timestamp="1599460436605">
+    <state width="1398" height="275" key="GridCell.Tab.0.bottom" timestamp="1599491857258">
       <screen x="0" y="23" width="1440" height="832" />
     </state>
     <state width="1396" height="275" key="GridCell.Tab.0.bottom/0.23.1440.829@0.23.1440.829" timestamp="1594707494002" />
     <state width="1396" height="276" key="GridCell.Tab.0.bottom/0.23.1440.830@0.23.1440.830" timestamp="1593876471457" />
-    <state width="1398" height="213" key="GridCell.Tab.0.bottom/0.23.1440.832@0.23.1440.832" timestamp="1599460436605" />
+    <state width="1398" height="275" key="GridCell.Tab.0.bottom/0.23.1440.832@0.23.1440.832" timestamp="1599491857258" />
     <state width="1398" height="214" key="GridCell.Tab.0.bottom/0.23.1440.835@0.23.1440.835" timestamp="1595310010432" />
-    <state width="1398" height="213" key="GridCell.Tab.0.center" timestamp="1599460436604">
+    <state width="1398" height="275" key="GridCell.Tab.0.center" timestamp="1599491857256">
       <screen x="0" y="23" width="1440" height="832" />
     </state>
     <state width="1396" height="275" key="GridCell.Tab.0.center/0.23.1440.829@0.23.1440.829" timestamp="1594707493999" />
     <state width="1396" height="276" key="GridCell.Tab.0.center/0.23.1440.830@0.23.1440.830" timestamp="1593876471456" />
-    <state width="1398" height="213" key="GridCell.Tab.0.center/0.23.1440.832@0.23.1440.832" timestamp="1599460436604" />
+    <state width="1398" height="275" key="GridCell.Tab.0.center/0.23.1440.832@0.23.1440.832" timestamp="1599491857256" />
     <state width="1398" height="214" key="GridCell.Tab.0.center/0.23.1440.835@0.23.1440.835" timestamp="1595310010431" />
-    <state width="1398" height="213" key="GridCell.Tab.0.left" timestamp="1599460436604">
+    <state width="1398" height="275" key="GridCell.Tab.0.left" timestamp="1599491857256">
       <screen x="0" y="23" width="1440" height="832" />
     </state>
     <state width="1396" height="275" key="GridCell.Tab.0.left/0.23.1440.829@0.23.1440.829" timestamp="1594707493994" />
     <state width="1396" height="276" key="GridCell.Tab.0.left/0.23.1440.830@0.23.1440.830" timestamp="1593876471455" />
-    <state width="1398" height="213" key="GridCell.Tab.0.left/0.23.1440.832@0.23.1440.832" timestamp="1599460436604" />
+    <state width="1398" height="275" key="GridCell.Tab.0.left/0.23.1440.832@0.23.1440.832" timestamp="1599491857256" />
     <state width="1398" height="214" key="GridCell.Tab.0.left/0.23.1440.835@0.23.1440.835" timestamp="1595310010431" />
-    <state width="1398" height="213" key="GridCell.Tab.0.right" timestamp="1599460436604">
+    <state width="1398" height="275" key="GridCell.Tab.0.right" timestamp="1599491857257">
       <screen x="0" y="23" width="1440" height="832" />
     </state>
     <state width="1396" height="275" key="GridCell.Tab.0.right/0.23.1440.829@0.23.1440.829" timestamp="1594707494001" />
     <state width="1396" height="276" key="GridCell.Tab.0.right/0.23.1440.830@0.23.1440.830" timestamp="1593876471457" />
-    <state width="1398" height="213" key="GridCell.Tab.0.right/0.23.1440.832@0.23.1440.832" timestamp="1599460436604" />
+    <state width="1398" height="275" key="GridCell.Tab.0.right/0.23.1440.832@0.23.1440.832" timestamp="1599491857257" />
     <state width="1398" height="214" key="GridCell.Tab.0.right/0.23.1440.835@0.23.1440.835" timestamp="1595310010431" />
-    <state width="1398" height="275" key="GridCell.Tab.1.bottom" timestamp="1599452410930">
+    <state width="1398" height="275" key="GridCell.Tab.1.bottom" timestamp="1599491856992">
       <screen x="0" y="23" width="1440" height="832" />
     </state>
     <state width="1396" height="275" key="GridCell.Tab.1.bottom/0.23.1440.829@0.23.1440.829" timestamp="1594707494005" />
     <state width="1396" height="276" key="GridCell.Tab.1.bottom/0.23.1440.830@0.23.1440.830" timestamp="1593876471291" />
-    <state width="1398" height="275" key="GridCell.Tab.1.bottom/0.23.1440.832@0.23.1440.832" timestamp="1599452410930" />
+    <state width="1398" height="275" key="GridCell.Tab.1.bottom/0.23.1440.832@0.23.1440.832" timestamp="1599491856992" />
     <state width="1398" height="277" key="GridCell.Tab.1.bottom/0.23.1440.835@0.23.1440.835" timestamp="1595310010398" />
-    <state width="1398" height="275" key="GridCell.Tab.1.center" timestamp="1599452410929">
+    <state width="1398" height="275" key="GridCell.Tab.1.center" timestamp="1599491856991">
       <screen x="0" y="23" width="1440" height="832" />
     </state>
     <state width="1396" height="275" key="GridCell.Tab.1.center/0.23.1440.829@0.23.1440.829" timestamp="1594707494003" />
     <state width="1396" height="276" key="GridCell.Tab.1.center/0.23.1440.830@0.23.1440.830" timestamp="1593876471291" />
-    <state width="1398" height="275" key="GridCell.Tab.1.center/0.23.1440.832@0.23.1440.832" timestamp="1599452410929" />
+    <state width="1398" height="275" key="GridCell.Tab.1.center/0.23.1440.832@0.23.1440.832" timestamp="1599491856991" />
     <state width="1398" height="277" key="GridCell.Tab.1.center/0.23.1440.835@0.23.1440.835" timestamp="1595310010397" />
-    <state width="1398" height="275" key="GridCell.Tab.1.left" timestamp="1599452410929">
+    <state width="1398" height="275" key="GridCell.Tab.1.left" timestamp="1599491856991">
       <screen x="0" y="23" width="1440" height="832" />
     </state>
     <state width="1396" height="275" key="GridCell.Tab.1.left/0.23.1440.829@0.23.1440.829" timestamp="1594707494002" />
     <state width="1396" height="276" key="GridCell.Tab.1.left/0.23.1440.830@0.23.1440.830" timestamp="1593876471291" />
-    <state width="1398" height="275" key="GridCell.Tab.1.left/0.23.1440.832@0.23.1440.832" timestamp="1599452410929" />
+    <state width="1398" height="275" key="GridCell.Tab.1.left/0.23.1440.832@0.23.1440.832" timestamp="1599491856991" />
     <state width="1398" height="277" key="GridCell.Tab.1.left/0.23.1440.835@0.23.1440.835" timestamp="1595310010396" />
-    <state width="1398" height="275" key="GridCell.Tab.1.right" timestamp="1599452410929">
+    <state width="1398" height="275" key="GridCell.Tab.1.right" timestamp="1599491856991">
       <screen x="0" y="23" width="1440" height="832" />
     </state>
     <state width="1396" height="275" key="GridCell.Tab.1.right/0.23.1440.829@0.23.1440.829" timestamp="1594707494004" />
     <state width="1396" height="276" key="GridCell.Tab.1.right/0.23.1440.830@0.23.1440.830" timestamp="1593876471291" />
-    <state width="1398" height="275" key="GridCell.Tab.1.right/0.23.1440.832@0.23.1440.832" timestamp="1599452410929" />
+    <state width="1398" height="275" key="GridCell.Tab.1.right/0.23.1440.832@0.23.1440.832" timestamp="1599491856991" />
     <state width="1398" height="277" key="GridCell.Tab.1.right/0.23.1440.835@0.23.1440.835" timestamp="1595310010397" />
     <state x="320" y="165" key="Vcs.Push.Dialog.v2" timestamp="1592039774170">
       <screen x="0" y="23" width="1440" height="832" />
@@ -475,19 +476,19 @@
     </state>
     <state x="766" y="305" key="extract.method.dialog/0.23.1440.832@0.23.1440.832" timestamp="1597062105054" />
     <state x="775" y="143" key="extract.method.dialog/0.23.1440.835@0.23.1440.835" timestamp="1595011951786" />
-    <state x="301" y="160" width="862" height="558" key="find.popup" timestamp="1597844640927">
+    <state x="301" y="160" width="862" height="558" key="find.popup" timestamp="1599471881070">
       <screen x="0" y="23" width="1440" height="832" />
     </state>
-    <state x="301" y="160" width="862" height="558" key="find.popup/0.23.1440.832@0.23.1440.832" timestamp="1597844640927" />
+    <state x="301" y="160" width="862" height="558" key="find.popup/0.23.1440.832@0.23.1440.832" timestamp="1599471881070" />
     <state x="301" y="160" width="862" height="561" key="find.popup/0.23.1440.835@0.23.1440.835" timestamp="1595019552382" />
     <state x="419" y="223" key="refactoring.ChangeSignatureDialog" timestamp="1595011897524">
       <screen x="0" y="23" width="1440" height="835" />
     </state>
     <state x="419" y="223" key="refactoring.ChangeSignatureDialog/0.23.1440.835@0.23.1440.835" timestamp="1595011897524" />
-    <state x="385" y="172" width="670" height="684" key="search.everywhere.popup" timestamp="1599402568509">
+    <state x="385" y="172" width="670" height="684" key="search.everywhere.popup" timestamp="1599471998890">
       <screen x="0" y="23" width="1440" height="832" />
     </state>
-    <state x="385" y="172" width="670" height="684" key="search.everywhere.popup/0.23.1440.832@0.23.1440.832" timestamp="1599402568509" />
+    <state x="385" y="172" width="670" height="684" key="search.everywhere.popup/0.23.1440.832@0.23.1440.832" timestamp="1599471998890" />
     <state x="385" y="173" width="670" height="687" key="search.everywhere.popup/0.23.1440.835@0.23.1440.835" timestamp="1595268947941" />
   </component>
   <component name="XDebuggerManager">
