@@ -4,9 +4,84 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8435e570-0d1e-40cc-965e-be6d17287226" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/interview/string/ReverseInParentheses.java" afterDir="false" />
+    <list default="true" id="8435e570-0d1e-40cc-965e-be6d17287226" name="Default Changelist" comment="educative: Adding codes for different algorithms">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/educative/LongestSubArrayWithGivenSum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/educative/datastructures/trees/NodesAtKDistanceFromANode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/interview/array/RotateMatrixByNinetyDeg.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/interview/array/StringRotation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/interview/array/ZeroMatrix.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/interview/string/CheckIfPermutationOfString.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/interview/string/GroupAnagrams.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/interview/string/OneEditAway.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/interview/string/PalindromePermutations.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/interview/string/StringCompression.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/interview/string/URLify.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/interview/string/UniqueCharactersCheck.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Programming-Challenges.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/basicprogramming/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/basicprogramming/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/interview/multiarray/SpiralPrinting.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/interview/multiarray/SpiralPrinting.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/interview/sort/QuickSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/interview/sort/QuickSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/nirvana/learning/Application.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/nirvana/learning/Application.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/nirvana/learning/codechef/Lecandy.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/nirvana/learning/codechef/Lecandy.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/nirvana/learning/csvwriter/CSVWriter.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/nirvana/learning/csvwriter/CSVWriter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/nirvana/learning/dynamoclient/DynamoClient.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/nirvana/learning/dynamoclient/DynamoClient.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/nirvana/learning/dynamoclient/JSONCreator.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/nirvana/learning/dynamoclient/JSONCreator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/nirvana/learning/dynamoclient/SegmentationData.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/nirvana/learning/dynamoclient/SegmentationData.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/nirvana/learning/dynamoclient/StoredSegmentation$StoredSegmentationBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/nirvana/learning/dynamoclient/StoredSegmentation$StoredSegmentationBuilder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/nirvana/learning/dynamoclient/StoredSegmentation.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/nirvana/learning/dynamoclient/StoredSegmentation.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/nirvana/learning/dynamoclient/UtilityClass.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/nirvana/learning/dynamoclient/UtilityClass.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/nirvana/learning/geektrust/cricket/CricketProperties.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/nirvana/learning/geektrust/cricket/CricketProperties.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/nirvana/learning/geektrust/cricket/TossConditions.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/nirvana/learning/geektrust/cricket/TossConditions.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/nirvana/learning/geektrust/cricket/enums/MatchType.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/nirvana/learning/geektrust/cricket/enums/MatchType.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/nirvana/learning/geektrust/cricket/enums/Teams.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/nirvana/learning/geektrust/cricket/enums/Teams.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/nirvana/learning/geektrust/cricket/enums/TossType.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/nirvana/learning/geektrust/cricket/enums/TossType.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/nirvana/learning/geektrust/cricket/enums/WeatherType.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/nirvana/learning/geektrust/cricket/enums/WeatherType.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/nirvana/learning/graphql/entity/Vehicle.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/nirvana/learning/graphql/entity/Vehicle.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/nirvana/learning/graphql/mutation/VehicleMutation.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/nirvana/learning/graphql/mutation/VehicleMutation.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/nirvana/learning/graphql/query/VehicleQuery.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/nirvana/learning/graphql/query/VehicleQuery.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/nirvana/learning/graphql/repository/VehicleRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/nirvana/learning/graphql/repository/VehicleRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/nirvana/learning/graphql/service/VehicleService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/nirvana/learning/graphql/service/VehicleService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/nirvana/learning/hackerearth/FibonacciDP.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/nirvana/learning/hackerearth/FibonacciDP.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/nirvana/learning/hackerearth/MarutVsDevilArmy.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/nirvana/learning/hackerearth/MarutVsDevilArmy.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/nirvana/learning/hackerearth/MinimumDiscount.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/nirvana/learning/hackerearth/MinimumDiscount.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/nirvana/learning/hackerearth/UniquePath.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/nirvana/learning/hackerearth/UniquePath.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/nirvana/learning/hackerrank/Abs.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/nirvana/learning/hackerrank/Abs.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/nirvana/learning/hackerrank/Base.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/nirvana/learning/hackerrank/Base.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/nirvana/learning/hackerrank/Base1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/nirvana/learning/hackerrank/Base1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/nirvana/learning/hackerrank/CEx.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/nirvana/learning/hackerrank/CEx.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/nirvana/learning/hackerrank/FootballScore.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/nirvana/learning/hackerrank/FootballScore.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/nirvana/learning/hackerrank/JumpingOnClouds.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/nirvana/learning/hackerrank/JumpingOnClouds.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/nirvana/learning/hackerrank/LeftRotation.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/nirvana/learning/hackerrank/LeftRotation.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/nirvana/learning/hackerrank/MultiRun.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/nirvana/learning/hackerrank/MultiRun.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/nirvana/learning/hackerrank/RectanglesFormed.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/nirvana/learning/hackerrank/RectanglesFormed.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/nirvana/learning/hackerrank/Result.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/nirvana/learning/hackerrank/Result.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/nirvana/learning/hackerrank/SearchElementInSortedMatrix.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/nirvana/learning/hackerrank/SearchElementInSortedMatrix.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/nirvana/learning/hackerrank/SockMerchant.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/nirvana/learning/hackerrank/SockMerchant.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/nirvana/learning/hackerrank/Solution.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/nirvana/learning/hackerrank/Solution.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/nirvana/learning/hackerrank/Sub.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/nirvana/learning/hackerrank/Sub.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/nirvana/learning/hackerrank/Sub2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/nirvana/learning/hackerrank/Sub2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/nirvana/learning/hackerrank/SumOfBitwiseAND.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/nirvana/learning/hackerrank/SumOfBitwiseAND.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/nirvana/learning/projecteuler/FibonacciEvenValuedSum.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/nirvana/learning/projecteuler/FibonacciEvenValuedSum.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/nirvana/learning/projecteuler/KadaneAlgorithm.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/nirvana/learning/projecteuler/KadaneAlgorithm.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/nirvana/learning/projecteuler/KthSmallestElementBST$Node.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/nirvana/learning/projecteuler/KthSmallestElementBST$Node.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/nirvana/learning/projecteuler/KthSmallestElementBST.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/nirvana/learning/projecteuler/KthSmallestElementBST.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/nirvana/learning/projecteuler/LargestPalindromeProduct.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/nirvana/learning/projecteuler/LargestPalindromeProduct.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/nirvana/learning/projecteuler/LargestPrimeFactor.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/nirvana/learning/projecteuler/LargestPrimeFactor.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/nirvana/learning/projecteuler/MultiplesOfThreeAndFive.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/nirvana/learning/projecteuler/MultiplesOfThreeAndFive.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/nirvana/learning/projecteuler/SmallestMultiple.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/nirvana/learning/projecteuler/SmallestMultiple.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/nirvana/learning/techverito/client/MovieApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/nirvana/learning/techverito/client/MovieApplication.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/nirvana/learning/techverito/model/Movie.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/nirvana/learning/techverito/model/Movie.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/nirvana/learning/techverito/model/Seat.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/nirvana/learning/techverito/model/Seat.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/nirvana/learning/techverito/service/CreateMovieShow.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/nirvana/learning/techverito/service/CreateMovieShow.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/nirvana/learning/techverito/service/MovieService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/nirvana/learning/techverito/service/MovieService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/nirvana/learning/xmlparser/DataItem.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/nirvana/learning/xmlparser/DataItem.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/nirvana/learning/xmlparser/XMLParserJAXB.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/nirvana/learning/xmlparser/XMLParserJAXB.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/nirvana/learning/xmlparser/XMLParserMain.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/nirvana/learning/xmlparser/XMLParserMain.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/nirvana/learning/xmlparser/XMLRecord.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/nirvana/learning/xmlparser/XMLRecord.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/nirvana/learning/xmlparser/model/Family.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/nirvana/learning/xmlparser/model/Family.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/nirvana/learning/xmlparser/model/FosterHomePOJO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/nirvana/learning/xmlparser/model/FosterHomePOJO.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,12 +114,28 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="MavenImportPreferences">
-    <option name="generalSettings">
-      <MavenGeneralSettings>
-        <option name="mavenHome" value="$APPLICATION_HOME_DIR$/plugins/maven/lib/maven3" />
-      </MavenGeneralSettings>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="JpbToolWindowState">
+    <option name="myId2FirstActivated">
+      <map>
+        <entry key="com.haulmont.jpb.jpaStructure" value="true" />
+      </map>
     </option>
+    <option name="myId2Visible">
+      <map>
+        <entry key="com.haulmont.jpb.jpaStructure" value="false" />
+      </map>
+    </option>
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectCodeStyleSettingsMigration">
     <option name="version" value="1" />
@@ -64,7 +155,7 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1555698483464" />
     <property name="extract.method.default.visibility" value="public" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/com/nirvana/learning" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -96,9 +187,9 @@
       <recent name="$PROJECT_DIR$/src/main/java/com/nirvana/learning/interview/dynamicprogramming" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ReverseInParentheses">
-    <configuration name="AllLongestStrings" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.nirvana.learning.interview.string.AllLongestStrings" />
+  <component name="RunManager" selected="Application.StringRotation">
+    <configuration name="GroupAnagrams" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.nirvana.learning.interview.string.GroupAnagrams" />
       <module name="Programming-Challenges" />
       <extension name="coverage">
         <pattern>
@@ -110,8 +201,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CommonCharacterCount" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.nirvana.learning.interview.string.CommonCharacterCount" />
+    <configuration name="PalindromePermutations" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.nirvana.learning.interview.string.PalindromePermutations" />
       <module name="Programming-Challenges" />
       <extension name="coverage">
         <pattern>
@@ -123,8 +214,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MatrixElementSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.nirvana.learning.interview.array.MatrixElementSum" />
+    <configuration name="RotateMatrixByNinetyDeg" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.nirvana.learning.interview.array.RotateMatrixByNinetyDeg" />
       <module name="Programming-Challenges" />
       <extension name="coverage">
         <pattern>
@@ -136,12 +227,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ReverseInParentheses" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.nirvana.learning.interview.string.ReverseInParentheses" />
+    <configuration name="StringRotation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.nirvana.learning.interview.array.StringRotation" />
       <module name="Programming-Challenges" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.nirvana.learning.interview.string.*" />
+          <option name="PATTERN" value="com.nirvana.learning.interview.array.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -149,12 +240,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SortByHeight" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.nirvana.learning.interview.array.SortByHeight" />
+    <configuration name="URLify" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.nirvana.learning.interview.string.URLify" />
       <module name="Programming-Challenges" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.nirvana.learning.interview.array.*" />
+          <option name="PATTERN" value="com.nirvana.learning.interview.string.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -164,13 +255,6 @@
     </configuration>
     <configuration default="true" type="JetRunConfigurationType">
       <module name="ProgrammingChallenges" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -178,33 +262,6 @@
     <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
       <module name="ProgrammingChallenges" />
       <option name="filePath" />
-      <option name="vmParameters" />
-      <option name="alternativeJrePath" />
-      <option name="programParameters" />
-      <option name="passParentEnvs" value="true" />
-      <option name="workingDirectory" />
-      <option name="isAlternativeJrePathEnabled" value="false" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="WORKING_DIRECTORY" />
-      <option name="filePath" />
-      <option name="vmParameters" />
-      <option name="alternativeJrePath" />
-      <option name="programParameters" />
-      <option name="passParentEnvs" value="true" />
-      <option name="workingDirectory" />
-      <option name="isAlternativeJrePathEnabled" value="false" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -217,20 +274,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.MatrixElementSum" />
-      <item itemvalue="Application.AllLongestStrings" />
-      <item itemvalue="Application.CommonCharacterCount" />
-      <item itemvalue="Spring Boot.Application" />
-      <item itemvalue="Application.SortByHeight" />
-      <item itemvalue="Application.ReverseInParentheses" />
+      <item itemvalue="Application.URLify" />
+      <item itemvalue="Application.GroupAnagrams" />
+      <item itemvalue="Application.PalindromePermutations" />
+      <item itemvalue="Application.RotateMatrixByNinetyDeg" />
+      <item itemvalue="Application.StringRotation" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.ReverseInParentheses" />
-        <item itemvalue="Application.SortByHeight" />
-        <item itemvalue="Application.CommonCharacterCount" />
-        <item itemvalue="Application.AllLongestStrings" />
-        <item itemvalue="Application.MatrixElementSum" />
+        <item itemvalue="Application.StringRotation" />
+        <item itemvalue="Application.RotateMatrixByNinetyDeg" />
+        <item itemvalue="Application.PalindromePermutations" />
+        <item itemvalue="Application.GroupAnagrams" />
+        <item itemvalue="Application.URLify" />
       </list>
     </recent_temporary>
   </component>
@@ -351,7 +407,6 @@
         </entry>
       </map>
     </option>
-    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_CLEANUP_BEFORE_PROJECT_COMMIT" value="true" />
@@ -363,134 +418,6 @@
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
-  </component>
-  <component name="WindowStateProjectService">
-    <state x="533" y="126" key="#com.intellij.ide.util.MemberChooser" timestamp="1599115853868">
-      <screen x="0" y="23" width="1440" height="832" />
-    </state>
-    <state x="533" y="126" key="#com.intellij.ide.util.MemberChooser/0.23.1440.829@0.23.1440.829" timestamp="1594702766217" />
-    <state x="533" y="126" key="#com.intellij.ide.util.MemberChooser/0.23.1440.830@0.23.1440.830" timestamp="1593876120269" />
-    <state x="533" y="126" key="#com.intellij.ide.util.MemberChooser/0.23.1440.832@0.23.1440.832" timestamp="1599115853868" />
-    <state x="533" y="127" key="#com.intellij.ide.util.MemberChooser/0.23.1440.835@0.23.1440.835" timestamp="1595026466486" />
-    <state x="408" y="182" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1599236216610">
-      <screen x="0" y="23" width="1440" height="832" />
-    </state>
-    <state x="408" y="182" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.23.1440.832@0.23.1440.832" timestamp="1599236216610" />
-    <state x="201" y="371" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1592036284605">
-      <screen x="0" y="23" width="1440" height="832" />
-    </state>
-    <state x="201" y="371" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.23.1440.832@0.23.1440.832" timestamp="1592036284605" />
-    <state x="293" y="23" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1595748736522">
-      <screen x="0" y="23" width="1440" height="832" />
-    </state>
-    <state x="293" y="23" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.23.1440.832@0.23.1440.832" timestamp="1595748736522" />
-    <state x="458" y="193" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1592036338788">
-      <screen x="0" y="23" width="1440" height="832" />
-    </state>
-    <state x="458" y="193" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.23.1440.832@0.23.1440.832" timestamp="1592036338788" />
-    <state x="490" y="271" key="#xdebugger.evaluate" timestamp="1595095599062">
-      <screen x="0" y="23" width="1440" height="835" />
-    </state>
-    <state x="490" y="271" key="#xdebugger.evaluate/0.23.1440.835@0.23.1440.835" timestamp="1595095599062" />
-    <state x="0" y="23" width="1022" height="823" key="CommitChangelistDialog2" timestamp="1592039768547">
-      <screen x="0" y="23" width="1440" height="832" />
-    </state>
-    <state x="0" y="23" key="CommitChangelistDialog2/0.23.1440.832@0.23.1440.832" timestamp="1592039768547" />
-    <state x="100" y="123" width="1240" height="632" key="DiffContextDialog" timestamp="1592037604961">
-      <screen x="0" y="23" width="1440" height="832" />
-    </state>
-    <state x="100" y="123" width="1240" height="632" key="DiffContextDialog/0.23.1440.832@0.23.1440.832" timestamp="1592037604961" />
-    <state width="1398" height="275" key="GridCell.Tab.0.bottom" timestamp="1599754092427">
-      <screen x="0" y="23" width="1440" height="832" />
-    </state>
-    <state width="1396" height="275" key="GridCell.Tab.0.bottom/0.23.1440.829@0.23.1440.829" timestamp="1594707494002" />
-    <state width="1396" height="276" key="GridCell.Tab.0.bottom/0.23.1440.830@0.23.1440.830" timestamp="1593876471457" />
-    <state width="1398" height="275" key="GridCell.Tab.0.bottom/0.23.1440.832@0.23.1440.832" timestamp="1599754092427" />
-    <state width="1398" height="214" key="GridCell.Tab.0.bottom/0.23.1440.835@0.23.1440.835" timestamp="1595310010432" />
-    <state width="1398" height="275" key="GridCell.Tab.0.center" timestamp="1599754092426">
-      <screen x="0" y="23" width="1440" height="832" />
-    </state>
-    <state width="1396" height="275" key="GridCell.Tab.0.center/0.23.1440.829@0.23.1440.829" timestamp="1594707493999" />
-    <state width="1396" height="276" key="GridCell.Tab.0.center/0.23.1440.830@0.23.1440.830" timestamp="1593876471456" />
-    <state width="1398" height="275" key="GridCell.Tab.0.center/0.23.1440.832@0.23.1440.832" timestamp="1599754092426" />
-    <state width="1398" height="214" key="GridCell.Tab.0.center/0.23.1440.835@0.23.1440.835" timestamp="1595310010431" />
-    <state width="1398" height="275" key="GridCell.Tab.0.left" timestamp="1599754092425">
-      <screen x="0" y="23" width="1440" height="832" />
-    </state>
-    <state width="1396" height="275" key="GridCell.Tab.0.left/0.23.1440.829@0.23.1440.829" timestamp="1594707493994" />
-    <state width="1396" height="276" key="GridCell.Tab.0.left/0.23.1440.830@0.23.1440.830" timestamp="1593876471455" />
-    <state width="1398" height="275" key="GridCell.Tab.0.left/0.23.1440.832@0.23.1440.832" timestamp="1599754092425" />
-    <state width="1398" height="214" key="GridCell.Tab.0.left/0.23.1440.835@0.23.1440.835" timestamp="1595310010431" />
-    <state width="1398" height="275" key="GridCell.Tab.0.right" timestamp="1599754092426">
-      <screen x="0" y="23" width="1440" height="832" />
-    </state>
-    <state width="1396" height="275" key="GridCell.Tab.0.right/0.23.1440.829@0.23.1440.829" timestamp="1594707494001" />
-    <state width="1396" height="276" key="GridCell.Tab.0.right/0.23.1440.830@0.23.1440.830" timestamp="1593876471457" />
-    <state width="1398" height="275" key="GridCell.Tab.0.right/0.23.1440.832@0.23.1440.832" timestamp="1599754092426" />
-    <state width="1398" height="214" key="GridCell.Tab.0.right/0.23.1440.835@0.23.1440.835" timestamp="1595310010431" />
-    <state width="1398" height="275" key="GridCell.Tab.1.bottom" timestamp="1599754092281">
-      <screen x="0" y="23" width="1440" height="832" />
-    </state>
-    <state width="1396" height="275" key="GridCell.Tab.1.bottom/0.23.1440.829@0.23.1440.829" timestamp="1594707494005" />
-    <state width="1396" height="276" key="GridCell.Tab.1.bottom/0.23.1440.830@0.23.1440.830" timestamp="1593876471291" />
-    <state width="1398" height="275" key="GridCell.Tab.1.bottom/0.23.1440.832@0.23.1440.832" timestamp="1599754092281" />
-    <state width="1398" height="277" key="GridCell.Tab.1.bottom/0.23.1440.835@0.23.1440.835" timestamp="1595310010398" />
-    <state width="1398" height="275" key="GridCell.Tab.1.center" timestamp="1599754092280">
-      <screen x="0" y="23" width="1440" height="832" />
-    </state>
-    <state width="1396" height="275" key="GridCell.Tab.1.center/0.23.1440.829@0.23.1440.829" timestamp="1594707494003" />
-    <state width="1396" height="276" key="GridCell.Tab.1.center/0.23.1440.830@0.23.1440.830" timestamp="1593876471291" />
-    <state width="1398" height="275" key="GridCell.Tab.1.center/0.23.1440.832@0.23.1440.832" timestamp="1599754092280" />
-    <state width="1398" height="277" key="GridCell.Tab.1.center/0.23.1440.835@0.23.1440.835" timestamp="1595310010397" />
-    <state width="1398" height="275" key="GridCell.Tab.1.left" timestamp="1599754092280">
-      <screen x="0" y="23" width="1440" height="832" />
-    </state>
-    <state width="1396" height="275" key="GridCell.Tab.1.left/0.23.1440.829@0.23.1440.829" timestamp="1594707494002" />
-    <state width="1396" height="276" key="GridCell.Tab.1.left/0.23.1440.830@0.23.1440.830" timestamp="1593876471291" />
-    <state width="1398" height="275" key="GridCell.Tab.1.left/0.23.1440.832@0.23.1440.832" timestamp="1599754092280" />
-    <state width="1398" height="277" key="GridCell.Tab.1.left/0.23.1440.835@0.23.1440.835" timestamp="1595310010396" />
-    <state width="1398" height="275" key="GridCell.Tab.1.right" timestamp="1599754092280">
-      <screen x="0" y="23" width="1440" height="832" />
-    </state>
-    <state width="1396" height="275" key="GridCell.Tab.1.right/0.23.1440.829@0.23.1440.829" timestamp="1594707494004" />
-    <state width="1396" height="276" key="GridCell.Tab.1.right/0.23.1440.830@0.23.1440.830" timestamp="1593876471291" />
-    <state width="1398" height="275" key="GridCell.Tab.1.right/0.23.1440.832@0.23.1440.832" timestamp="1599754092280" />
-    <state width="1398" height="277" key="GridCell.Tab.1.right/0.23.1440.835@0.23.1440.835" timestamp="1595310010397" />
-    <state x="320" y="165" key="Vcs.Push.Dialog.v2" timestamp="1592039774170">
-      <screen x="0" y="23" width="1440" height="832" />
-    </state>
-    <state x="320" y="165" key="Vcs.Push.Dialog.v2/0.23.1440.832@0.23.1440.832" timestamp="1592039774170" />
-    <state x="100" y="124" width="1240" height="630" key="com.intellij.history.integration.ui.views.DirectoryHistoryDialog" timestamp="1592037604962">
-      <screen x="0" y="23" width="1440" height="832" />
-    </state>
-    <state x="100" y="124" width="1240" height="630" key="com.intellij.history.integration.ui.views.DirectoryHistoryDialog/0.23.1440.832@0.23.1440.832" timestamp="1592037604962" />
-    <state x="397" y="270" key="com.intellij.ide.util.TipDialog" timestamp="1594009650154">
-      <screen x="0" y="23" width="1440" height="829" />
-    </state>
-    <state x="397" y="270" key="com.intellij.ide.util.TipDialog/0.23.1440.829@0.23.1440.829" timestamp="1594009650154" />
-    <state x="392" y="180" key="com.intellij.openapi.vcs.changes.SpecificFilesViewDialog" timestamp="1592039065758">
-      <screen x="0" y="23" width="1440" height="832" />
-    </state>
-    <state x="392" y="180" key="com.intellij.openapi.vcs.changes.SpecificFilesViewDialog/0.23.1440.832@0.23.1440.832" timestamp="1592039065758" />
-    <state x="766" y="305" key="extract.method.dialog" timestamp="1597062105054">
-      <screen x="0" y="23" width="1440" height="832" />
-    </state>
-    <state x="766" y="305" key="extract.method.dialog/0.23.1440.832@0.23.1440.832" timestamp="1597062105054" />
-    <state x="775" y="143" key="extract.method.dialog/0.23.1440.835@0.23.1440.835" timestamp="1595011951786" />
-    <state x="301" y="160" width="862" height="558" key="find.popup" timestamp="1599471881070">
-      <screen x="0" y="23" width="1440" height="832" />
-    </state>
-    <state x="301" y="160" width="862" height="558" key="find.popup/0.23.1440.832@0.23.1440.832" timestamp="1599471881070" />
-    <state x="301" y="160" width="862" height="561" key="find.popup/0.23.1440.835@0.23.1440.835" timestamp="1595019552382" />
-    <state x="419" y="223" key="refactoring.ChangeSignatureDialog" timestamp="1595011897524">
-      <screen x="0" y="23" width="1440" height="835" />
-    </state>
-    <state x="419" y="223" key="refactoring.ChangeSignatureDialog/0.23.1440.835@0.23.1440.835" timestamp="1595011897524" />
-    <state x="385" y="172" width="670" height="684" key="search.everywhere.popup" timestamp="1599471998890">
-      <screen x="0" y="23" width="1440" height="832" />
-    </state>
-    <state x="385" y="172" width="670" height="684" key="search.everywhere.popup/0.23.1440.832@0.23.1440.832" timestamp="1599471998890" />
-    <state x="385" y="173" width="670" height="687" key="search.everywhere.popup/0.23.1440.835@0.23.1440.835" timestamp="1595268947941" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -764,6 +691,11 @@
           <url>file://$PROJECT_DIR$/src/main/java/com/nirvana/learning/enquero/DeviceDemo.java</url>
           <line>15</line>
           <option name="timeStamp" value="96" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/nirvana/learning/interview/string/UniqueCharactersCheck.java</url>
+          <line>30</line>
+          <option name="timeStamp" value="98" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/main/java/com/nirvana/learning/educative/datastructures/arrays/FirstNonRepeatingIntegerInArray.java</url>

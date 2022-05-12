@@ -56,7 +56,7 @@ public class Test {
 
         String email = "krisv.nit16@gmail.com";
         String[] emailArr = email.split("@");
-        String emailSubstr = emailArr[0] + "_" + 1;
+        String emailSubstr = emailArr[0] + "_" ;
         email = emailSubstr + emailArr[1];
         System.out.println(email);
     }
