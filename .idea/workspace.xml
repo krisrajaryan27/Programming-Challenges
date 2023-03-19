@@ -5,24 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8435e570-0d1e-40cc-965e-be6d17287226" name="Default Changelist" comment="educative: Adding codes for different algorithms">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/educative/LongestSubArrayWithGivenSum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/educative/datastructures/trees/NodesAtKDistanceFromANode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/interview/array/RotateMatrixByNinetyDeg.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/interview/array/StringRotation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/interview/array/ZeroMatrix.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/interview/string/CheckIfPermutationOfString.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/interview/string/GroupAnagrams.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/interview/string/OneEditAway.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/interview/string/PalindromePermutations.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/interview/string/StringCompression.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/interview/string/URLify.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/interview/string/UniqueCharactersCheck.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/Programming-Challenges.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/interview/array/MaxMinPair.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/basicprogramming/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/basicprogramming/Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/interview/multiarray/SpiralPrinting.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/interview/multiarray/SpiralPrinting.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/interview/sort/QuickSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/nirvana/learning/interview/sort/QuickSort.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/nirvana/learning/Application.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/nirvana/learning/Application.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/nirvana/learning/codechef/Lecandy.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/nirvana/learning/codechef/Lecandy.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/nirvana/learning/csvwriter/CSVWriter.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/nirvana/learning/csvwriter/CSVWriter.class" afterDir="false" />
@@ -146,28 +130,16 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">
-    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="SONARLINT_PRECOMMIT_ANALYSIS" value="true" />
-    <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1555698483464" />
-    <property name="extract.method.default.visibility" value="public" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="node.js.detected.package.eslint" value="true" />
-    <property name="node.js.detected.package.tslint" value="true" />
-    <property name="node.js.path.for.package.eslint" value="project" />
-    <property name="node.js.path.for.package.tslint" value="project" />
-    <property name="node.js.selected.package.eslint" value="(autodetect)" />
-    <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="nodejs_package_manager_path" value="npm" />
-    <property name="project.structure.last.edited" value="Project" />
-    <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="copyright.profiles" />
-  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "/Users/k.verma.2/Projects/open-source/Programming-Challenges",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0"
+  }
+}]]></component>
   <component name="RecentsManager">
     <key name="ExtractSuperBase.RECENT_KEYS">
       <recent name="com.nirvana.learning.connectionpool" />
@@ -187,13 +159,31 @@
       <recent name="$PROJECT_DIR$/src/main/java/com/nirvana/learning/interview/dynamicprogramming" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.StringRotation">
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="mvn clean install" />
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.MaxMinPair">
     <configuration name="GroupAnagrams" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.nirvana.learning.interview.string.GroupAnagrams" />
       <module name="Programming-Challenges" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.nirvana.learning.interview.string.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MaxMinPair" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.nirvana.learning.interview.array.MaxMinPair" />
+      <module name="Programming-Challenges" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.nirvana.learning.interview.array.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -240,19 +230,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="URLify" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.nirvana.learning.interview.string.URLify" />
-      <module name="Programming-Challenges" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.nirvana.learning.interview.string.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration default="true" type="JetRunConfigurationType">
       <module name="ProgrammingChallenges" />
       <method v="2">
@@ -274,7 +251,7 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.URLify" />
+      <item itemvalue="Application.MaxMinPair" />
       <item itemvalue="Application.GroupAnagrams" />
       <item itemvalue="Application.PalindromePermutations" />
       <item itemvalue="Application.RotateMatrixByNinetyDeg" />
@@ -282,11 +259,11 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MaxMinPair" />
         <item itemvalue="Application.StringRotation" />
         <item itemvalue="Application.RotateMatrixByNinetyDeg" />
         <item itemvalue="Application.PalindromePermutations" />
         <item itemvalue="Application.GroupAnagrams" />
-        <item itemvalue="Application.URLify" />
       </list>
     </recent_temporary>
   </component>
