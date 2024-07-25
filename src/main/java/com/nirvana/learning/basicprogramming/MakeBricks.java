@@ -12,12 +12,12 @@ package com.nirvana.learning.basicprogramming;
  ***/
 public class MakeBricks {
     public static void main(String[] args) {
-        System.out.println(evenlySpaced(3, 1, 8));
-        System.out.println(evenlySpaced(3, 1, 9));
-        System.out.println(evenlySpaced(3, 2, 10));
+        System.out.println(makeBricks(3, 1, 8));
+        System.out.println(makeBricks(3, 1, 9));
+        System.out.println(makeBricks(3, 2, 10));
     }
 
-    public static boolean evenlySpaced(int small, int big, int goal) {
+    public static boolean makeBricks(int small, int big, int goal) {
 //        //Fail Case #1: not enough bricks
 //        if (goal > big * 5 + small) return false;
 //

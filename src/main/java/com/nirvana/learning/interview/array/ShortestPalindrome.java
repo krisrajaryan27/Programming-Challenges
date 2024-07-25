@@ -14,7 +14,7 @@ package com.nirvana.learning.interview.array;
  * Time complexity is O(n)
  * Space complexity is O(n)
  * <p>
- * https://leetcode.com/problems/shortest-palindrome/
+ * <a href="https://leetcode.com/problems/shortest-palindrome/">...</a>
  */
 public class ShortestPalindrome {
     public static void main(String[] args) {
@@ -26,7 +26,7 @@ public class ShortestPalindrome {
         char[] input = createInput(s);
         int val = kmp(input);
 
-        StringBuffer sb = new StringBuffer();
+        StringBuilder sb = new StringBuilder();
         int remaining = s.length() - val;
         int i = s.length() - 1;
         while (remaining > 0) {

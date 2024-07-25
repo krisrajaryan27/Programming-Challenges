@@ -13,8 +13,19 @@ public class ReverseString {
         return new String(characters);
     }
 
+    public static String reverse(String str) {
+        // code goes here
+        int len = str.length();
+        char[] result = new char[len];
+        for (int index = 0; index < len; index++) {
+            result[len - index - 1] = str.charAt(index);
+        }
+        return new String(result);
+    }
+
     public static void main(String[] args) {
         String str = "Krishna";
         System.out.println(reverseString(str));
+        System.out.println(reverse(str));
     }
 }
