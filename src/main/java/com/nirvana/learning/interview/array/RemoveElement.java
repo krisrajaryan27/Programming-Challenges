@@ -24,7 +24,7 @@ package com.nirvana.learning.interview.array;
  * for (int i = 0; i < len; i++) {
  * print(nums[i]);
  * }
- * https://leetcode.com/problems/remove-element/
+ * <a href="https://leetcode.com/problems/remove-element/">...</a>
  */
 public class RemoveElement {
     public static void main(String[] args) {
@@ -35,9 +35,9 @@ public class RemoveElement {
 
     public static int remove(int[] nums, int value) {
         int index = 0;
-        for (int i : nums) {
-            if (i != value) {
-                nums[index++] = i;
+        for (int num : nums) {
+            if (num != value) {
+                nums[index++] = num;
             }
         }
         return index;

@@ -1,13 +1,12 @@
-package com.nirvana.learning.enquero;
+package com.nirvana.learning.interview.string;
 
 
-public class Test {
-    public static void main(String arg[]) {
+public class NumberInString {
+    public static void main(String[] args) {
         //7913
-
-        //9laks 99 thousand 999
+        //9 Lac 99 thousand 999
         System.out.println(convertNumIntoString(7913));
-
+        System.out.println(convertNumIntoString(8242));
 
     }
 
@@ -18,20 +17,19 @@ public class Test {
             sb.append(getMultiplier(mult)).append(" ").append(getUnitNum(num % 10));
         }
         int hundredTh = mult / 10; //79
-        if(hundredTh >= 1 && hundredTh <10){
-            sb.append(getUnitNum(hundredTh)).append(" ").append("hundred").append(" ").append(getMultiplier(mult/10)).append(" ").append(getUnitNum(num % 10));
+        if (hundredTh >= 1 && hundredTh < 10) {
+            sb.append(getUnitNum(hundredTh)).append(" ").append("hundred").append(" ").append(getMultiplier(mult / 10)).append(" ").append(getUnitNum(num % 10));
         }
 
-        if(hundredTh >=10 && hundredTh <100) {
-            if (num % 100 < 20 && num%100 > 0) {
+        if (hundredTh >= 10 && hundredTh < 100) {
+            if (num % 100 < 20 && num % 100 > 0) {
                 sb.append(getUnitNum(hundredTh / 10)).append(" ").append("thousand").append(" ").append(getUnitNum(hundredTh % 10)).append(" ").append("hundred").append(" ").append(getUnitNum(num % 100));
             } else {
-                sb.append(getUnitNum(hundredTh / 10)).append(" ").append("thousand").append(" ").append(getUnitNum(hundredTh % 10)).append(" ").append("hundred").append(" ").append(getMultiplier(mult/10)).append(getUnitNum(num % 10));
+                sb.append(getUnitNum(hundredTh / 10)).append(" ").append("thousand").append(" ").append(getUnitNum(hundredTh % 10)).append(" ").append("hundred").append(" ").append(getMultiplier(mult / 10)).append(getUnitNum(num % 10));
             }
         }
         return sb.toString();
     }
-
 
 
     public static String getMultiplier(int num) {
