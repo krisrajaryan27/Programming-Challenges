@@ -11,11 +11,11 @@ import java.util.*;
  * and getting lexicographically smallest string.
  * <p>
  * Reference:
- * https://leetcode.com/problems/remove-duplicate-letters/
+ * <a href="https://leetcode.com/problems/remove-duplicate-letters/">...</a>
  */
-public class RemoveDuplicateMaintainingOrder {
+public class RemoveDuplicatesFromStringMaintainingOrder {
     public static void main(String[] args) {
-        RemoveDuplicateMaintainingOrder rm = new RemoveDuplicateMaintainingOrder();
+        RemoveDuplicatesFromStringMaintainingOrder rm = new RemoveDuplicatesFromStringMaintainingOrder();
         System.out.println(rm.removeDuplicateLetters("cbacdcbc"));
     }
 
@@ -48,10 +48,10 @@ public class RemoveDuplicateMaintainingOrder {
             visited.add(ch);
         }
 
-        StringBuffer buff = new StringBuffer();
+        StringBuilder builder = new StringBuilder();
         while (!stack.isEmpty()) {
-            buff.append(stack.pollLast());
+            builder.append(stack.pollLast());
         }
-        return buff.toString();
+        return builder.toString();
     }
 }

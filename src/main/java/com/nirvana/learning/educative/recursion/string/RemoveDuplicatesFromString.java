@@ -1,6 +1,6 @@
 package com.nirvana.learning.educative.recursion.string;
 
-public class RemoveDuplicates {
+public class RemoveDuplicatesFromString {
 
 
     private static String remDuplicates(String text) {
@@ -12,7 +12,7 @@ public class RemoveDuplicates {
         if (text.substring(0, 1).equalsIgnoreCase(text.substring(1, 2))) {
             return remDuplicates(text.substring(1));
         } else {
-            return text.substring(0, 1) + remDuplicates(text.substring(1));
+            return text.charAt(0) + remDuplicates(text.substring(1));
         }
     }
 
