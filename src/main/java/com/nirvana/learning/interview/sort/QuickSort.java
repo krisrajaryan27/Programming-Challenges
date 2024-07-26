@@ -38,22 +38,22 @@ public class QuickSort {
         return j;
     }
 
-    private int split1(int[] A, int low, int high) {
+    private int split1(int[] A, int start, int end) {
 
-        int pivot = low;
-        int i = low + 1;
-        int j = high;
-        while (i <= j) {
+        int pivot = start;
+        int pivot_index = start + 1;
+        int j = end;
+        while (pivot_index <= j) {
 
-            if (A[i] <= A[pivot]) {
-                i++;
+            if (A[pivot_index] <= A[pivot]) {
+                pivot_index++;
                 continue;
             }
             if (A[j] > A[pivot]) {
                 j--;
                 continue;
             }
-            swap(A, i++, j--);
+            swap(A, pivot_index++, j--);
         }
         if (A[pivot] > A[j]) {
             swap(A, pivot, j);

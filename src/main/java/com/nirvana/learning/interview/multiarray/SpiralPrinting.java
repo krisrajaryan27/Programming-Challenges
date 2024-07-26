@@ -72,4 +72,43 @@ public class SpiralPrinting {
         }
         return result;
     }
+
+    public List<Integer> spiralOrderList(List<ArrayList<Integer>> A) {
+        if (A == null || A.size() == 0 || A.get(0).size() == 0) {
+            return new ArrayList<>();
+        }
+
+        List<Integer> result = new ArrayList<>();
+        int left = 0;
+        int right = A.get(0).size() - 1;
+        int up = 0;
+        int down = A.size() - 1;
+
+        while (left <= right && up <= down) {
+            for (int i = left; i <= right; i++) {
+                result.add(A.get(up).get(i));
+            }
+            up++;
+
+            for (int i = up; i <= down; i++) {
+                result.add(A.get(i).get(right));
+            }
+            right--;
+
+            if (up <= down) {
+                for (int i = right; i >= left; i--) {
+                    result.add(A.get(down).get(i));
+                }
+            }
+            down--;
+
+            if (left <= right) {
+                for (int i = down; i >= up; i--) {
+                    result.add(A.get(i).get(left));
+                }
+            }
+            left++;
+        }
+        return result;
+    }
 }

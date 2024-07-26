@@ -22,7 +22,7 @@ package com.nirvana.learning.educative.codingpatterns.twopointers;
  * for (int i = 0; i < len; i++) {
  * print(nums[i]);
  * }
- * https://leetcode.com/problems/remove-duplicates-from-sorted-array/
+ * <a href="https://leetcode.com/problems/remove-duplicates-from-sorted-array/">...</a>
  */
 public class RemoveDuplicates {
     public static void main(String[] args) {

@@ -1,7 +1,7 @@
 package com.nirvana.learning.interview.linkedlist;
 
 /**
- * http://www.geeksforgeeks.org/remove-duplicates-from-a-sorted-linked-list/
+ * <a href="http://www.geeksforgeeks.org/remove-duplicates-from-a-sorted-linked-list/">...</a>
  * Test cases
  * All duplicates
  * No duplicates
@@ -9,7 +9,7 @@ package com.nirvana.learning.interview.linkedlist;
  * Duplicates only at the end
  * 0 1 or more nodes in the list
  */
-public class RemoveDuplicatesSortedList {
+public class RemoveDuplicatesSortedLinkedList {
 
     public static void main(String[] args) {
         LinkedList ll = new LinkedList();
@@ -23,7 +23,7 @@ public class RemoveDuplicatesSortedList {
         head = ll.addNode(6, head);
         head = ll.addNode(6, head);
         head = ll.addNode(6, head);
-        RemoveDuplicatesSortedList rds = new RemoveDuplicatesSortedList();
+        RemoveDuplicatesSortedLinkedList rds = new RemoveDuplicatesSortedLinkedList();
         rds.removeDuplicates(head);
         ll.printList(head);
     }

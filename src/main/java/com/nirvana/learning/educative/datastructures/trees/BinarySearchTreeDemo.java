@@ -255,7 +255,7 @@ class BinarySearchTree {
     }
 
     //In-Order Traversal in BST (LNR) - O(n)
-    //Prints in Increasing Way
+    //Prints in Increasing Way i.e Sorted Order
     public void traverseInOrder(Node root) {
         if (root == null) return;
         traverseInOrder(root.getLeftChild());
