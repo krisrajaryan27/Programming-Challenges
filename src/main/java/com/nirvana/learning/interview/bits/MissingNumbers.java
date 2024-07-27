@@ -6,8 +6,8 @@ class Pair {
 }
 
 /**
- * http://www.geeksforgeeks.org/find-the-two-repeating-elements-in-a-given-array/
- * http://www.geeksforgeeks.org/find-a-repeating-and-a-missing-number/
+ * <a href="http://www.geeksforgeeks.org/find-the-two-repeating-elements-in-a-given-array/">...</a>
+ * <a href="http://www.geeksforgeeks.org/find-a-repeating-and-a-missing-number/">...</a>
  */
 public class MissingNumbers {
 

@@ -5,7 +5,7 @@ class Height {
 }
 
 /**
- * http://www.geeksforgeeks.org/diameter-of-a-binary-tree/
+ * <a href="http://www.geeksforgeeks.org/diameter-of-a-binary-tree/">...</a>
  * Test cases
  * All left nodes
  * All right nodes
