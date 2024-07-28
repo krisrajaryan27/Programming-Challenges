@@ -4,7 +4,6 @@ import java.util.*;
 
 public class FourSum {
     public static List<List<Integer>> fourSum(int[] nums, int target) {
-        List<List<Integer>> result = new ArrayList<>();
         Map<Integer, List<int[]>> pairSumMap = new HashMap<>();
         int n = nums.length;
 
@@ -42,8 +41,7 @@ public class FourSum {
             }
         }
 
-        result.addAll(uniqueQuadruplets);
-        return result;
+        return new ArrayList<>(uniqueQuadruplets);
     } //TC: O(N^2) SC: O(N^2)
 
     public static void main(String[] args) {
