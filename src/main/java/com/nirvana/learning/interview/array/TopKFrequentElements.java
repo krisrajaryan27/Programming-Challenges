@@ -57,5 +57,5 @@ public class TopKFrequentElements {
             topKNumbers.add(minHeap.poll().getKey());
         }
         return topKNumbers.stream().mapToInt(i -> i).toArray();
-    }
+    } //TC: O(N + KlogK) , SC: O(N)
 }

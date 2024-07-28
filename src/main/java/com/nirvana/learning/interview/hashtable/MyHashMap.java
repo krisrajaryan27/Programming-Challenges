@@ -4,6 +4,16 @@ import java.util.LinkedList;
 import java.util.List;
 
 public class MyHashMap {
+    private static class Entry {
+        int key;
+        int value;
+
+        Entry(int key, int value) {
+            this.key = key;
+            this.value = value;
+        }
+    }
+
     private static final int SIZE = 1000; // Size of the hash table
     private final List<Entry>[] table;
 
@@ -62,16 +72,6 @@ public class MyHashMap {
         }
         if (toRemove != null) {
             table[index].remove(toRemove); // Remove the entry
-        }
-    }
-
-    private static class Entry {
-        int key;
-        int value;
-
-        Entry(int key, int value) {
-            this.key = key;
-            this.value = value;
         }
     }
 }
