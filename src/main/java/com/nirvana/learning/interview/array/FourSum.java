@@ -10,27 +10,26 @@ import java.util.List;
  *
  * @author Krishna Verma
  * <p>
- * Given an array S of n integers, are there elements a, b, c, and d in S such that a + b + c + d = target?
+ * Given an array S of n integers, are there elements a, b, c, and d in S
+ * such that a + b + c + d = target?
  * Find all unique quadruplets in the array which gives the sum of target.
  * <p>
  * Time complexity O(n^3)
  * Space complexity O(1)
  * <p>
  * Reference
- * https://leetcode.com/problems/4sum/
+ * <a href="https://leetcode.com/problems/4sum/">Leetcode</a>
  */
 public class FourSum {
 
     public static void main(String[] args) {
-        int[] nums = {1, 1, 4, 5, 9, 11};
-        int[] nums1 = {1, 0, -1, 0, -2, 2};
+        int[] nums = {1, 0, -1, 0, -2, 2};
         int target = 0;
-        FourSum fourSum = new FourSum();
-        List<List<Integer>> result = fourSum.fourSum(nums1, target);
-        result.forEach(System.out::print);
+        List<List<Integer>> result = fourSum(nums, target);
+        System.out.println(result);
     }
 
-    public List<List<Integer>> fourSum(int[] nums, int target) {
+    public static List<List<Integer>> fourSum(int[] nums, int target) {
         if (nums.length < 4) {
             return Collections.emptyList();
         }
